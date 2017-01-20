@@ -22,7 +22,7 @@ body
 }
 
 .main-title h1 {
-    font-size: 44px;
+    font-size: 40px;
     font-weight: 500;
 }
 
@@ -30,8 +30,6 @@ h1
 {
     font-family: 'Cabin', Trebuchet MS, sans-serif;
     color: black;
-    line-height: 1.1;
-    
 }
 
 h2
@@ -48,7 +46,17 @@ h2
 
 .header-1 {
     background-image: url(../images/background.svg);
-} 
+    padding: 20px ;
+    padding-left: 0px auto;
+    padding-top: 50px;
+    position: relative;
+    height: 130px;
+}
+
+ .brand-img {
+     width: 200px;
+     margin: 0 auto;
+}
 
 header {
     padding-top: 40px;
@@ -84,6 +92,7 @@ header {
     padding-left: 20px;
     
     
+    
 }
 .six{
     padding-bottom: 2%;
@@ -103,10 +112,10 @@ header {
 
 .img-wrap
 {
+    
     width: 180px ;
-    margin-left: 10px;
-    margin-right:1px;
-    padding: 10px;
+    margin-left: 25px;
+    padding: 10px;    
 }
 
 .play-img
@@ -119,7 +128,6 @@ header {
     position: relative;
     margin-top: 0px;
     margin-bottom: 5px;
-    
 }
 
 .play-img-2
