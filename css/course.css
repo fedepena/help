@@ -20,7 +20,7 @@ body
 }
 h1 {
     
-    font-size: 28px;
+    
     font-family: 'Cabin', Georgia, sans-serif;
     color: black;
     
@@ -36,7 +36,7 @@ h1 {
    
 }
 #header-1 {
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 10px;
     padding-left: 10px;
 }
@@ -57,7 +57,7 @@ h2
 }
 
 .h3 {
-    padding: 20px;
+    padding: 10px;
 }
 
  h4 {
@@ -70,9 +70,11 @@ h2
 header {
     padding-top: 40px;
     padding-right: 10px;
-    padding-left: 10px;
-    
-     
+    padding-left: 10px;  
+}
+
+.container-fluid {
+    margin-bottom: 5px;
 }
 
 .page3
@@ -84,8 +86,6 @@ header {
     padding-top: 1%;
     height: auto;
     min-height: 10%;
-    padding-bottom: 5px;
-    
 }
 
 div p {
@@ -99,11 +99,11 @@ div p {
     max-width: 800px;
     margin: 2% auto;
     box-shadow: rgba(0, 0, 0, 0.498039) 0px 1px 5px;
-    padding-top: 0%;
     height: auto;
     min-height: 10%;
     padding-bottom: 1%;
     padding-left: 20px;
+    margin-bottom: 5px;
 }
 
 .six{
