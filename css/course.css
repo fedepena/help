@@ -20,29 +20,26 @@ body
 }
 h1 {
     
-    
     font-family: 'Cabin', Georgia, sans-serif;
     color: black;
-    
 }
 
 
 .main-title  {
-    padding: 15px;
-    padding-top: 5px;
     padding-left: 0px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    padding-top: 0px;
+    margin-bottom: 0px;
    
 }
 #header-1 {
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-top: 5px;
     padding-left: 10px;
 }
 
 .header-1 {
     background-image: url(../images/background.svg);
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 
@@ -73,10 +70,6 @@ header {
     padding-left: 10px;  
 }
 
-.container-fluid {
-    margin-bottom: 5px;
-}
-
 .page3
 {
     background-color: #ffffff;
@@ -103,7 +96,8 @@ div p {
     min-height: 10%;
     padding-bottom: 1%;
     padding-left: 20px;
-    margin-bottom: 5px;
+    margin-bottom: 2em;
+    margin-top: 3em;
 }
 
 .six{
