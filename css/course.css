@@ -85,9 +85,11 @@ div p {
     background-color: #ffffff;
     max-width: 800px;
     margin: 0% auto;
-    padding-top: 0px;
     height: auto;
     min-height: 0%;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-bottom: 1%;
 }
 
 h2 {
