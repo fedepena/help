@@ -47,7 +47,7 @@ var app = new Vue({
             }
 
         },
-         inventory: {
+        inventory: {
             title: 'Lesson 4: Inventory control',
             video_1: {
                 slug: "control-your-inventory",
@@ -68,7 +68,7 @@ var app = new Vue({
             }
         },
         cashflow: {
-            title: 'Lesson 6: Cash flow management',
+            title: 'Lesson 6: Cash flow management ',
             video_1: {
                 slug: "manage-your-cash-flow",
                 title: 'Manage your cash flow',
@@ -80,8 +80,8 @@ var app = new Vue({
         pricelist: {
             title: 'Lesson 7: More price lists',
             video_1: {
-                slug: "",
-                title: '',
+                slug: "manage-multiple-price-lists",
+                title: 'Manage multiple price lists',
                 desc: 'Manage up to five price lists and easily update prices using an Excel template.',
                 lang: "en",
                 id: "IVGATE-wngQ"
@@ -90,8 +90,8 @@ var app = new Vue({
         dateterms: {
             title: 'Lesson 8: Configurable due date/terms',
             video_1: {
-                slug: "",
-                title: '',
+                slug: "configure-the-due-date-terms-of-your-invoices",
+                title: 'Configure the due date\/terms of your invoices',
                 desc: 'It is now possible to configure the days used to calculate due dates in invoices.',
                 lang: "en",
                 id: "7c0z7d4deKs"
@@ -100,8 +100,8 @@ var app = new Vue({
         itemtype: {
             title: 'Lesson 9: Income report by item type',
             video_1: {
-                slug: "",
-                title: '',
+                slug: "view-your-income-report-by-item-type",
+                title: 'View your income report by item type',
                 desc: 'The income by item report is now grouped by item type.',
                 lang: "en",
                 id: "CWwwtMMq-Jk"
@@ -110,8 +110,8 @@ var app = new Vue({
         overview: {
             title: 'Lesson 10: Exporting from the Overview',
             video_1: {
-                slug: "",
-                title: '',
+                slug: "export-your-data-from-the-overview",
+                title: 'Export your data from the Overview',
                 desc: 'It is now possible to export data from the Overview, where we have the Balance sheet and Income and expense statement for the current month.',
                 lang: "en",
                 id: "aLjSLv3osT0"
@@ -120,8 +120,8 @@ var app = new Vue({
         recurring: {
             title: 'Lesson 11: Recurring Income',
             video_1: {
-                slug: "",
-                title: '',
+                slug: "create-recurring-income-transactions",
+                title: 'Create recurring income transactions',
                 desc: 'Recurring transactions are no longer limited to expenses. You can now create recurring income transactions as well.',
                 lang: "en",
                 id: "NyjQTmsx3oI"
@@ -130,7 +130,7 @@ var app = new Vue({
         restock: {
             title: 'Lesson 12: Setup and use the parameters to restock the inventory',
             video_1: {
-                slug: "",
+                slug: "setup-and-use-the-parameters-to-restock-the-inventory",
                 title: '',
                 desc: 'To setup the parameters to restock inventory we need to enter the minimum and maximum quantities that we want to have for inventory items.',
                 lang: "en",
@@ -138,10 +138,10 @@ var app = new Vue({
             }
         },
         prefixes: {
-            title: 'Lesson 13: Setup and use the parameters to restock the inventory',
+            title: 'Lesson 13: Use multiple prefixes on invoices and other documents',
             video_1: {
-                slug: "",
-                title: '',
+                slug: "use-multiple-prefixes-on-invoices-and-other-documents",
+                title: 'Use multiple prefixes on invoices and other documents',
                 desc: 'To use multiple prefixes and numbering on our invoices we need to change the invoice settings.',
                 lang: "en",
                 id: "slwxy2ZD3s4"
