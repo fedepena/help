@@ -47,8 +47,18 @@ var app = new Vue({
             }
 
         },
+         inventory: {
+            title: 'Lesson 4: Inventory control',
+            video_1: {
+                slug: "control-your-inventory",
+                title: 'Control your inventory',
+                desc: 'Maintain system and real quantities synced, know when to reorder, and see how your products are contributing (or not) to your bottom line.',
+                lang: "en",
+                id: "bTJ4-rnkzqk"
+            }
+        },
         cashcontrol: {
-            title: 'Lesson 4: Cash control',
+            title: 'Lesson 5: Cash control',
             video_1: {
                 slug: "control-your-cash",
                 title: 'Control your cash',
@@ -58,7 +68,7 @@ var app = new Vue({
             }
         },
         cashflow: {
-            title: 'Lesson 5: Cash flow management',
+            title: 'Lesson 6: Cash flow management',
             video_1: {
                 slug: "manage-your-cash-flow",
                 title: 'Manage your cash flow',
@@ -67,14 +77,74 @@ var app = new Vue({
                 id: "dziMNOGtabA"
             }
         },
-        inventory: {
-            title: 'Lesson 6: Inventory control',
+        pricelist: {
+            title: 'Lesson 7: More price lists',
             video_1: {
-                slug: "control-your-inventory",
-                title: 'Control your inventory',
-                desc: 'Maintain system and real quantities synced, know when to reorder, and see how your products are contributing (or not) to your bottom line.',
+                slug: "",
+                title: '',
+                desc: 'Manage up to five price lists and easily update prices using an Excel template.',
                 lang: "en",
-                id: "bTJ4-rnkzqk"
+                id: "IVGATE-wngQ"
+            }
+        },
+        dateterms: {
+            title: 'Lesson 8: Configurable due date/terms',
+            video_1: {
+                slug: "",
+                title: '',
+                desc: 'It is now possible to configure the days used to calculate due dates in invoices.',
+                lang: "en",
+                id: "7c0z7d4deKs"
+            }
+        },
+        itemtype: {
+            title: 'Lesson 9: Income report by item type',
+            video_1: {
+                slug: "",
+                title: '',
+                desc: 'The income by item report is now grouped by item type.',
+                lang: "en",
+                id: "CWwwtMMq-Jk"
+            }
+        },
+        overview: {
+            title: 'Lesson 10: Exporting from the Overview',
+            video_1: {
+                slug: "",
+                title: '',
+                desc: 'It is now possible to export data from the Overview, where we have the Balance sheet and Income and expense statement for the current month.',
+                lang: "en",
+                id: "aLjSLv3osT0"
+            }
+        },
+        recurring: {
+            title: 'Lesson 11: Recurring Income',
+            video_1: {
+                slug: "",
+                title: '',
+                desc: 'Recurring transactions are no longer limited to expenses. You can now create recurring income transactions as well.',
+                lang: "en",
+                id: "NyjQTmsx3oI"
+            }
+        },
+        restock: {
+            title: 'Lesson 12: Setup and use the parameters to restock the inventory',
+            video_1: {
+                slug: "",
+                title: '',
+                desc: 'To setup the parameters to restock inventory we need to enter the minimum and maximum quantities that we want to have for inventory items.',
+                lang: "en",
+                id: "FA3lPbPeFRA"
+            }
+        },
+        prefixes: {
+            title: 'Lesson 13: Setup and use the parameters to restock the inventory',
+            video_1: {
+                slug: "",
+                title: '',
+                desc: 'To use multiple prefixes and numbering on our invoices we need to change the invoice settings.',
+                lang: "en",
+                id: "slwxy2ZD3s4"
             }
         }
     }
