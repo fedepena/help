@@ -37,7 +37,7 @@ var app = new Vue({
 
         },
         accounts: {
-            title: 'Lección 3: Cuentas por cobrar',
+            title: 'Lección 3: Haga sus cobros a tiempo',
             video_1: {
                 slug: "haga-sus-cobros-a-tiempo",
                 title: "Haga sus cobros a tiempo",
@@ -48,7 +48,7 @@ var app = new Vue({
 
         },
         cashflow: {
-            title: 'Lección 4: Manejo de flujo de caja',
+            title: 'Lección 4: Maneje su flujo de caja',
             video_1: {
                 slug: "maneje-su-flujo-de-caja",
                 title: "Maneje su flujo de caja",
@@ -58,97 +58,98 @@ var app = new Vue({
             }
         },
         revisarpagos: {
-            title: 'Lección 5: Cómo revisar los pagos de ingresos y gastos',
+            title: 'Lección 5: Revise los pagos de ingresos y gastos',
             video_1: {
-                slug: "maneje-su-flujo-de-caja",
-                title: "Maneje su flujo de caja",
-                desc: "Manténgase ´encima´ de las entrasdas y salidas de efectivo para que su información esté al día y sea confiable .",
+                slug: "revise-los-pagos-de-ingresos-y-gastos",
+                title: "Revise los pagos de ingresos y gastos",
+                desc: "Manténgase \"encima\"  de las entradas y salidas de efectivo para que su información esté al día y sea confiable .",
                 lang: "es",
-                id: "FVv_pc9AcsU"
+                id: "pzuHulN2N88"
             }
         },
         cashcontrol: {
-            title: 'Lección 6: Control de efectivo',
+            title: 'Lección 6: Controle su efectivo',
             video_1: {
-                slug: "maneje-su-flujo-de-caja",
-                title: "Maneje su flujo de caja",
+                slug: "controle-su-efectivo",
+                title: "Controle su efectivo",
                 desc: "Asegúrese que todo (lo que debería) ha sido contabilizado manteniendo sus cuentas de efectivo actualizadas y reconciliadas.",
                 lang: "es",
                 id: "FVv_pc9AcsU"
             }
         },
         inventory: {
-            title: 'Lección 7: Cómo crear impuestos y retenciones',
+            title: 'Lección 7: Cree sus impuestos y retenciones',
             video_1: {
-                slug: "controle-su-inventario",
-                title: "Controle su inventario Parte - 1",
+                slug: "cree-sus-impuestos-y-retenciones-parte-1",
+                title: "Cree sus impuestos y retenciones - Parte 1",
                 desc: "Maneje los impuestos y retenciones acorde a las necesidades de su país.",
                 lang: "es",
-                id: "9V0MTOZLcdk"
+                id: "9V0MTOZLcdk",
+                next: "JAsQTbqEkik"
             },
             video_2: {
-                slug: "controle-su-inventario",
-                title: "Controle su inventario Parte - 2",
+                slug: "cree-sus-impuestos-y-retenciones-parte-2",
+                title: "Cree sus impuestos y retenciones - Parte 2",
                 desc: "Maneje los impuestos y retenciones acorde a las necesidades de su país.",
                 lang: "es",
                 id: "JAsQTbqEkik"
             }
         },
         creditos: {
-            title: 'Lección 8: Cómo crear notas crédito',
+            title: 'Lección 8: Cree notas crédito',
             video_1: {
-                slug: "controle-su-inventario",
-                title: "Controle su inventario",
+                slug: "cree-notas-credito",
+                title: "Cree notas crédito",
                 desc: "Maneje adecuadamente los créditos dados a clientes y recibidos de proveedores.",
                 lang: "es",
                 id: "IuEDwIhuOEo"
             }
         },
         vencimientos: {
-            title: 'Lección 9: Vencimientos/términos configurables',
+            title: 'Lección 9: Configure los vencimientos/términos de sus facturas',
             video_1: {
-                slug: "controle-su-inventario",
-                title: "Controle su inventario",
+                slug: "configure-los-vencimientos-terminos-de-sus-facturas",
+                title: "Configure los vencimientos\/términos de sus facturas",
                 desc: "Ahora es posible configurar los días usados para calcular el vencimiento en las facturas.",
                 lang: "es",
                 id: "jeXeAUYDjjM"
             }
         },
         precios: {
-            title: 'Lección 10: Más listas de precios',
+            title: 'Lección 10: Use múltiples listas de precios',
             video_1: {
-                slug: "controle-su-inventario",
-                title: "Controle su inventario",
+                slug: "use-multiples-listas-de-precios",
+                title: "Use múltiples listas de precios",
                 desc: "Maneje hasta cinco listas de precios y actualice fácilmente sus precios usando una plantilla de Excel.",
                 lang: "es",
                 id: "7tyD1wxNM8w"
             }
         },
         item: {
-            title: 'Lección 11: Reportes de ingresos por tipo de ítem',
+            title: 'Lección 11: Vea su reporte de ingresos por tipo de ítem',
             video_1: {
-                slug: "controle-su-inventario",
-                title: "Controle su inventario",
+                slug: "vea-su-reporte-de-ingresos-por-tipo-de-item",
+                title: "Vea su reporte de ingresos por tipo de ítem",
                 desc: "El reporte de ingresos por ítem está ahora agrupado por tipo de ítem.",
                 lang: "es",
                 id: "5rxufoEFYoc"
             }
         },
         resumen: {
-            title: 'Lección 12: Exportables en el Resumen',
+            title: 'Lección 12: Exporte su información desde el Resumen',
             video_1: {
-                slug: "controle-su-inventario",
-                title: "Controle su inventario",
+                slug: "exporte-su-informacion-desde-el-resumen",
+                title: "Exporte su información desde el Resumen",
                 desc: "Ahora es posible exportar datos desde el Resumen, dónde tenemos el Balance general y el Estado de resultados del mes en curso.",
                 lang: "es",
                 id: "as-SxZ1qaXE"
             }
         },
         recurrente: {
-            title: 'Lección 13: Ingresos Recurrentes',
+            title: 'Lección 13: Cree transacciones de ingresos recurrentes',
             video_1: {
-                slug: "controle-su-inventario",
-                title: "Controle su inventario",
+                slug: "cree-transacciones-de-ingresos-recurrentes",
+                title: "Cree transacciones de ingresos recurrentes",
                 desc: "Las transacciones recurrentes ya no están limitadas a gastos. Usted puede ahora crear transacciones de ingresos recurrentes.",
                 lang: "es",
                 id: "Sc0mrIxfwQQ"
@@ -157,31 +158,51 @@ var app = new Vue({
         reposicion: {
             title: 'Lección 14: Determine y use los parámetros para reposición de inventario',
             video_1: {
-                slug: "controle-su-inventario",
-                title: "Controle su inventario",
+                slug: "determine-y-use-los-parametros-para-reposicion-de-inventario",
+                title: "Determine y use los parámetros para reposición de inventario",
                 desc: "Para determinar los parámetros de reposición de inventario debemos ingresar las cantidades mínimas y máximas que queremos tener para los ítems de inventario.",
                 lang: "es",
                 id: "LUOCE-x8ehM"
             }
         },
         prefijos: {
-            title: 'Lección 15: Determine y use los parámetros para reposición de inventario',
+            title: 'Lección 15: Use múltiples prefijos en facturas y otros documentos',
             video_1: {
-                slug: "controle-su-inventario",
-                title: "Controle su inventario",
+                slug: "use-multiples-prefijos-en-facturas-y-otros-documentos",
+                title: "Use múltiples prefijos en facturas y otros documentos",
                 desc: "Para usar múltiples prefijos y numeración en nuestras facturas necesitamos cambiar la configuración de la factura.",
                 lang: "es",
                 id: "XT7-2DQYnLI"
             }
         },
         retenciones: {
-            title: 'Lección 16: Use múltiples prefijos en facturas y otros documentos',
+            title: 'Lección 16: Ingrese su inventario inicial',
             video_1: {
-                slug: "controle-su-inventario",
-                title: "Controle su inventario",
-                desc: "Para usar múltiples prefijos y numeración en nuestras facturas necesitamos cambiar la configuración de la factura.",
+                slug: "ingrese-su-inventario-inicial",
+                title: "Ingrese su inventario inicial",
+                desc: "Para ingresar el inventario inicial necesitamos ir a controlar inventario y usar la acción agregar inventario.",
                 lang: "es",
-                id: "XT7-2DQYnLI"
+                id: "U6kRs9WOFGo"
+            }
+        },
+        saldosiniciales: {
+            title: 'Lección 17: ingrese-sus-saldos-iniciales-de-efectivo',
+            video_1: {
+                slug: "ingrese-sus-saldos-iniciales-de-efectivo",
+                title: "Ingrese sus saldos iniciales de efectivo",
+                desc: "Para ingresar nuestros saldos de efectivo vamos a Controlar - Efectivo.",
+                lang: "es",
+                id: "72cQvGMHuPQ"
+            }
+        },
+        saldosproveedores: {
+            title: 'Lección 18: Ingrese sus saldos iniciales de clientes y proveedores',
+            video_1: {
+                slug: "ingrese-sus-saldos-iniciales-de-clientes-y-proveedores",
+                title: "Ingrese sus saldos iniciales de clientes y proveedores",
+                desc: "Para ingresar todas aquellas cuentas que tenemos pendientes por cobrar y por pagar debemos hacerlo a través de una transacción.",
+                lang: "es",
+                id: "Vnp6ZdoR3BI"
             }
         }
     }
