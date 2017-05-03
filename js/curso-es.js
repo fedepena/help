@@ -77,28 +77,25 @@ var app = new Vue({
                 id: "FVv_pc9AcsU"
             }
         },
-        inventory_1: {
-            title: 'Lección 7: Cómo crear impuestos y retenciones - Parte 1',
+        inventory: {
+            title: 'Lección 7: Cómo crear impuestos y retenciones',
             video_1: {
                 slug: "controle-su-inventario",
-                title: "Controle su inventario",
+                title: "Controle su inventario Parte - 1",
                 desc: "Maneje los impuestos y retenciones acorde a las necesidades de su país.",
                 lang: "es",
                 id: "9V0MTOZLcdk"
-            }
-        },
-        inventory_2: {
-            title: 'Lección 8: Cómo crear impuestos y retenciones - Parte 2',
-            video_1: {
+            },
+            video_2: {
                 slug: "controle-su-inventario",
-                title: "Controle su inventario",
+                title: "Controle su inventario Parte - 2",
                 desc: "Maneje los impuestos y retenciones acorde a las necesidades de su país.",
                 lang: "es",
                 id: "JAsQTbqEkik"
             }
         },
         creditos: {
-            title: 'Lección 9: Cómo crear notas crédito',
+            title: 'Lección 8: Cómo crear notas crédito',
             video_1: {
                 slug: "controle-su-inventario",
                 title: "Controle su inventario",
@@ -108,7 +105,7 @@ var app = new Vue({
             }
         },
         vencimientos: {
-            title: 'Lección 10: Vencimientos/términos configurables',
+            title: 'Lección 9: Vencimientos/términos configurables',
             video_1: {
                 slug: "controle-su-inventario",
                 title: "Controle su inventario",
@@ -118,7 +115,7 @@ var app = new Vue({
             }
         },
         precios: {
-            title: 'Lección 11: Más listas de precios',
+            title: 'Lección 10: Más listas de precios',
             video_1: {
                 slug: "controle-su-inventario",
                 title: "Controle su inventario",
@@ -128,7 +125,7 @@ var app = new Vue({
             }
         },
         item: {
-            title: 'Lección 12: Reportes de ingresos por tipo de ítem',
+            title: 'Lección 11: Reportes de ingresos por tipo de ítem',
             video_1: {
                 slug: "controle-su-inventario",
                 title: "Controle su inventario",
@@ -138,7 +135,7 @@ var app = new Vue({
             }
         },
         resumen: {
-            title: 'Lección 13: Exportables en el Resumen',
+            title: 'Lección 12: Exportables en el Resumen',
             video_1: {
                 slug: "controle-su-inventario",
                 title: "Controle su inventario",
@@ -148,7 +145,7 @@ var app = new Vue({
             }
         },
         recurrente: {
-            title: 'Lección 14: Ingresos Recurrentes',
+            title: 'Lección 13: Ingresos Recurrentes',
             video_1: {
                 slug: "controle-su-inventario",
                 title: "Controle su inventario",
@@ -158,7 +155,7 @@ var app = new Vue({
             }
         },
         reposicion: {
-            title: 'Lección 15: Determine y use los parámetros para reposición de inventario',
+            title: 'Lección 14: Determine y use los parámetros para reposición de inventario',
             video_1: {
                 slug: "controle-su-inventario",
                 title: "Controle su inventario",
@@ -178,7 +175,7 @@ var app = new Vue({
             }
         },
         retenciones: {
-            title: 'Lección 15: Use múltiples prefijos en facturas y otros documentos',
+            title: 'Lección 16: Use múltiples prefijos en facturas y otros documentos',
             video_1: {
                 slug: "controle-su-inventario",
                 title: "Controle su inventario",
