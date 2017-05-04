@@ -146,6 +146,46 @@ var app = new Vue({
                 lang: "en",
                 id: "slwxy2ZD3s4"
             }
+        },
+        initinventory: {
+            title: 'Lesson 14: Enter your initial inventory',
+            video_1: {
+                slug: "enter-your-initial-inventory",
+                title: 'Enter your initial inventory',
+                desc: 'To enter the initial inventory we need to go to control inventory and use the add inventory action.',
+                lang: "en",
+                id: "kp2B3y9WKPQ"
+            }
+        },
+        balances: {
+            title: 'Lesson 15: Enter your starting cash balances',
+            video_1: {
+                slug: "enter-your-starting-cash-balances",
+                title: 'Enter your starting cash balances',
+                desc: 'To enter our cash balances we will control - cash.',
+                lang: "en",
+                id: "Ris-dlXSR7o"
+            }
+        },
+        suppliers: {
+            title: 'Lesson 16: Enter your starting balances for customers and suppliers',
+            video_1: {
+                slug: "enter-your-starting-balances-for-customers-and-suppliers",
+                title: 'Enter your starting balances for customers and suppliers',
+                desc: 'To enter all those accounts that we have outstanding receivable and payable we must do it through a transaction.',
+                lang: "en",
+                id: "fSXDJSnE3FY"
+            }
+        },
+        busines: {
+            title: 'Lesson 17: Keep your business finances under control and up to date',
+            video_1: {
+                slug: "keep-your-business-finances-under-control-and-up-to-date",
+                title: 'Keep your business finances under control and up to date',
+                desc: 'Take the financial reins of your business and keep its accounts in order and up to date.',
+                lang: "en",
+                id: "f0dSeD3q3Ns"
+            }
         }
     }
 });
