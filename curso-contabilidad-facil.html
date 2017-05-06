@@ -8,7 +8,9 @@
     <meta name="description" content="Video tutorials of how to use our easy acounnting software">
     <link rel="shortcut icon" href="../web/images/favicon.png">
     <meta name="author" content="">
-    <title>Getting Started Course: Easy Accounting for Non-Accountants with myAbakus</title>
+    <title>Curso de Inicio: Contabilidad Fácil para No Contadores con myAbakus</title>
+    <!-- Vue.js -->
+    <script type="text/javascript" src="https://unpkg.com/vue@2.2.6"></script>
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
     <!-- Custom styles for this template -->
@@ -28,23 +30,22 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <header>
-        <div class="container-fluid">
+        <div class="container-fluid" id="app">
             <div class="separaHead">
                 <div class="row page3  header-1 text-center">
                     <div class="col-xs-12 col-xs-offset-0 col-sm-5 col-sm-offset-0 col-md-5 col-md-offset-0 col-lg-5 col-lg-offset-0" id="header-1">
-                        <a href="#">
+                        <a :href="header.dir">
                             <img src="images/logo.svg" class="brand-img">
                         </a>
                     </div>
 
                     <div class="main-title col-xs-12 col-xs-offset-0 col-sm-7 col-sm-offset-0 col-md-7 col-md-offset-0 col-lg-7 col-lg-offset-0">
-                        <h1>Getting Started Course</h1>
+                        <h1>{{ header.title }}</h1>
                     </div>
-
                 </div>
                 <div class="page3">
-                    <h3 class="h3 text-center">Easy Accounting for Non-Accountants with myAbakus</h3>
-                    <p class="p1"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad qui quod necessitatibus, ullam, deserunt earum obcaecati quos suscipit. Dolorum laborum quo sapiente provident adipisci ducimus eum iure eius aliquam minima.</p>
+                    <h3 class="h3 text-center">{{ header.subtitle }}</h3>
+                    <p class="p1"> {{ header.description }} </p>
                 </div>
             </div>
 
@@ -52,85 +53,63 @@
             <div class="separaVideos">
                 <div class="row page">
                     <div class="lesson col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <h2>Lesson 1: Introduction</h2>
+                        <h2>{{ introduction.title }}</h2>
                         <hr>
                     </div>
                 </div>
                 <div class="row page">
                     <div class="img-wrap col-xs-12 col-sm-4 col-md-12">
-                        <a href="" video-id="f0dSeD3q3Ns">
+                        <a :href="introduction.video_1.slug" :video-id="introduction.video_1.id">
                             <div class="sheet3img sheet-img play-img">
                                 <span class="glyphicon glyphicon-play play-btn"></span>
                             </div>
                         </a>
                     </div>
                     <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-                        <h4>Keep your business finances under control and up to date</h4>
-                        <p>Take the financial reins of your business and keep its accounts in order and up to date.</p>
+                        <h4>{{ introduction.video_1.title }}</h4>
+                        <p>{{ introduction.video_1.desc }}</p>
                     </div>
                 </div>
-                <!-- copia video 1 inicio -->
+                <!--  video 2 inicio -->
                 <div class="row page">
                     <div class="img-wrap col-xs-12 col-sm-4 col-md-12">
-                        <a href="" video-id="f0dSeD3q3Ns">
+                        <a :href="introduction.video_2.slug" :video-id="introduction.video_2.id">
                             <div class="sheet3img sheet-img play-img">
                                 <span class="glyphicon glyphicon-play play-btn"></span>
                             </div>
                         </a>
                     </div>
                     <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-                        <h4>Keep your business finances under control and up to date</h4>
-                        <p>Take the financial reins of your business and keep its accounts in order and up to date.</p>
+                        <h4>{{ introduction.video_2.title }}</h4>
+                        <p>{{ introduction.video_2.desc }}</p>
                     </div>
                 </div>
-                <!-- copia video 1 fin -->
+                <!-- fin video 2 fin -->
             </div>
             <!-- Video 1 fin -->
-
-
 
             <!-- Video 2 inicio -->
             <div class="separaVideos">
                 <div class="row page">
                     <div class="lesson col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <h2>Lesson 2: Invoicing</h2>
+                        <h2>{{ invoicing.title }}</h2>
                         <hr>
                     </div>
                 </div>
                 <div class="row page">
                     <div class="img-wrap col-xs-12 col-sm-4 col-md-12">
-                        <a href="" video-id="4nTPEaEAx_Q">
+                        <a :href="invoicing.video_1.slug" :video-id="invoicing.video_1.id">
                             <div class="play-img play-img-2 ">
                                 <span class="glyphicon glyphicon-play play-btn"></span>
                             </div>
                         </a>
                     </div>
                     <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-                        <h4>Invoice your customers in a simple and elegant way</h4>
-                        <p>Create and customize your invoices with your company's logo, print them, or email them directly to your customers.</p>
+                        <h4>{{ invoicing.video_1.title }}</h4>
+                        <p>{{ invoicing.video_1.desc }}</p>
                     </div>
                 </div>
-                <!-- copia video 2 inicio -->
-                <!--    <div class="row page">
-                    <div class="lesson col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <h2>Lesson 2: Invoicing</h2>
-                        <hr>
-                    </div>
-                </div>
-                <div class="row page">
-                    <div class="img-wrap col-xs-12 col-sm-4 col-md-12">
-                        <a href="" video-id="4nTPEaEAx_Q">
-                            <div class="play-img play-img-2 ">
-                                <span class="glyphicon glyphicon-play play-btn"></span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-                        <h4>Invoice your customers in a simple and elegant way</h4>
-                        <p>Create and customize your invoices with your company's logo, print them, or email them directly to your customers.</p>
-                    </div>
-                </div> -->
-                <!-- copia video 2 fin -->
+
             </div>
             <!-- Video 2 fin -->
 
@@ -139,136 +118,73 @@
             <div class="separaVideos">
                 <div class="row page">
                     <div class="lesson col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <h2>Lesson 3: Accounts receivable</h2>
+                        <h2>{{ accounts.title }}</h2>
                         <hr>
                     </div>
                 </div>
                 <div class="row page">
                     <div class="img-wrap col-xs-12 col-sm-4 col-md-12">
-                        <a href="" video-id="U6PN3F5q-C0">
+                        <a :href="accounts.video_1.slug" :video-id="accounts.video_1.id">
                             <div class="play-img play-img-3">
                                 <span class="glyphicon glyphicon-play play-btn"></span>
                             </div>
                         </a>
                     </div>
                     <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-                        <h4>Get paid on time</h4>
-                        <p>Keep your sales and collection data up to date to make sure customers are paying you when and how they should.</p>
+                        <h4>{{ accounts.video_1.title }}</h4>
+                        <p>{{ accounts.video_1.desc }}</p>
                     </div>
                 </div>
-                <!-- copia video 3 inicio -->
-                <!--    <div class="row page">
-                    <div class="lesson col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <h2>Lesson 3: Accounts receivable</h2>
-                        <hr>
-                    </div>
-                </div>
-                <div class="row page">
-                    <div class="img-wrap col-xs-12 col-sm-4 col-md-12">
-                        <a href="" video-id="U6PN3F5q-C0">
-                            <div class="play-img play-img-3">
-                                <span class="glyphicon glyphicon-play play-btn"></span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-                        <h4>Get paid on time</h4>
-                        <p>Keep your sales and collection data up to date to make sure customers are paying you when and how they should.</p>
-                    </div>
-                </div> -->
-                <!-- copia video 3 fin -->
             </div>
             <!-- Video 3 fin -->
-
 
 
             <!-- Video 4 inicio -->
             <div class="separaVideos">
                 <div class="row page">
                     <div class="lesson col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <h2>Lesson 4: Cash control</h2>
+                        <h2>{{ cuentasbajocontrol.title }}</h2>
                         <hr>
                     </div>
                 </div>
                 <div class="row page">
                     <div class="img-wrap col-xs-12 col-sm-4 col-md-12">
-                        <a href="" video-id="YI5jDEjOq8A">
+                        <a :href="cuentasbajocontrol.video_1.slug" :video-id="cuentasbajocontrol.video_1.id">
                             <div class="play-img play-img-5">
                                 <span class="glyphicon glyphicon-play play-btn"></span>
                             </div>
                         </a>
                     </div>
                     <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-                        <h4>Control your cash</h4>
-                        <p>Make sure everything (that should) has been accounted by keeping your cash accounts up to date and reconciled.</p>
+                        <h4>{{ cuentasbajocontrol.video_1.title }}</h4>
+                        <p>{{ cuentasbajocontrol.video_1.desc }}</p>
                     </div>
                 </div>
-                <!-- copia video 4 inicio -->
-                <!--    <div class="row page">
-                    <div class="lesson col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <h2>Lesson 4: Cash control</h2>
-                    </div>
-                </div>
-                <div class="row page">
-                    <div class="img-wrap col-xs-12 col-sm-4 col-md-12">
-                        <a href="" video-id="YI5jDEjOq8A">
-                            <div class="play-img play-img-5">
-                                <span class="glyphicon glyphicon-play play-btn"></span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-                        <h4>Control your cash</h4>
-                        <p>Make sure everything (that should) has been accounted by keeping your cash accounts up to date and reconciled.</p>
-                    </div>
-                </div> -->
-                <!-- copia video 4 fin -->
+
             </div>
             <!-- Video 4 fin -->
-
 
             <!-- Video 5 inicio -->
             <div class="separaVideos">
                 <div class="row page">
                     <div class="lesson col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <h2>Lesson 5: Cash flow management</h2>
+                        <h2>{{ cashflow.title }}</h2>
                         <hr>
                     </div>
                 </div>
                 <div class="row page">
                     <div class="img-wrap col-xs-12 col-sm-4 col-md-12">
-                        <a href="" video-id="dziMNOGtabA">
-                            <div class="play-img play-img-6">
+                        <a :href="cashflow.video_1.slug" :video-id="cashflow.video_1.id">
+                            <div class="play-img play-img-5">
                                 <span class="glyphicon glyphicon-play play-btn"></span>
                             </div>
                         </a>
                     </div>
                     <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-                        <h4>Manage your cash flow</h4>
-                        <p>Stay ahead of the game and avoid nasty surprises by entering pending collections and payments, as well as recurring expenses.</p>
+                        <h4>{{ cashflow.video_1.title }}</h4>
+                        <p>{{ cashflow.video_1.desc }}</p>
                     </div>
                 </div>
-                <!-- copia video 5 inicio -->
-                <!--   <div class="row page">
-                    <div class="lesson col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <h2>Lesson 5: Cash flow management</h2>
-                        
-                    </div>
-                </div>
-                <div class="row page">
-                    <div class="img-wrap col-xs-12 col-sm-4 col-md-12">
-                        <a href="" video-id="dziMNOGtabA">
-                            <div class="play-img play-img-6">
-                                <span class="glyphicon glyphicon-play play-btn"></span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-                        <h4>Manage your cash flow</h4>
-                        <p>Stay ahead of the game and avoid nasty surprises by entering pending collections and payments, as well as recurring expenses.</p>
-                    </div>
-                </div> -->
-                <!-- copia video 5 fin -->
             </div>
             <!-- Video 5 fin -->
 
@@ -277,48 +193,25 @@
             <div class="separaVideos">
                 <div class="row page">
                     <div class="lesson col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <h2>Lesson 6: Inventory control</h2>
+                        <h2>{{ controlinventario.title }}</h2>
                         <hr>
                     </div>
                 </div>
                 <div class="row page">
                     <div class="img-wrap col-xs-12 col-sm-4 col-md-12">
-                        <a href="" video-id="bTJ4-rnkzqk">
-                            <div class="play-img play-img-4">
+                        <a :href="controlinventario.video_1.slug" :video-id="controlinventario.video_1.id">
+                            <div class="play-img play-img-6">
                                 <span class="glyphicon glyphicon-play play-btn"></span>
                             </div>
                         </a>
                     </div>
                     <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-                        <h4>Control your inventory</h4>
-                        <p>Maintain system and real quantities synced, know when to reorder, and see how your products are contributing (or not) to your bottom line.</p>
+                        <h4>{{ controlinventario.video_1.title }}</h4>
+                        <p>{{ controlinventario.video_1.desc }}</p>
                     </div>
                 </div>
-                <!-- copia video 6 inicio -->
-                <!--    <div class="row page">
-                    <div class="lesson col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <h2>Lesson 6: Inventory control</h2>
-                      
-                    </div>
-                </div>
-                <div class="row page">
-                    <div class="img-wrap col-xs-12 col-sm-4 col-md-12">
-                        <a href="" video-id="bTJ4-rnkzqk">
-                            <div class="play-img play-img-4">
-                                <span class="glyphicon glyphicon-play play-btn"></span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-                        <h4>Control your inventory</h4>
-                        <p>Maintain system and real quantities synced, know when to reorder, and see how your products are contributing (or not) to your bottom line.</p>
-                    </div>
-                </div> -->
-                <!-- copia video 6 fin -->
             </div>
             <!-- Video 6 fin -->
-
-
         </div>
 
     </header>
@@ -329,5 +222,6 @@
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
 
 </body>
+<script type="text/javascript" src="js/curso-es.js"></script>
 
 </html>
