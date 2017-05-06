@@ -8,6 +8,7 @@ var app = new Vue({
             description: 'El objetivo de este curso es ayudarlo a arrancar y que myAbakus sea un éxito para su negocio. Todo lo que necesita son sus facturas abiertas, sus saldos de efectivo y bancos y su inventario actual, si tiene uno. Comience con esto y luego ingrese sus movimientos diarios de efectivo y productos, asegurándose que la información coincida con la realidad. Continúe haciéndolo por varios días y muy pronto descubrirá lo que myAbakus puede hacer por su negocio.'
 
         },
+        dir:"../videos/",
         introduction: {
             title: "Lección 1: Introducción",
             video_1: {
