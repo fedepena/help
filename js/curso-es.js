@@ -3,9 +3,9 @@ var app = new Vue({
     data: {
         header: {
             dir: 'https://www.myabakus.com/',
-            title: 'Curso de Inicio',
-            subtitle: 'Contabilidad fácil para los no contadores con myAbakus',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad qui quod necessitatibus, ullam, deserunt earum obcaecati quos suscipit. Dolorum laborum quo sapiente provident adipisci ducimus eum iure eius aliquam minima.'
+            title: 'Curso de Arranque',
+            subtitle: 'Contabilidad Práctica para No Contadores con myAbakus',
+            description: 'El objetivo de este curso es ayudarlo a arrancar y que myAbakus sea un éxito para su negocio. Todo lo que necesita son sus facturas abiertas, sus saldos de efectivo y bancos y su inventario actual, si tiene uno. Comience con esto y luego ingrese sus movimientos diarios de efectivo y productos, asegurándose que la información coincida con la realidad. Continúe haciéndolo por varios días y muy pronto descubrirá lo que myAbakus puede hacer por su negocio.'
 
         },
         introduction: {
