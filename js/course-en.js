@@ -8,7 +8,7 @@ var app = new Vue({
             description: 'The goal of this course is to help you get started and make myAbakus a success for your business. All you need is your outstanding invoices, your cash and bank balances and your existing inventory, if you have one. Start with those and then enter the daily movements of cash and products, making sure the information stays in sync with reality. Keep at it for several days and you will very soon discover what myAbakus can do for your business.'
 
         },
-        dir:'../videos/',
+        dir: '../videos/',
         introduction: {
             title: 'Lesson 1: Introduction',
             video_1: {
