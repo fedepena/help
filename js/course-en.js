@@ -4,8 +4,8 @@ var app = new Vue({
         header: {
             dir: 'https://www.myabakus.com/',
             title: 'Getting Started Course',
-            subtitle: 'Easy Accounting for Non-Accountants with myAbakus',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad qui quod necessitatibus, ullam, deserunt earum obcaecati quos suscipit. Dolorum laborum quo sapiente provident adipisci ducimus eum iure eius aliquam minima.'
+            subtitle: 'Practical Accounting for Non-Accountants with myAbakus',
+            description: 'The goal of this course is to help you get started and make myAbakus a success for your business. All you need is your outstanding invoices, your cash and bank balances and your existing inventory, if you have one. Start with those and then enter the daily movements of cash and products, making sure the information stays in sync with reality. Keep at it for several days and you will very soon discover what myAbakus can do for your business.'
 
         },
         introduction: {
