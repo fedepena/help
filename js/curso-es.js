@@ -2,6 +2,7 @@ var app = new Vue({
     el: '#app',
     data: {
         header: {
+            dir: 'https://www.myabakus.com/',
             title: 'Curso de Inicio',
             subtitle: 'Contabilidad fácil para los no contadores con myAbakus',
             description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad qui quod necessitatibus, ullam, deserunt earum obcaecati quos suscipit. Dolorum laborum quo sapiente provident adipisci ducimus eum iure eius aliquam minima.'
@@ -34,7 +35,6 @@ var app = new Vue({
                 lang: "es",
                 id: "bN-rDaysBaY"
             }
-
         },
         accounts: {
             title: 'Lección 3: Haga sus cobros a tiempo',

@@ -2,6 +2,7 @@ var app = new Vue({
     el: '#app',
     data: {
         header: {
+            dir: 'https://www.myabakus.com/',
             title: 'Getting Started Course',
             subtitle: 'Easy Accounting for Non-Accountants with myAbakus',
             description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad qui quod necessitatibus, ullam, deserunt earum obcaecati quos suscipit. Dolorum laborum quo sapiente provident adipisci ducimus eum iure eius aliquam minima.'

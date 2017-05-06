@@ -34,7 +34,7 @@
             <div class="separaHead">
                 <div class="row page3  header-1 text-center">
                     <div class="col-xs-12 col-xs-offset-0 col-sm-5 col-sm-offset-0 col-md-5 col-md-offset-0 col-lg-5 col-lg-offset-0" id="header-1">
-                        <a href="#">
+                        <a :href="header.dir">
                             <img src="images/logo.svg" class="brand-img">
                         </a>
                     </div>
@@ -59,7 +59,7 @@
                 </div>
                 <div class="row page">
                     <div class="img-wrap col-xs-12 col-sm-4 col-md-12">
-                        <a href="{{ introduction.video_1.slug }}" video-id="{{ introduction.video_1.id }}">
+                        <a :href="introduction.video_1.slug" :video-id="introduction.video_1.id">
                             <div class="sheet3img sheet-img play-img">
                                 <span class="glyphicon glyphicon-play play-btn"></span>
                             </div>
@@ -73,7 +73,7 @@
                 <!--  video 2 inicio -->
                 <div class="row page">
                     <div class="img-wrap col-xs-12 col-sm-4 col-md-12">
-                        <a href="como-y-donde-arrancar-parte-2" video-id="v5qQ8-xtFEw">
+                        <a :href="introduction.video_2.slug" :video-id="introduction.video_2.id">
                             <div class="sheet3img sheet-img play-img">
                                 <span class="glyphicon glyphicon-play play-btn"></span>
                             </div>
@@ -98,7 +98,7 @@
                 </div>
                 <div class="row page">
                     <div class="img-wrap col-xs-12 col-sm-4 col-md-12">
-                        <a href="acturele-a-sus-clientes-en-forma-simple-y-elegante" video-id="bN-rDaysBaY">
+                        <a :href="invoicing.video_1.slug" :video-id="invoicing.video_1.id">
                             <div class="play-img play-img-2 ">
                                 <span class="glyphicon glyphicon-play play-btn"></span>
                             </div>
@@ -124,7 +124,7 @@
                 </div>
                 <div class="row page">
                     <div class="img-wrap col-xs-12 col-sm-4 col-md-12">
-                        <a href="haga-sus-cobros-a-tiempo" video-id="K8rIA7hA2Uk">
+                        <a :href="accounts.video_1.slug" :video-id="accounts.video_1.id">
                             <div class="play-img play-img-3">
                                 <span class="glyphicon glyphicon-play play-btn"></span>
                             </div>
@@ -149,7 +149,7 @@
                 </div>
                 <div class="row page">
                     <div class="img-wrap col-xs-12 col-sm-4 col-md-12">
-                        <a href="controle-su-efectivo" video-id="FVv_pc9AcsU">
+                        <a :href="cuentasbajocontrol.video_1.slug" :video-id="cuentasbajocontrol.video_1.id">
                             <div class="play-img play-img-5">
                                 <span class="glyphicon glyphicon-play play-btn"></span>
                             </div>
@@ -174,7 +174,7 @@
                 </div>
                 <div class="row page">
                     <div class="img-wrap col-xs-12 col-sm-4 col-md-12">
-                        <a href="maneje-su-flujo-de-caja" video-id="-z_zb0t9BlE">
+                        <a :href="cashflow.video_1.slug" :video-id="cashflow.video_1.id">
                             <div class="play-img play-img-5">
                                 <span class="glyphicon glyphicon-play play-btn"></span>
                             </div>
@@ -189,7 +189,6 @@
             <!-- Video 5 fin -->
 
 
-
             <!-- Video 6 inicio -->
             <div class="separaVideos">
                 <div class="row page">
@@ -200,7 +199,7 @@
                 </div>
                 <div class="row page">
                     <div class="img-wrap col-xs-12 col-sm-4 col-md-12">
-                        <a href="controle-su-inventario" video-id="mWFxihAbFZ8">
+                        <a :href="controlinventario.video_1.slug" :video-id="controlinventario.video_1.id">
                             <div class="play-img play-img-6">
                                 <span class="glyphicon glyphicon-play play-btn"></span>
                             </div>
