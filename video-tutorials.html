@@ -40,7 +40,7 @@
                 <div class="sheet">
                     <h2>{{ multipleprice.title }}</h2>
                     <div class="test">
-                        <a :href="dir+multipleprice.video_1.slug" :video-id="IVGATE-wngQ">
+                        <a :href="dir+multipleprice.video_1.slug" :video-id="multipleprice.video_1.id">
                             <div class="sheet3img sheet-img">
                                 <span class="glyphicon glyphicon-play play-btn"></span>
                             </div>
@@ -49,103 +49,103 @@
                     <p>{{ multipleprice.video_1.desc }}</p>
                 </div>
                 <div class="sheet">
-                    <h2>Configure the due date/terms of your invoices</h2>
+                    <h2>{{ terms.title }}</h2>
                     <div class="test">
-                        <a href="/videos/configure-the-due-date-terms-of-your-invoices" video-id="7c0z7d4deKs">
+                        <a :href="dir+terms.video_1.slug" :video-id="terms.video_1.id">
                             <div class="sheet3img sheet-img sheet-img-2">
                                 <span class="glyphicon glyphicon-play play-btn"></span>
                             </div>
                         </a>
                     </div>
-                    <p>It is now possible to configure the days used to calculate due dates in invoices.</p>
+                    <p>{{ terms.video_1.desc }}</p>
                 </div>
                 <div class="sheet">
                     <h2>View your income report by item type</h2>
                     <div class="test">
-                        <a href="/videos/view-your-income-report-by-item-type" video-id="CWwwtMMq-Jk">
+                        <a :href="dir+report.video_1.slug" :video-id="report.video_1.id">
                             <div class="sheet3img sheet-img sheet-img-3">
                                 <span class="glyphicon glyphicon-play play-btn"></span>
                             </div>
                         </a>
                     </div>
-                    <p>The income by item report is now grouped by item type.</p>
+                    <p>{{ report.video_1.desc }}</p>
                 </div>
                 <div class="sheet">
-                    <h2>Export your data from the Overview</h2>
+                    <h2>{{ overview.title }}</h2>
                     <div class="test">
-                        <a href="/videos/export-your-data-from-the-overview" video-id="aLjSLv3osT0">
+                        <a :href="dir+overview.video_1.slug" :video-id="overview.video_1.id">
                             <div class="sheet3img sheet-img sheet-img-4">
                                 <span class="glyphicon glyphicon-play play-btn"></span>
                             </div>
                         </a>
                     </div>
-                    <p>It is now possible to export data from the Overview, where we have the Balance sheet and Income and expense statement for the current month.</p>
+                    <p>{{ overview.video_1.desc }}</p>
                 </div>
                 <div class="sheet">
-                    <h2>Create recurring income transactions</h2>
+                    <h2>{{ recurring.title }}</h2>
                     <div class="test">
-                        <a href="/videos/create-recurring-income-transactions" video-id="NyjQTmsx3oI">
+                        <a :href="dir+recurring.video_1.slug" :video-id="recurring.video_1.id">
                             <div class="sheet3img sheet-img sheet-img-5">
                                 <span class="glyphicon glyphicon-play play-btn"></span>
                             </div>
                         </a>
                     </div>
-                    <p>Recurring transactions are no longer limited to expenses. You can now create recurring income transactions as well.</p>
+                    <p>{{ recurring.video_1.desc }}</p>
                 </div>
                 <div class="sheet">
-                    <h2>Setup and use the parameters to restock the inventory</h2>
+                    <h2>{{ setup.title }}</h2>
                     <div class="test">
-                        <a href="/videos/setup-and-use-the-parameters-to-restock-the-inventory" video-id="FA3lPbPeFRA">
+                        <a :href="dir+setup.video_1.slug" :video-id="setup.video_1.id">
                             <div class="sheet3img sheet-img sheet-img-6">
                                 <span class="glyphicon glyphicon-play play-btn"></span>
                             </div>
                         </a>
                     </div>
-                    <p>To setup the parameters to restock inventory we need to enter the minimum and maximum quantities that we want to have for inventory items.</p>
+                    <p>{{ setup.video_1.desc }}</p>
                 </div>
                 <div class="sheet">
-                    <h2>Use multiple prefixes on invoices and other documents</h2>
+                    <h2>{{ prefixes.title }}</h2>
                     <div class="test">
-                        <a href="/videos/use-multiple-prefixes-on-invoices-and-other-documents" video-id="slwxy2ZD3s4">
+                        <a :href="dir+prefixes.video_1.slug" :video-id="prefixes.video_1.id">
                             <div class="sheet3img sheet-img">
                                 <span class="glyphicon glyphicon-play play-btn"></span>
                             </div>
                         </a>
                     </div>
-                    <p>To use multiple prefixes and numbering on our invoices we need to change the invoice settings.</p>
+                    <p>{{ prefixes.video_1.desc }}</p>
                 </div>
                 <div class="sheet">
-                    <h2>Enter your initial inventory</h2>
+                    <h2>{{ initialinventory.title }}</h2>
                     <div class="test">
-                        <a href="/videos/enter-your-initial-inventory" video-id="kp2B3y9WKPQ">
+                        <a :href="dir+initialinventory.video_1.slug" :video-id="initialinventory.video_1.id">
                             <div class="sheet3img sheet-img sheet-img-2">
                                 <span class="glyphicon glyphicon-play play-btn"></span>
                             </div>
                         </a>
                     </div>
-                    <p>To enter the initial inventory we need to go to control inventory and use the add inventory action.</p>
+                    <p>{{ initialinventory.video_1.desc}}</p>
                 </div>
                 <div class="sheet">
-                    <h2>Enter your starting cash balances</h2>
+                    <h2>{{ cashbalances.title }}</h2>
                     <div class="test">
-                        <a href="/videos/enter-your-starting-cash-balances" video-id="Ris-dlXSR7o">
+                        <a :href="dir+cashbalances.video_1.slug" :video-id="cashbalances.video_1.id">
                             <div class="sheet3img sheet-img sheet-img-3">
                                 <span class="glyphicon glyphicon-play play-btn"></span>
                             </div>
                         </a>
                     </div>
-                    <p>To enter our cash balances we will control - cash.</p>
+                    <p>{{ cashbalances.video_1.desc }}</p>
                 </div>
                 <div class="sheet">
-                    <h2>Enter your starting balances for customers and suppliers</h2>
+                    <h2>{{ customers.title }}</h2>
                     <div class="test">
-                        <a href="/videos/enter-your-starting-balances-for-customers-and-suppliers" video-id="fSXDJSnE3FY">
+                        <a :href="dir+customers.video_1.slug" :video-id="customers.video_1.id">
                             <div class="sheet3img sheet-img sheet-img-2">
                                 <span class="glyphicon glyphicon-play play-btn"></span>
                             </div>
                         </a>
                     </div>
-                    <p>To enter all those accounts that we have outstanding receivable and payable we must do it through a transaction.</p>
+                    <p>{{ customers.video_1.desc }}</p>
                 </div>
             </div>
         </div>
