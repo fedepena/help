@@ -9,6 +9,8 @@
     <link rel="shortcut icon" href="../web/images/favicon.png">
     <meta name="author" content="">
     <title>Video Tutorials</title>
+    <!-- Vue.js -->
+    <script type="text/javascript" src="https://unpkg.com/vue@2.2.6"></script>
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
     <!-- Custom styles for this template -->
@@ -26,30 +28,25 @@
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid" id="app">
         <div class="row">
             <div class="col-md-12">
-                <h1>Videos</h1>
-                <h3>Watch the video tutorials</h3>
+                <h1>{{ header.title }}</h1>
+                <h3>{{ header.subtitle }}</h3>
             </div>
         </div>
         <div class="row sheets">
             <div class="col-md-12 js-masonry" data-masonry-options='{ "itemSelector": ".sheet" }'>
-                
-                
-                
-                
-                
                 <div class="sheet">
-                    <h2>Manage multiple price lists</h2>
+                    <h2>{{ multipleprice.title }}</h2>
                     <div class="test">
-                        <a href="/videos/manage-multiple-price-lists" video-id="IVGATE-wngQ">
+                        <a :href="dir+multipleprice.video_1.slug" :video-id="IVGATE-wngQ">
                             <div class="sheet3img sheet-img">
                                 <span class="glyphicon glyphicon-play play-btn"></span>
                             </div>
                         </a>
                     </div>
-                    <p>Manage up to five price lists and easily update prices using an Excel template.</p>
+                    <p>{{ multipleprice.video_1.desc }}</p>
                 </div>
                 <div class="sheet">
                     <h2>Configure the due date/terms of your invoices</h2>
@@ -161,5 +158,6 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
 </body>
+<script type="text/javascript" src="js/video-tutorials.js"></script>
 
 </html>
