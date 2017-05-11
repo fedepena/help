@@ -3,15 +3,15 @@ var app = new Vue({
     data: {
         header: {
             title: 'Videos',
-            subtitle: 'Watch the video tutorials',
-            url: '../videos/'
+            subtitle: 'Watch the video tutorials'
         },
+        url: '../videos/',
         videos: [
             //video 1
             {
                 title: 'Manage multiple price lists',
                 slug: 'manage-multiple-price-lists',
-                des: 'Manage up to five price lists and easily update prices using an Excel template.',
+                desc: 'Manage up to five price lists and easily update prices using an Excel template.',
                 lang: 'en',
                 id: "IVGATE-wngQ"
             },
@@ -19,7 +19,7 @@ var app = new Vue({
             {
                 title: 'Configure the due date/terms of your invoices',
                 slug: "configure-the-due-date-terms-of-your-invoices",
-                des: 'It is now possible to configure the days used to calculate due dates in invoices.',
+                desc: 'It is now possible to configure the days used to calculate due dates in invoices.',
                 lang: "en",
                 id: "7c0z7d4deKs"
             },
@@ -27,7 +27,7 @@ var app = new Vue({
             {
                 title: 'View your income report by item type',
                 slug: "view-your-income-report-by-item-type",
-                des: 'The income by item report is now grouped by item type.',
+                desc: 'The income by item report is now grouped by item type.',
                 lang: "en",
                 id: "CWwwtMMq-Jk"
 
@@ -36,7 +36,7 @@ var app = new Vue({
             {
                 title: 'Export your data from the Overview',
                 slug: "export-your-data-from-the-overview",
-                des: 'It is now possible to export data from the Overview, where we have the Balance sheet and Income and expense    statement for the current month.',
+                desc: 'It is now possible to export data from the Overview, where we have the Balance sheet and Income and expense    statement for the current month.',
                 lang: "en",
                 id: "aLjSLv3osT0"
             },

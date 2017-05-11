@@ -37,17 +37,18 @@
         </div>
         <div class="row sheets">
             <div class="col-md-12 js-masonry" data-masonry-options='{ "itemSelector": ".sheet" }'>
-                <div class="sheet">
-                    <h2>{{ multipleprice.title }}</h2>
+                <div class="sheet" v-for="video in videos">
+                    <h2>{{ video.title }}</h2>
                     <div class="test">
-                        <a :href="dir+multipleprice.video_1.slug" :video-id="multipleprice.video_1.id">
+                        <a :href="url+video.slug" :video-id="url+video.id">
                             <div class="sheet3img sheet-img">
                                 <span class="glyphicon glyphicon-play play-btn"></span>
                             </div>
                         </a>
                     </div>
-                    <p>{{ multipleprice.video_1.desc }}</p>
+                    <p>{{ video.desc }}</p>
                 </div>
+                <!--
                 <div class="sheet">
                     <h2>{{ terms.title }}</h2>
                     <div class="test">
@@ -60,7 +61,7 @@
                     <p>{{ terms.video_1.desc }}</p>
                 </div>
                 <div class="sheet">
-                    <h2>View your income report by item type</h2>
+                    <h2>{{videos[2].title}}</h2>
                     <div class="test">
                         <a :href="dir+report.video_1.slug" :video-id="report.video_1.id">
                             <div class="sheet3img sheet-img sheet-img-3">
@@ -147,6 +148,7 @@
                     </div>
                     <p>{{ customers.video_1.desc }}</p>
                 </div>
+-->
             </div>
         </div>
     </div>
@@ -158,6 +160,6 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
 </body>
-<script type="text/javascript" src="js/video-tutorials.js"></script>
+<script type="text/javascript" src="js/tutorials-en.js"></script>
 
 </html>
