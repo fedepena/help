@@ -7,22 +7,6 @@ var app = new Vue({
         },
         url: '../videos/',
         videos: [
-            //video 1
-            {
-                title: 'Maneje su flujo de caja',
-                slug: 'maneje-su-flujo-de-caja',
-                desc: 'Manténgase “en la jugada” y evite sorpresas desagradables registrando cobros y pagos pendientes, así como gastos recurrentes.',
-                lang: 'es',
-                id: "-z_zb0t9BlE"
-            },
-            //video 2
-            {
-                title: 'Controle su inventario',
-                slug: "controle-su-inventario",
-                desc: 'Mantenga las unidades físicas sincronizadas con las del sistema, sepa cuándo ordenar sus productos y vea cómo estos contribuyen (o no) a su ganancia.',
-                lang: "es",
-                id: "mWFxihAbFZ8"
-            },
                 // video 3 parte 1
             {
                 title: 'Cree sus impuestos y retenciones - Parte 1',
