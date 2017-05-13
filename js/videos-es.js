@@ -14,7 +14,8 @@ var app = new Vue({
                 desc: 'Maneje los impuestos y retenciones acorde a las necesidades de su país.',
                 lang: "es",
                 id: "9V0MTOZLcdk",
-                next: "JAsQTbqEkik"
+                next: "JAsQTbqEkik",
+                img: 'sheet-img sheet-img-1'
             },
                 // video 3 parte 2
             {
@@ -22,7 +23,8 @@ var app = new Vue({
                 slug: "cree-sus-impuestos-y-retenciones-parte-2",
                 desc: 'Maneje los impuestos y retenciones acorde a las necesidades de su país.',
                 lang: "es",
-                id: "JAsQTbqEkik"
+                id: "JAsQTbqEkik",
+                img: 'sheet-img sheet-img-1'
             },
             //video 4
             {
@@ -30,7 +32,8 @@ var app = new Vue({
                 slug: "cree-notas-credito",
                 desc: 'Maneje adecuadamente los créditos dados a clientes y recibidos de proveedores.',
                 lang: "en",
-                id: "IuEDwIhuOEo"
+                id: "IuEDwIhuOEo",
+                img: 'sheet-img sheet-img-1'
             },
             //video 5
             {
@@ -38,7 +41,8 @@ var app = new Vue({
                 slug: "configure-los-vencimientos-terminos-de-sus-facturas",
                 desc: 'Ahora es posible configurar los días usados para calcular el vencimiento en las facturas.',
                 lang: "es",
-                id: "jeXeAUYDjjM"
+                id: "jeXeAUYDjjM",
+                img: 'sheet-img sheet-img-1'
             },
             //video 6
             {
@@ -46,7 +50,8 @@ var app = new Vue({
                 slug: "use-multiples-listas-de-precios",
                 desc: 'Maneje hasta cinco listas de precios y actualice fácilmente sus precios usando una plantilla de Excel.',
                 lang: "es",
-                id: "7tyD1wxNM8w"
+                id: "7tyD1wxNM8w",
+                img: 'sheet-img sheet-img-1'
             },
             //video 7
             {
@@ -54,7 +59,8 @@ var app = new Vue({
                 slug: "vea-su-reporte-de-ingresos-por-tipo-de-item",
                 desc: 'El reporte de ingresos por ítem está ahora agrupado por tipo de ítem.',
                 lang: "es",
-                id: "5rxufoEFYoc"
+                id: "5rxufoEFYoc",
+                img: 'sheet-img sheet-img-1'
             },
             //video 8
             {
@@ -62,7 +68,8 @@ var app = new Vue({
                 slug: "exporte-su-informacion-desde-el-resumen",
                 desc: 'Ahora es posible exportar datos desde el Resumen, dónde tenemos el Balance general y el Estado de resultados del mes en curso.',
                 lang: "es",
-                id: "as-SxZ1qaXE"
+                id: "as-SxZ1qaXE",
+                img: 'sheet-img sheet-img-1'
             },
             //video 9
             {
@@ -70,7 +77,8 @@ var app = new Vue({
                 slug: "cree-transacciones-de-ingresos-recurrentes",
                 desc: 'Las transacciones recurrentes ya no están limitadas a gastos. Usted puede ahora crear transacciones de ingresos recurrentes.',
                 lang: "es",
-                id: "Sc0mrIxfwQQ"
+                id: "Sc0mrIxfwQQ",
+                img: 'sheet-img sheet-img-1'
             },
             //video 10
             {
@@ -78,7 +86,8 @@ var app = new Vue({
                 slug: "determine-y-use-los-parametros-para-reposicion-de-inventario",
                 desc: 'Para determinar los parámetros de reposición de inventario debemos ingresar las cantidades mínimas y máximas que queremos tener para los ítems de inventario.',
                 lang: "es",
-                id: "LUOCE-x8ehM"
+                id: "LUOCE-x8ehM",
+                img: 'sheet-img sheet-img-1'
             },
             //video 11
             {
@@ -86,7 +95,8 @@ var app = new Vue({
                 slug: "use-multiples-prefijos-en-facturas-y-otros-documentos",
                 desc: 'Para usar múltiples prefijos y numeración en nuestras facturas necesitamos cambiar la configuración de la factura.',
                 lang: "es",
-                id: "XT7-2DQYnLI"
+                id: "XT7-2DQYnLI",
+                img: 'sheet-img sheet-img-1'
             },
             //video 12
             {
@@ -94,7 +104,8 @@ var app = new Vue({
                 slug: "ingrese-su-inventario-inicial",
                 desc: 'Para ingresar el inventario inicial necesitamos ir a controlar inventario y usar la acción agregar inventario.',
                 lang: "es",
-                id: "U6kRs9WOFGo"
+                id: "U6kRs9WOFGo",
+                img: 'sheet-img sheet-img-1'
             },
             //video 13
             {
@@ -102,7 +113,8 @@ var app = new Vue({
                 slug: "ingrese-sus-saldos-iniciales-de-efectivo",
                 desc: 'Para ingresar nuestros saldos de efectivo vamos a Controlar - Efectivo.',
                 lang: "es",
-                id: "72cQvGMHuPQ"
+                id: "72cQvGMHuPQ",
+                img: 'sheet-img sheet-img-1'
             },
             //video 14
             {
@@ -110,7 +122,8 @@ var app = new Vue({
                 slug: "ingrese-sus-saldos-iniciales-de-clientes-y-proveedores",
                 desc: 'Para ingresar todas aquellas cuentas que tenemos pendientes por cobrar y por pagar debemos hacerlo a través de una transacción.',
                 lang: "es",
-                id: "Vnp6ZdoR3BI"
+                id: "Vnp6ZdoR3BI",
+                img: 'sheet-img sheet-img-1'
             }
         ]
     } //fin data:

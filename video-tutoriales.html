@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,6 +21,7 @@
     <script type="text/javascript" src="../web/js/km.js"></script>
     <script type="text/javascript" src="js/drift-es.js"></script>
 </head>
+
 <body>
     <div class="container-fluid" id="app">
         <div class="row">
@@ -34,7 +36,7 @@
                     <h2>{{ video.title }}</h2>
                     <div>
                         <a :href="url+video.slug" :video-id="video.id">
-                            <div class="sheet-img sheet-img-1">
+                            <div :class=" video.img ">
                                 <span class="glyphicon glyphicon-play play-btn"></span>
                             </div>
                         </a>

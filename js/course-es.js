@@ -9,6 +9,15 @@ var app = new Vue({
 
         },
         dir: '../videos/',
+        //para implementar nuevo
+//        lessons: [
+//            titulo: "",
+//            videos: [
+//            {
+//                objetos, contenido;
+//            }
+//        ]
+//        ]
         videos_unos: [
                 //video 1.1
             {
