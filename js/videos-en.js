@@ -14,7 +14,7 @@ var app = new Vue({
                 desc: 'Manage up to five price lists and easily update prices using an Excel template.',
                 lang: 'en',
                 id: "IVGATE-wngQ",
-                img: 'sheet-img sheet-img-1'
+                img: 'sheet-img sheet-img'
             },
             //video 2
             {
@@ -23,7 +23,7 @@ var app = new Vue({
                 desc: 'It is now possible to configure the days used to calculate due dates in invoices.',
                 lang: "en",
                 id: "7c0z7d4deKs",
-                img: 'sheet-img sheet-img-1'
+                img: 'sheet-img sheet-img-2'
             },
             //video 3
             {
@@ -32,7 +32,7 @@ var app = new Vue({
                 desc: 'The income by item report is now grouped by item type.',
                 lang: "en",
                 id: "CWwwtMMq-Jk",
-                img: 'sheet-img sheet-img-1'
+                img: 'sheet-img sheet-img-3'
 
             },
             //video 4
@@ -42,7 +42,7 @@ var app = new Vue({
                 desc: 'It is now possible to export data from the Overview, where we have the Balance sheet and Income and expense    statement for the current month.',
                 lang: "en",
                 id: "aLjSLv3osT0",
-                img: 'sheet-img sheet-img-1'
+                img: 'sheet-img sheet-img-4'
             },
             //video 5
             {
@@ -51,7 +51,7 @@ var app = new Vue({
                 desc: 'Recurring transactions are no longer limited to expenses. You can now create recurring income transactions as well.',
                 lang: "en",
                 id: "NyjQTmsx3oI",
-                img: 'sheet-img sheet-img-1'
+                img: 'sheet-img sheet-img-5'
             },
             //video 6
             {
@@ -60,7 +60,7 @@ var app = new Vue({
                 desc: 'Recurring transactions are no longer limited to expenses. You can now create recurring income transactions as well.',
                 lang: "en",
                 id: "NyjQTmsx3oI",
-                img: 'sheet-img sheet-img-1'
+                img: 'sheet-img sheet-img-6'
             },
             //video 7
             {
@@ -69,7 +69,7 @@ var app = new Vue({
                 desc: 'To setup the parameters to restock inventory we need to enter the minimum and maximum quantities that we want to have for inventory items.',
                 lang: "en",
                 id: "FA3lPbPeFRA",
-                img: 'sheet-img sheet-img-1'
+                img: 'sheet-img sheet-img-6'
             },
             //video 8
             {
@@ -78,7 +78,7 @@ var app = new Vue({
                 desc: 'To use multiple prefixes and numbering on our invoices we need to change the invoice settings.',
                 lang: "en",
                 id: "slwxy2ZD3s4",
-                img: 'sheet-img sheet-img-1'
+                img: 'sheet-img sheet-img'
             },
             //video 9
             {
@@ -87,7 +87,7 @@ var app = new Vue({
                 desc: 'To enter the initial inventory we need to go to control inventory and use the add inventory action.',
                 lang: "en",
                 id: "kp2B3y9WKPQ",
-                img: 'sheet-img sheet-img-1'
+                img: 'sheet-img sheet-img-2'
             },
             //video 10
             {
@@ -96,7 +96,7 @@ var app = new Vue({
                 desc: 'To enter our cash balances we will control - cash.',
                 lang: "en",
                 id: "Ris-dlXSR7o",
-                img: 'sheet-img sheet-img-1'
+                img: 'sheet-img sheet-img-3'
             },
             //video 11
             {
@@ -105,7 +105,7 @@ var app = new Vue({
                 desc: 'To enter all those accounts that we have outstanding receivable and payable we must do it through a transaction.',
                 lang: "en",
                 id: "fSXDJSnE3FY",
-                img: 'sheet-img sheet-img-1'
+                img: 'sheet-img sheet-img-2'
             }
         ]
     } //fin data:
