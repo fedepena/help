@@ -51,29 +51,27 @@
 
             <!-- Video 1 inicio -->
             <div class="separaVideos" v-for="video_uno in videos_unos">
-                <div>
-                    <div class="row page">
-                        <div class="lesson col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                            <h2>{{ video_uno.titleheader }}</h2>
-                            <hr>
-                        </div>
-                    </div>
-                    <div class="row page">
-                        <div class="img-wrap col-xs-12 col-sm-4 col-md-12">
-                            <a :href="dir+video_uno.slug" :video-id="video_uno.id">
-                                <div class="sheet3img sheet-img play-img">
-                                    <span class="glyphicon glyphicon-play play-btn"></span>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-                            <h4>{{ video_uno.title }}</h4>
-                            <p>{{ video_uno.desc }}</p>
-                        </div>
+                <div class="row page">
+                    <div class="lesson col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <h2>{{ video_uno.titleheader }}</h2>
+                        <hr>
                     </div>
                 </div>
-                <!--  video 1.2 inicio  v-for="video_dos in videos_dos"-->
-                <div class="row page" v-for="video_dos in videos_dos" v-if="video_dos.comparador == video_uno.comparador">
+                <div class="row page">
+                    <div class="img-wrap col-xs-12 col-sm-4 col-md-12">
+                        <a :href="dir+video_uno.slug" :video-id="video_uno.id">
+                            <div class="sheet3img sheet-img play-img">
+                                <span class="glyphicon glyphicon-play play-btn"></span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+                        <h4>{{ video_uno.title }}</h4>
+                        <p>{{ video_uno.desc }}</p>
+                    </div>
+                </div>
+                <!--  video 1.2 inicio -->
+                <div class="row page" v-for="video_dos in videos_dos" v-if="video_uno.comparador === video_dos.comparador">
                     <div class="img-wrap col-xs-12 col-sm-4 col-md-12">
                         <a :href="dir+video_dos.slug" :video-id="video_dos.id">
                             <div class="sheet3img sheet-img play-img">
@@ -233,8 +231,8 @@
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
-
+    <script type="text/javascript" src="js/curso-es.js"></script>
 </body>
-<script type="text/javascript" src="js/curso-es.js"></script>
+
 
 </html>

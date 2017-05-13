@@ -10,7 +10,6 @@ var app = new Vue({
         },
         dir: '../videos/',
         videos_unos: [
-
                 //video 1.1
             {
                 titleheader: "Lección 1: Introducción",
