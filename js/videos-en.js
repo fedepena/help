@@ -14,7 +14,7 @@ var app = new Vue({
                 desc: 'Manage up to five price lists and easily update prices using an Excel template.',
                 lang: 'en',
                 id: "IVGATE-wngQ",
-                img: 'sheet-img sheet-img'
+                img: 'sheet-img sheet-img-1'
             },
             //video 2
             {
@@ -69,7 +69,7 @@ var app = new Vue({
                 desc: 'To setup the parameters to restock inventory we need to enter the minimum and maximum quantities that we want to have for inventory items.',
                 lang: "en",
                 id: "FA3lPbPeFRA",
-                img: 'sheet-img sheet-img-6'
+                img: 'sheet-img sheet-img-1'
             },
             //video 8
             {
@@ -78,7 +78,7 @@ var app = new Vue({
                 desc: 'To use multiple prefixes and numbering on our invoices we need to change the invoice settings.',
                 lang: "en",
                 id: "slwxy2ZD3s4",
-                img: 'sheet-img sheet-img'
+                img: 'sheet-img sheet-img-2'
             },
             //video 9
             {
@@ -87,7 +87,7 @@ var app = new Vue({
                 desc: 'To enter the initial inventory we need to go to control inventory and use the add inventory action.',
                 lang: "en",
                 id: "kp2B3y9WKPQ",
-                img: 'sheet-img sheet-img-2'
+                img: 'sheet-img sheet-img-3'
             },
             //video 10
             {
