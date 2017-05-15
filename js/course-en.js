@@ -19,6 +19,7 @@ var app = new Vue({
                 lang: 'en',
                 id: "3oXh3B7fjE8",
                 next: "Dq-WLR00uNg",
+                img: "sheet3img sheet-img play-img",
                 comparador: 1
             },
             {
@@ -28,6 +29,7 @@ var app = new Vue({
                 desc: 'Create and customize your invoices with your companys logo, print them, or email them directly to your customers.',
                 lang: "en",
                 id: "4nTPEaEAx_Q",
+                img: "play-img play-img-2",
                 comparador: 2
             },
             {
@@ -37,6 +39,7 @@ var app = new Vue({
                 desc: 'Keep your sales and collection data up to date to make sure customers are paying you when and how they should.',
                 lang: "en",
                 id: "U6PN3F5q-C0",
+                img: "play-img play-img-3",
                 comparador: 3
             },
             {
@@ -46,6 +49,7 @@ var app = new Vue({
                 desc: 'Make sure everything (that should) has been accounted by keeping your cash accounts up to date and reconciled.',
                 lang: "en",
                 id: "YI5jDEjOq8A",
+                img: "play-img play-img-4",
                 comparador: 4
             },
             {
@@ -55,6 +59,7 @@ var app = new Vue({
                 desc: 'Stay ahead of the game and avoid nasty surprises by entering pending collections and payments, as well as recurring expenses.',
                 lang: "en",
                 id: "dziMNOGtabA",
+                img: "play-img play-img-5",
                 comparador: 5
             },
             {
@@ -64,6 +69,7 @@ var app = new Vue({
                 desc: 'Maintain system and real quantities synced, know when to reorder, and see how your products are contributing (or not) to your bottom line.',
                 lang: "en",
                 id: "bTJ4-rnkzqk",
+                img: "play-img play-img-6",
                 comparador: 6
             }
         ],
@@ -75,6 +81,7 @@ var app = new Vue({
                 desc: 'We are ready to start: Let’s review how to enter different type of transactions and their impact on the different sections of the application',
                 lang: "en",
                 id: "Dq-WLR00uNg",
+                img: "sheet3img sheet-img play-img",
                 comparador: 1
             }
         ]
