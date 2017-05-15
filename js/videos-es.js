@@ -15,7 +15,7 @@ var app = new Vue({
                 lang: "es",
                 id: "9V0MTOZLcdk",
                 next: "JAsQTbqEkik",
-                img: 'sheet-img sheet-img-3'
+                img: 'sheet-img sheet-img-1'
             },
                 // video 3 parte 2
             {
@@ -24,7 +24,7 @@ var app = new Vue({
                 desc: 'Maneje los impuestos y retenciones acorde a las necesidades de su país.',
                 lang: "es",
                 id: "JAsQTbqEkik",
-                img: 'sheet-img sheet-img-1'
+                img: 'sheet-img sheet-img-2'
             },
             //video 4
             {
@@ -33,7 +33,7 @@ var app = new Vue({
                 desc: 'Maneje adecuadamente los créditos dados a clientes y recibidos de proveedores.',
                 lang: "en",
                 id: "IuEDwIhuOEo",
-                img: 'sheet-img sheet-img-4'
+                img: 'sheet-img sheet-img-3'
             },
             //video 5
             {
@@ -42,7 +42,7 @@ var app = new Vue({
                 desc: 'Ahora es posible configurar los días usados para calcular el vencimiento en las facturas.',
                 lang: "es",
                 id: "jeXeAUYDjjM",
-                img: 'sheet-img sheet-img-5'
+                img: 'sheet-img sheet-img-4'
             },
             //video 6
             {
@@ -51,7 +51,7 @@ var app = new Vue({
                 desc: 'Maneje hasta cinco listas de precios y actualice fácilmente sus precios usando una plantilla de Excel.',
                 lang: "es",
                 id: "7tyD1wxNM8w",
-                img: 'sheet-img sheet-img-6'
+                img: 'sheet-img sheet-img-5'
             },
             //video 7
             {
@@ -60,7 +60,7 @@ var app = new Vue({
                 desc: 'El reporte de ingresos por ítem está ahora agrupado por tipo de ítem.',
                 lang: "es",
                 id: "5rxufoEFYoc",
-                img: 'sheet-img sheet-img-1'
+                img: 'sheet-img sheet-img-6'
             },
             //video 8
             {
@@ -69,7 +69,7 @@ var app = new Vue({
                 desc: 'Ahora es posible exportar datos desde el Resumen, dónde tenemos el Balance general y el Estado de resultados del mes en curso.',
                 lang: "es",
                 id: "as-SxZ1qaXE",
-                img: 'sheet-img sheet-img-2'
+                img: 'sheet-img sheet-img-1'
             },
             //video 9
             {
@@ -78,7 +78,7 @@ var app = new Vue({
                 desc: 'Las transacciones recurrentes ya no están limitadas a gastos. Usted puede ahora crear transacciones de ingresos recurrentes.',
                 lang: "es",
                 id: "Sc0mrIxfwQQ",
-                img: 'sheet-img sheet-img-3'
+                img: 'sheet-img sheet-img-2'
             },
             //video 10
             {
@@ -87,7 +87,7 @@ var app = new Vue({
                 desc: 'Para determinar los parámetros de reposición de inventario debemos ingresar las cantidades mínimas y máximas que queremos tener para los ítems de inventario.',
                 lang: "es",
                 id: "LUOCE-x8ehM",
-                img: 'sheet-img sheet-img-4'
+                img: 'sheet-img sheet-img-3'
             },
             //video 11
             {
