@@ -10,18 +10,9 @@ var app = new Vue({
         },
         dir: '../videos/',
         lessons: {
-            titles: [
-                {
-                    title: 'Lesson 1: Introduction',
-                    title: 'Lesson 2: Invoicing',
-                    title: 'Lesson 3: Accounts receivable',
-                    title: 'Lesson 4: Cash control',
-                    title: 'Lesson 5: Cash flow management ',
-                    title: 'Lesson 6: Inventory control',
-                 }
-            ], //videos n.1
             videos_unos: [
                 {
+                    lesson_title: 'Lesson 1: Introduction',
                     slug: 'how-and-where-to-start-part-1',
                     title: 'How and Where to Start - Part 1',
                     desc: 'First things first: Before we start entering transactions, we must enter the initial balances for receivables, payables, inventory and cash (including credits)',
@@ -30,8 +21,9 @@ var app = new Vue({
                     next: "Dq-WLR00uNg",
                     img: "sheet3img sheet-img play-img",
                     comparador: 1
-            },
+                },
                 {
+                    lesson_title: 'Lesson 2: Invoicing',
                     slug: "invoice-your-customers-in-a-simple-and-elegant-way",
                     title: 'Invoice your customers in a simple and elegant way',
                     desc: 'Create and customize your invoices with your companys logo, print them, or email them directly to your customers.',
@@ -39,8 +31,9 @@ var app = new Vue({
                     id: "4nTPEaEAx_Q",
                     img: "play-img play-img-2",
                     comparador: 2
-            },
+                },
                 {
+                    lesson_title: 'Lesson 3: Accounts receivable',
                     slug: "get-paid-on-time",
                     title: 'Get paid on time',
                     desc: 'Keep your sales and collection data up to date to make sure customers are paying you when and how they should.',
@@ -48,8 +41,9 @@ var app = new Vue({
                     id: "U6PN3F5q-C0",
                     img: "play-img play-img-3",
                     comparador: 3
-            },
+                },
                 {
+                    lesson_title: 'Lesson 4: Cash control',
                     slug: "control-your-cash",
                     title: 'Control your cash',
                     desc: 'Make sure everything (that should) has been accounted by keeping your cash accounts up to date and reconciled.',
@@ -57,8 +51,9 @@ var app = new Vue({
                     id: "YI5jDEjOq8A",
                     img: "play-img play-img-4",
                     comparador: 4
-            },
+                },
                 {
+                    lesson_title: 'Lesson 5: Cash flow management ',
                     slug: "manage-your-cash-flow",
                     title: 'Manage your cash flow',
                     desc: 'Stay ahead of the game and avoid nasty surprises by entering pending collections and payments, as well as recurring expenses.',
@@ -66,8 +61,9 @@ var app = new Vue({
                     id: "dziMNOGtabA",
                     img: "play-img play-img-5",
                     comparador: 5
-            },
+                },
                 {
+                    lesson_title: 'Lesson 6: Inventory control',
                     slug: "control-your-inventory",
                     title: 'Control your inventory',
                     desc: 'Maintain system and real quantities synced, know when to reorder, and see how your products are contributing (or not) to your bottom line.',
@@ -75,7 +71,7 @@ var app = new Vue({
                     id: "bTJ4-rnkzqk",
                     img: "play-img play-img-6",
                     comparador: 6
-            },
+                },
             ],
             videos_dos: [
                 //videos n.2
@@ -88,8 +84,9 @@ var app = new Vue({
                     img: "sheet3img sheet-img play-img",
                     comparador: 1
                 }
-            ],
-        },
+            ]
+        } //videos n.1
+
     }
-}
+
 });

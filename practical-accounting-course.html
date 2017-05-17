@@ -50,38 +50,38 @@
             </div>
 
             <!-- Video 1.1 inicio -->
-            <div class="separaVideos" v-for="video_uno in videos_unos">
+            <div class="separaVideos" v-for="videouno in lessons.videos_unos">
                 <div class="row page">
                     <div class="lesson col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <h2>{{ video_uno.titleheader }}</h2>
+                        <h2>{{ videouno.lesson_title }}</h2>
                         <hr>
                     </div>
                 </div>
                 <div class="row page">
                     <div class="img-wrap col-xs-12 col-sm-4 col-md-12">
-                        <a v-bind:href="dir+video_uno.slug" v-bind:video-id="video_uno.id">
-                            <div :class="video_uno.img">
+                        <a v-bind:href="dir+videouno.slug" v-bind:video-id="videouno.id">
+                            <div :class="videouno.img">
                                 <span class="glyphicon glyphicon-play play-btn"></span>
                             </div>
                         </a>
                     </div>
                     <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-                        <h4>{{ video_uno.title }}</h4>
-                        <p>{{ video_uno.desc }}</p>
+                        <h4>{{ videouno.title }}</h4>
+                        <p>{{ videouno.desc }}</p>
                     </div>
                 </div>
                 <!-- video 1.2 inicio -->
-                <div class="row page" v-for="video_dos of videos_dos" v-if="video_uno.comparador === video_dos.comparador">
+                <div class="row page" v-for="videodos of lessons.videos_dos" v-if="videouno.comparador === videodos.comparador">
                     <div class="img-wrap col-xs-12 col-sm-4 col-md-12">
-                        <a v-bind:href="dir+video_dos.slug" v-bind:video-id="video_dos.id">
-                            <div :class="video_dos.img">
+                        <a v-bind:href="dir+videodos.slug" v-bind:video-id="videodos.id">
+                            <div :class="videodos.img">
                                 <span class="glyphicon glyphicon-play play-btn"></span>
                             </div>
                         </a>
                     </div>
                     <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-                        <h4>{{ video_dos.title }}</h4>
-                        <p>{{ video_dos.desc }}</p>
+                        <h4>{{ videodos.title }}</h4>
+                        <p>{{ videodos.desc }}</p>
                     </div>
                 </div>
                 <!--  video 1.2 fin -->
