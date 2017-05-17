@@ -10,6 +10,7 @@ var app = new Vue({
         },
         dir: '../videos/',
         lessons: {
+            //videos n.1
             videos_unos: [
                 {
                     lesson_title: 'Lesson 1: Introduction',
@@ -85,7 +86,7 @@ var app = new Vue({
                     comparador: 1
                 }
             ]
-        } //videos n.1
+        }
 
     }
 
