@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,18 +16,8 @@
     <link href="css/course.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Cabin:600|Quattrocento+Sans' rel='stylesheet' type='text/css'>
     <script type="text/javascript" src="js/drift-en.js"></script>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
 </head>
-
 <body>
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
     <header>
         <div class="container-fluid" id="app">
             <div class="separaHead">
@@ -48,7 +37,6 @@
                     <p class="p1"> {{ header.description }} </p>
                 </div>
             </div>
-
             <!-- Video 1 inicio -->
             <div class="separaVideos" v-for="video_uno in videos_unos">
                 <div class="row page">
@@ -84,146 +72,7 @@
                         <p>{{ video_dos.desc }}</p>
                     </div>
                 </div>
-                <!--  video 1.2 fin -->
             </div>
-            <!-- Video 1 fin -->
-
-            <!-- Video 2 inicio -->
-            <!--
-            <div class="separaVideos">
-                <div class="row page">
-                    <div class="lesson col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <h2>{{ invoicing.title }}</h2>
-                        <hr>
-                    </div>
-                </div>
-                <div class="row page">
-                    <div class="img-wrap col-xs-12 col-sm-4 col-md-12">
-                        <a :href="dir+invoicing.video_1.slug" :video-id="invoicing.video_1.id">
-                            <div class="play-img play-img-2 ">
-                                <span class="glyphicon glyphicon-play play-btn"></span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-                        <h4>{{ invoicing.video_1.title }}</h4>
-                        <p>{{ invoicing.video_1.desc }}</p>
-                    </div>
-                </div>
-
-            </div>
--->
-            <!-- Video 2 fin -->
-
-
-            <!-- Video 3 inicio -->
-            <!--
-            <div class="separaVideos">
-                <div class="row page">
-                    <div class="lesson col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <h2>{{ accounts.title }}</h2>
-                        <hr>
-                    </div>
-                </div>
-                <div class="row page">
-                    <div class="img-wrap col-xs-12 col-sm-4 col-md-12">
-                        <a :href="dir+accounts.video_1.slug" :video-id="accounts.video_1.id">
-                            <div class="play-img play-img-3">
-                                <span class="glyphicon glyphicon-play play-btn"></span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-                        <h4>{{ accounts.video_1.title }}</h4>
-                        <p>{{ accounts.video_1.desc }}</p>
-                    </div>
-                </div>
-
-            </div>
--->
-            <!-- Video 3 fin -->
-
-            <!-- Video 4 inicio -->
-            <!--
-            <div class="separaVideos">
-                <div class="row page">
-                    <div class="lesson col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <h2>{{ cashcontrol.title }}</h2>
-                        <hr>
-                    </div>
-                </div>
-                <div class="row page">
-                    <div class="img-wrap col-xs-12 col-sm-4 col-md-12">
-                        <a :href="dir+cashcontrol.video_1.slug" :video-id="cashcontrol.video_1.id">
-                            <div class="play-img play-img-4">
-                                <span class="glyphicon glyphicon-play play-btn"></span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-                        <h4>{{ cashcontrol.video_1.title }}</h4>
-                        <p>{{ cashcontrol.video_1.desc }}</p>
-                    </div>
-                </div>
-
-            </div>
--->
-            <!-- Video 4 fin -->
-
-            <!-- Video 5 inicio -->
-            <!--
-            <div class="separaVideos">
-                <div class="row page">
-                    <div class="lesson col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <h2>{{ cashflow.title }}</h2>
-                        <hr>
-                    </div>
-                </div>
-                <div class="row page">
-                    <div class="img-wrap col-xs-12 col-sm-4 col-md-12">
-                        <a :href="dir+cashflow.video_1.slug" :video-id="cashflow.video_1.id">
-                            <div class="play-img play-img-5">
-                                <span class="glyphicon glyphicon-play play-btn"></span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-                        <h4>{{ cashflow.video_1.title }}</h4>
-                        <p>{{ cashflow.video_1.desc }}</p>
-                    </div>
-                </div>
-
-            </div>
--->
-            <!-- Video 5 fin -->
-
-
-            <!-- Video 6 inicio -->
-            <!--
-            <div class="separaVideos">
-                <div class="row page">
-                    <div class="lesson col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <h2>{{ inventory.title }}</h2>
-                        <hr>
-                    </div>
-                </div>
-                <div class="row page">
-                    <div class="img-wrap col-xs-12 col-sm-4 col-md-12">
-                        <a :href="dir+inventory.video_1.slug" :video-id="inventory.video_1.id">
-                            <div class="play-img play-img-6">
-                                <span class="glyphicon glyphicon-play play-btn"></span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-                        <h4>{{ inventory.video_1.title }}</h4>
-                        <p>{{ inventory.video_1.desc }}</p>
-                    </div>
-                </div>
-
-            </div>
--->
-            <!-- Video 6 fin -->
         </div>
 
     </header>
@@ -234,6 +83,4 @@
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
     <script type="text/javascript" src="js/course-en.js"></script>
 </body>
-
-
 </html>
