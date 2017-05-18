@@ -10,21 +10,35 @@ var app = new Vue({
         },
         dir: '../videos/',
         lessons: {
-            //videos n.1
-            videos_unos: [
+
+            title: 'Lección 1: Introducción',
+            [{
+                videos: [
+                    { //video 1.1
+                        slug: 'como-y-donde-arrancar-parte-1',
+                        title: 'Cómo y Dónde Arrancar - Parte 1',
+                        desc: 'Primero lo primero: Antes de comenzar a ingresar transacciones debemos ingresar los saldos iniciales de cuentas por cobrar, cuentas por pagar, inventario y efectivo (incluyendo créditos)',
+                        lang: "es",
+                        id: "61xx5xK9hTM",
+                        next: "v5qQ8-xtFEw",
+                        img: "sheet3img sheet-img play-img",
+                        comparador: 1
+                    },
+                    { //video 1.2
+                        slug: "como-y-donde-arrancar-parte-2",
+                        title: 'Cómo y Dónde Arrancar - Parte 2',
+                        desc: 'Estamos listos para comenzar: Revisemos cómo ingresar diferentes tipos de transacciones y el impacto de las mismas en las diferentes secciones de la aplicación',
+                        lang: "es",
+                        id: "v5qQ8-xtFEw",
+                        img: "sheet3img sheet-img play-img",
+                        comparador: 1
+                    }
+                        ]
+            }],
+
+            title: 'Lección 2: Facturación',
+            videos: [
                 {
-                    lesson_title: "Lección 1: Introducción",
-                    slug: 'como-y-donde-arrancar-parte-1',
-                    title: 'Cómo y Dónde Arrancar - Parte 1',
-                    desc: 'Primero lo primero: Antes de comenzar a ingresar transacciones debemos ingresar los saldos iniciales de cuentas por cobrar, cuentas por pagar, inventario y efectivo (incluyendo créditos)',
-                    lang: "es",
-                    id: "61xx5xK9hTM",
-                    next: "v5qQ8-xtFEw",
-                    img: "sheet3img sheet-img play-img",
-                    comparador: 1
-            },
-                {
-                    lesson_title: 'Lección 2: Facturación',
                     slug: "facturele-a-sus-clientes-en-forma-simple-y-elegante",
                     title: "Factúrele a sus clientes en forma simple y elegante",
                     desc: 'Cree y personalice sus facturas con el logo de su compañía, imprímales o envíelas directamente por email a sus clientes.',
@@ -32,9 +46,11 @@ var app = new Vue({
                     id: "bN-rDaysBaY",
                     img: "play-img play-img-2",
                     comparador: 2
-            },
+                }
+            ],
+            title: 'Lección 3: Haga sus cobros a tiempo',
+            videos: [
                 {
-                    lesson_title: 'Lección 3: Haga sus cobros a tiempo',
                     slug: "haga-sus-cobros-a-tiempo",
                     title: "Haga sus cobros a tiempo",
                     desc: 'Mantenga sus cuentas por cobrar al día para asegurarse que sus clientes le están pagando según lo acordado.',
@@ -42,7 +58,10 @@ var app = new Vue({
                     id: "K8rIA7hA2Uk",
                     img: "play-img play-img-3",
                     comparador: 3
-            },
+                }
+            ],
+            title: 'Lección 4: Controle su efectivo',
+            videos: [
                 {
                     lesson_title: 'Lección 4: Controle su efectivo',
                     slug: "controle-su-efectivo",
@@ -52,7 +71,10 @@ var app = new Vue({
                     id: "FVv_pc9AcsU",
                     img: "play-img play-img-4",
                     comparador: 4
-            },
+                }
+            ],
+            title: 'Lección 5: Maneje su flujo de caja',
+            videos: [
                 {
                     lesson_title: 'Lección 5: Maneje su flujo de caja',
                     slug: "maneje-su-flujo-de-caja",
@@ -62,7 +84,10 @@ var app = new Vue({
                     id: "-z_zb0t9BlE",
                     img: "play-img play-img-5",
                     comparador: 5
-            },
+                }
+            ],
+            title: 'Lección 6: Controle su inventario',
+            videos: [
                 {
                     lesson_title: 'Lección 6: Controle su inventario',
                     slug: "controle-su-inventario",
@@ -72,18 +97,6 @@ var app = new Vue({
                     id: "mWFxihAbFZ8",
                     img: "play-img play-img-6",
                     comparador: 6
-            }
-        ],
-            videos_dos: [
-                //video n.2
-                {
-                    slug: "como-y-donde-arrancar-parte-2",
-                    title: 'Cómo y Dónde Arrancar - Parte 2',
-                    desc: 'Estamos listos para comenzar: Revisemos cómo ingresar diferentes tipos de transacciones y el impacto de las mismas en las diferentes secciones de la aplicación',
-                    lang: "es",
-                    id: "v5qQ8-xtFEw",
-                    img: "sheet3img sheet-img play-img",
-                    comparador: 1
                 }
             ]
         }
