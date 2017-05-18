@@ -9,10 +9,9 @@ var app = new Vue({
 
         },
         dir: '../videos/',
-        lessons: {
-
-            title: 'Lección 1: Introducción',
-            [{
+        lessons: [
+            {
+                title: 'Lección 1: Introducción',
                 videos: [
                     { //video 1.1
                         slug: 'como-y-donde-arrancar-parte-1',
@@ -34,71 +33,80 @@ var app = new Vue({
                         comparador: 1
                     }
                         ]
-            }],
-
-            title: 'Lección 2: Facturación',
-            videos: [
-                {
-                    slug: "facturele-a-sus-clientes-en-forma-simple-y-elegante",
-                    title: "Factúrele a sus clientes en forma simple y elegante",
-                    desc: 'Cree y personalice sus facturas con el logo de su compañía, imprímales o envíelas directamente por email a sus clientes.',
-                    lang: "es",
-                    id: "bN-rDaysBaY",
-                    img: "play-img play-img-2",
-                    comparador: 2
-                }
-            ],
-            title: 'Lección 3: Haga sus cobros a tiempo',
-            videos: [
-                {
-                    slug: "haga-sus-cobros-a-tiempo",
-                    title: "Haga sus cobros a tiempo",
-                    desc: 'Mantenga sus cuentas por cobrar al día para asegurarse que sus clientes le están pagando según lo acordado.',
-                    lang: "es",
-                    id: "K8rIA7hA2Uk",
-                    img: "play-img play-img-3",
-                    comparador: 3
-                }
-            ],
-            title: 'Lección 4: Controle su efectivo',
-            videos: [
-                {
-                    lesson_title: 'Lección 4: Controle su efectivo',
-                    slug: "controle-su-efectivo",
-                    title: "Controle su efectivo",
-                    desc: 'Asegúrese que todo (lo que debería) ha sido contabilizado manteniendo sus cuentas de efectivo actualizadas y reconciliadas.',
-                    lang: "es",
-                    id: "FVv_pc9AcsU",
-                    img: "play-img play-img-4",
-                    comparador: 4
-                }
-            ],
-            title: 'Lección 5: Maneje su flujo de caja',
-            videos: [
-                {
-                    lesson_title: 'Lección 5: Maneje su flujo de caja',
-                    slug: "maneje-su-flujo-de-caja",
-                    title: "Maneje su flujo de caja",
-                    desc: "Manténgase “en la jugada” y evite sorpresas desagradables registrando cobros y pagos pendientes, así como gastos recurrentes.",
-                    lang: "es",
-                    id: "-z_zb0t9BlE",
-                    img: "play-img play-img-5",
-                    comparador: 5
-                }
-            ],
-            title: 'Lección 6: Controle su inventario',
-            videos: [
-                {
-                    lesson_title: 'Lección 6: Controle su inventario',
-                    slug: "controle-su-inventario",
-                    title: "Controle su inventario",
-                    desc: "Mantenga las unidades físicas sincronizadas con las del sistema, sepa cuándo ordenar sus productos y vea cómo estos contribuyen (o no) a su ganancia.",
-                    lang: "es",
-                    id: "mWFxihAbFZ8",
-                    img: "play-img play-img-6",
-                    comparador: 6
-                }
-            ]
-        }
+            },
+            {
+                title: 'Lección 2: Facturación',
+                videos: [
+                    {
+                        slug: "facturele-a-sus-clientes-en-forma-simple-y-elegante",
+                        title: "Factúrele a sus clientes en forma simple y elegante",
+                        desc: 'Cree y personalice sus facturas con el logo de su compañía, imprímales o envíelas directamente por email a sus clientes.',
+                        lang: "es",
+                        id: "bN-rDaysBaY",
+                        img: "play-img play-img-2",
+                        comparador: 2
+                    }
+                        ]
+            },
+            {
+                title: 'Lección 3: Haga sus cobros a tiempo',
+                videos: [
+                    {
+                        slug: "haga-sus-cobros-a-tiempo",
+                        title: "Haga sus cobros a tiempo",
+                        desc: 'Mantenga sus cuentas por cobrar al día para asegurarse que sus clientes le están pagando según lo acordado.',
+                        lang: "es",
+                        id: "K8rIA7hA2Uk",
+                        img: "play-img play-img-3",
+                        comparador: 3
+                    }
+                        ]
+            },
+            {
+                title: 'Lección 4: Controle su efectivo',
+                videos: [
+                    {
+                        lesson_title: 'Lección 4: Controle su efectivo',
+                        slug: "controle-su-efectivo",
+                        title: "Controle su efectivo",
+                        desc: 'Asegúrese que todo (lo que debería) ha sido contabilizado manteniendo sus cuentas de efectivo actualizadas y reconciliadas.',
+                        lang: "es",
+                        id: "FVv_pc9AcsU",
+                        img: "play-img play-img-4",
+                        comparador: 4
+                    }
+                        ]
+            },
+            {
+                title: 'Lección 5: Maneje su flujo de caja',
+                videos: [
+                    {
+                        lesson_title: 'Lección 5: Maneje su flujo de caja',
+                        slug: "maneje-su-flujo-de-caja",
+                        title: "Maneje su flujo de caja",
+                        desc: "Manténgase “en la jugada” y evite sorpresas desagradables registrando cobros y pagos pendientes, así como gastos recurrentes.",
+                        lang: "es",
+                        id: "-z_zb0t9BlE",
+                        img: "play-img play-img-5",
+                        comparador: 5
+                    }
+                        ]
+            },
+            {
+                title: 'Lección 6: Controle su inventario',
+                videos: [
+                    {
+                        lesson_title: 'Lección 6: Controle su inventario',
+                        slug: "controle-su-inventario",
+                        title: "Controle su inventario",
+                        desc: "Mantenga las unidades físicas sincronizadas con las del sistema, sepa cuándo ordenar sus productos y vea cómo estos contribuyen (o no) a su ganancia.",
+                        lang: "es",
+                        id: "mWFxihAbFZ8",
+                        img: "play-img play-img-6",
+                        comparador: 6
+                    }
+                        ]
+            }
+                ]
     }
 });
