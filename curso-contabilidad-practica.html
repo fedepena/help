@@ -102,3 +102,87 @@
 
 
 </html>
+
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="El objetivo de este curso es ayudarlo a arrancar y que myAbakus sea un éxito para su negocio. Todo lo que necesita son sus facturas abiertas, sus saldos de efectivo y bancos y su inventario actual, si tiene uno. Comience con esto y luego ingrese sus movimientos diarios de efectivo y productos, asegurándose que la información coincida con la realidad. Continúe haciéndolo por varios días y muy pronto descubrirá lo que myAbakus puede hacer por su negocio.">
+        <link rel="shortcut icon" href="../web/images/favicon.png">
+        <meta name="author" content="">
+        <title>Curso de Arranque: Contabilidad Práctica para No Contadores con myAbakus</title>
+        <!-- Vue.js -->
+        <script type="text/javascript" src="https://unpkg.com/vue@2.2.6"></script>
+        <!-- Bootstrap core CSS -->
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="css/course.css" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Cabin:600|Quattrocento+Sans' rel='stylesheet' type='text/css'>
+        <script type="text/javascript" src="js/drift-en.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="container-fluid" id="app">
+                <div class="separaHead">
+                    <div class="row page3  header-1 text-center">
+                        <div class="col-xs-12 col-xs-offset-0 col-sm-5 col-sm-offset-0 col-md-5 col-md-offset-0 col-lg-5 col-lg-offset-0" id="header-1">
+                            <a :href="header.dir">
+                                <img src="images/logo.svg" class="brand-img">
+                            </a>
+                        </div>
+                        <div class="main-title col-xs-12 col-xs-offset-0 col-sm-7 col-sm-offset-0 col-md-7 col-md-offset-0 col-lg-7 col-lg-offset-0">
+                            <h1>{{ header.title }}</h1>
+                        </div>
+                    </div>
+                    <div class="page3">
+                        <h3 class="h3 text-center">{{ header.subtitle }}</h3>
+                        <p class="p1"> {{ header.description }} </p>
+                    </div>
+                </div>
+                <!-- Video 1 inicio -->
+                <div class="separaVideos" v-for="video_uno in videos_unos">
+                    <div class="row page">
+                        <div class="lesson col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <h2>{{ video_uno.titleheader }}</h2>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="row page">
+                        <div class="img-wrap col-xs-12 col-sm-4 col-md-12">
+                            <a :href="dir+video_uno.slug" :video-id="video_uno.id">
+                                <div class="sheet3img sheet-img play-img">
+                                    <span class="glyphicon glyphicon-play play-btn"></span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+                            <h4>{{ video_uno.title }}</h4>
+                            <p>{{ video_uno.desc }}</p>
+                        </div>
+                    </div>
+                    <!--  video 1.2 inicio -->
+                    <div class="row page" v-for="video_dos in videos_dos" v-if="video_uno.comparador === video_dos.comparador">
+                        <div class="img-wrap col-xs-12 col-sm-4 col-md-12">
+                            <a :href="dir+video_dos.slug" :video-id="video_dos.id">
+                                <div class="sheet3img sheet-img play-img">
+                                    <span class="glyphicon glyphicon-play play-btn"></span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+                            <h4>{{ video_dos.title }}</h4>
+                            <p>{{ video_dos.desc }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+        <script type="text/javascript" src="js/course-es.js"></script>
+    </body>
+</html>
+

@@ -18,7 +18,6 @@
 }();
 drift.SNIPPET_VERSION = '0.3.1';
 drift.config({
-    locale: "es",
-    inboxId: "20659"
+    locale: "es"
 });
 drift.load('33c7h6tzniik');
