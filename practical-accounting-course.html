@@ -49,46 +49,30 @@
                 </div>
             </div>
 
-            <!-- Video 1.1 inicio -->
-            <div class="separaVideos" v-for="videouno in lessons.videos_unos">
+            <!-- Videos  inicio -->
+            <div class="separaVideos" v-for="lesson in lessons">
                 <div class="row page">
                     <div class="lesson col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <h2>{{ videouno.lesson_title }}</h2>
+                        <h2>{{ lesson.title }}</h2>
                         <hr>
                     </div>
                 </div>
-                <div class="row page">
+                <div class="row page" v-for="video in lesson.videos">
                     <div class="img-wrap col-xs-12 col-sm-4 col-md-12">
-                        <a v-bind:href="dir+videouno.slug" v-bind:video-id="videouno.id">
-                            <div :class="videouno.img">
+                        <a v-bind:href="dir+video.slug" v-bind:video-id="video.id">
+                            <div :class="video.img">
                                 <span class="glyphicon glyphicon-play play-btn"></span>
                             </div>
                         </a>
                     </div>
                     <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-                        <h4>{{ videouno.title }}</h4>
-                        <p>{{ videouno.desc }}</p>
+                        <h4>{{ video.title }}</h4>
+                        <p>{{ video.desc }}</p>
                     </div>
                 </div>
-                <!-- video 1.2 inicio -->
-                <div class="row page" v-for="videodos of lessons.videos_dos" v-if="videouno.comparador === videodos.comparador">
-                    <div class="img-wrap col-xs-12 col-sm-4 col-md-12">
-                        <a v-bind:href="dir+videodos.slug" v-bind:video-id="videodos.id">
-                            <div :class="videodos.img">
-                                <span class="glyphicon glyphicon-play play-btn"></span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-                        <h4>{{ videodos.title }}</h4>
-                        <p>{{ videodos.desc }}</p>
-                    </div>
-                </div>
-                <!--  video 1.2 fin -->
             </div>
-            <!-- Video 1.1 fin -->
+            <!-- Videos fin -->
         </div>
-
     </header>
 
     <script src="assets/js/jquery.min.js"></script>
@@ -97,4 +81,5 @@
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
     <script type="text/javascript" src="js/course-en.js"></script>
 </body>
+
 </html>

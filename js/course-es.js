@@ -62,7 +62,6 @@ var app = new Vue({
                 title: 'Lección 4: Controle su efectivo',
                 videos: [
                     {
-                        lesson_title: 'Lección 4: Controle su efectivo',
                         slug: "controle-su-efectivo",
                         title: "Controle su efectivo",
                         desc: 'Asegúrese que todo (lo que debería) ha sido contabilizado manteniendo sus cuentas de efectivo actualizadas y reconciliadas.',
@@ -76,7 +75,6 @@ var app = new Vue({
                 title: 'Lección 5: Maneje su flujo de caja',
                 videos: [
                     {
-                        lesson_title: 'Lección 5: Maneje su flujo de caja',
                         slug: "maneje-su-flujo-de-caja",
                         title: "Maneje su flujo de caja",
                         desc: "Manténgase “en la jugada” y evite sorpresas desagradables registrando cobros y pagos pendientes, así como gastos recurrentes.",
@@ -90,7 +88,6 @@ var app = new Vue({
                 title: 'Lección 6: Controle su inventario',
                 videos: [
                     {
-                        lesson_title: 'Lección 6: Controle su inventario',
                         slug: "controle-su-inventario",
                         title: "Controle su inventario",
                         desc: "Mantenga las unidades físicas sincronizadas con las del sistema, sepa cuándo ordenar sus productos y vea cómo estos contribuyen (o no) a su ganancia.",
