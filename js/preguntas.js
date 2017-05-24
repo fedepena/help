@@ -4,6 +4,7 @@ var app = new Vue({
         header: "Preguntas Frecuentes",
         questions: [
             {
+                id: 'que',
                 title: '¿Qué tipo de software es myAbakus?',
                 answers: [
                     {
@@ -13,6 +14,8 @@ var app = new Vue({
                     ]
         },
             {
+                id: '',
+                class: '',
                 title: '¿Es myAbakus un software de contabilidad tradicional?',
                 answers: [
                     {
@@ -27,6 +30,8 @@ var app = new Vue({
                     ]
             },
             {
+                id: 'por-que',
+                class: '',
                 title: '¿Por qué usar myAbakus? ¿Para quién es?',
                 answers: [
                     {
@@ -43,6 +48,8 @@ var app = new Vue({
                         ]
             },
             {
+                id: 'prueba',
+                class: '',
                 title: '¿Cómo funciona el periodo de prueba?',
                 answers: [
                     {
@@ -54,6 +61,8 @@ var app = new Vue({
                     ]
             },
             {
+                id: 'costo',
+                class: '',
                 title: '¿Cuánto va a costar?',
                 answers: [
                     {
@@ -69,6 +78,8 @@ var app = new Vue({
                         ]
             },
             {
+                id: 'garantia',
+                class: '',
                 title: '¿Qué es la garantía de satisfacción?',
                 answers: [
                     {
@@ -80,6 +91,8 @@ var app = new Vue({
                         ]
             },
             {
+                id: 'pais',
+                class: '',
                 title: '¿myAbakus va a funcionar en mi país?',
                 answers: [
                     {
@@ -88,6 +101,8 @@ var app = new Vue({
                         ]
             },
             {
+                id: '',
+                class: '',
                 title: '¿Puedo exportar mi información fuera de myAbakus?',
                 answers: [
                     {
@@ -96,6 +111,8 @@ var app = new Vue({
                         ]
             },
             {
+                id: '',
+                class: '',
                 title: '¿Cómo mantienen mi información segura?',
                 answers: [
                     {
@@ -104,6 +121,8 @@ var app = new Vue({
                         ]
             },
             {
+                id: 'pago',
+                class: '',
                 title: 'Cuándo esté listo para suscribirme, ¿cómo puedo pagar?',
                 answers: [
                     {
@@ -124,6 +143,8 @@ var app = new Vue({
                         ]
             },
             {
+                id: 'tarjeta',
+                class: '',
                 title: '¿Cómo se que la información de mi tarjeta de crédito está segura?',
                 answers: [
                     {
@@ -132,6 +153,8 @@ var app = new Vue({
                 ]
             },
             {
+                id: 'cambio',
+                class: '',
                 title: '¿Qué pasa si cambio mi plan o cancelo después de haber pagado?',
                 answers: [
                     {
@@ -143,6 +166,8 @@ var app = new Vue({
                 ]
             },
             {
+                id: 'cancelacion',
+                class: 'last',
                 title: '¿Qué pasa si no renuevo mi suscripción?',
                 answers: [
                     {
