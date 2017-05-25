@@ -6,6 +6,7 @@ var app = new Vue({
         questions: [
             {
                 id: 'que',
+                class: '',
                 title: '¿Qué tipo de software es myAbakus?',
                 answer: [
                         //answer 1.1
@@ -14,6 +15,7 @@ var app = new Vue({
             },
             {
                 id: '',
+                class: '',
                 title: '¿Es myAbakus un software de contabilidad tradicional?',
                 answer: [
 
@@ -29,6 +31,7 @@ var app = new Vue({
             },
             {
                 id: 'por-que',
+                class: '',
                 title: '¿Por qué usar myAbakus? ¿Para quién es?',
                 answer: [
 
@@ -46,6 +49,7 @@ var app = new Vue({
             },
             {
                 id: 'prueba',
+                class: '',
                 title: '¿Cómo funciona el periodo de prueba?',
                 answer: [
 
@@ -58,6 +62,7 @@ var app = new Vue({
             },
             {
                 id: 'costo',
+                class: '',
                 title: '¿Cuánto va a costar?',
                 answer: [
 
@@ -74,6 +79,7 @@ var app = new Vue({
             },
             {
                 id: 'garantia',
+                class: '',
                 title: '¿Qué es la garantía de satisfacción?',
                 answer: [
 
@@ -86,6 +92,7 @@ var app = new Vue({
             },
             {
                 id: 'pais',
+                class: '',
                 title: '¿myAbakus va a funcionar en mi país?',
                 answer: [
 
@@ -95,6 +102,7 @@ var app = new Vue({
             },
             {
                 id: '',
+                class: '',
                 title: '¿Puedo exportar mi información fuera de myAbakus?',
                 answer: [
 
@@ -104,6 +112,7 @@ var app = new Vue({
             },
             {
                 id: '',
+                class: '',
                 title: '¿Cómo mantienen mi información segura?',
                 answer: [
 
@@ -113,6 +122,7 @@ var app = new Vue({
             },
             {
                 id: 'pago',
+                class: '',
                 title: 'Cuándo esté listo para suscribirme, ¿cómo puedo pagar?',
                 answer: [
 
@@ -130,6 +140,7 @@ var app = new Vue({
             },
             {
                 id: 'tarjeta',
+                class: '',
                 title: '¿Cómo se que la información de mi tarjeta de crédito está segura?',
                 answer: [
 
@@ -139,6 +150,7 @@ var app = new Vue({
             },
             {
                 id: 'cambio',
+                class: '',
                 title: '¿Qué pasa si cambio mi plan o cancelo después de haber pagado?',
                 answer: [
 
@@ -151,6 +163,7 @@ var app = new Vue({
             },
             {
                 id: 'cancelacion',
+                class: 'last',
                 title: '¿Qué pasa si no renuevo mi suscripción?',
                 answer: [
 

@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
-   <!-- Vue.js -->
+    <!-- Vue.js -->
     <script type="text/javascript" src="https://unpkg.com/vue@2.2.6"></script>
-    <meta charset="utf-8" id="app">
+    <meta charset="utf-8" >
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{{description}}">
@@ -19,10 +19,10 @@
 </head>
 
 <body>
-    <section>
+    <section id="app">
         <h1>{{ title }}</h1>
         <div v-for="question in questions">
-            <article :id="question.id">
+            <article :id="question.id" :class="question.class">
                 <h2>{{ question.title }}</h2>
                 <p v-for="answ in question.answer">{{ answ }}</p>
             </article>
