@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<head id="app">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,12 +13,12 @@
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="css/faqs.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Cabin:600|Quattrocento+Sans' rel='stylesheet' type='text/css'>
-        <script type="text/javascript" src="../web/js/km.js"></script>
+    <script type="text/javascript" src="../web/js/km.js"></script>
     <script type="text/javascript" src="js/drift-es.js"></script>
 </head>
 
 <body>
-    <section id="app">
+    <section>
         <h1>{{ header }}</h1>
         <div v-for="question in questions">
             <article :id="question.id" :class="question.class">
