@@ -21,12 +21,10 @@
 <body>
     <section id="app">
         <h1>{{ title }}</h1>
-        <div v-for="question in questions">
-            <article :id="question.id" :class="question.class">
+            <article v-for="question in questions" :id="question.id">
                 <h2>{{ question.title }}</h2>
                 <p v-for="answ in question.answer">{{ answ }}</p>
             </article>
-        </div>
     </section>
     <script type="text/javascript" src="js/faqs-es.js"></script>
 </body>
