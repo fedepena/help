@@ -8,10 +8,14 @@ h2 {
     font-weight: 500;
 }
 
+/*
 .last {
     border-bottom: none;
 }
-
+*/
+section > article:last-child {
+    border-bottom: none;
+}
 article {
     border-bottom: 1px solid #CCC;
     padding-top: 20px;

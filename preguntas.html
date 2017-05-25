@@ -1,29 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head id="app">
-    <meta charset="utf-8">
+<head>
+   <!-- Vue.js -->
+    <script type="text/javascript" src="https://unpkg.com/vue@2.2.6"></script>
+    <meta charset="utf-8" id="app">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Las preguntas y respuestas más comunes sobre nuestro software contable fácil">
-    <link rel="shortcut icon" href="../web/images/favicon.png">
+    <meta name="description" content="{{description}}">
+<!--    <link rel="shortcut icon" href="../web/images/favicon.png">-->
     <title>Preguntas Frecuentes</title>
-    <!-- Vue.js -->
-    <script type="text/javascript" src="https://unpkg.com/vue@2.2.6"></script>
+    
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="css/faqs.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Cabin:600|Quattrocento+Sans' rel='stylesheet' type='text/css'>
-    <script type="text/javascript" src="../web/js/km.js"></script>
+<!--    <script type="text/javascript" src="../web/js/km.js"></script>-->
     <script type="text/javascript" src="js/drift-es.js"></script>
 </head>
 
 <body>
     <section>
-        <h1>{{ header }}</h1>
+        <h1>{{ title }}</h1>
         <div v-for="question in questions">
-            <article :id="question.id" :class="question.class">
+            <article :id="question.id">
                 <h2>{{ question.title }}</h2>
-                <p v-for="answer in question.answers">{{ answer.answer }}</p>
+                <p v-for="answ in question.answer">{{ answ }}</p>
             </article>
         </div>
     </section>
