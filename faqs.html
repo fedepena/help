@@ -23,7 +23,7 @@
         <h1>{{ title }}</h1>
         <article v-for="question in questions" :id="question.id">
             <h2>{{ question.title }}</h2>
-            <p v-for="answ in question.answer">{{ answ }}</p>
+            <p v-for="answ in question.answer" v-html="answ">{{ answ }}</p>
         </article>
     </section>
     <script type="text/javascript" src="js/faqs-en.js"></script>
