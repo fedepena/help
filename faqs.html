@@ -18,9 +18,10 @@
     <script type="text/javascript" src="js/drift-en.js"></script>
 </head>
 
-<body>
-    <meta name="description" content="{{description}}">
+<body >
+    
     <section id="app">
+       <meta name="description" content="{{description}}">
         <h1>{{ title }}</h1>
         <article v-for="question in questions" :id="question.id">
             <h2>{{ question.title }}</h2>
