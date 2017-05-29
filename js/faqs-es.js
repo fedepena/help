@@ -2,7 +2,7 @@ var app = new Vue({
     el: '#app',
     data: {
         title: "Preguntas Frecuentes",
-        description: "Las preguntas y respuestas más comunes sobre nuestro software contable fácil",
+        description: "Las preguntas y respuestas más comunes sobre nuestro software contable",
         questions: [
             {
                 id: 'que',
