@@ -2,6 +2,7 @@ var app = new Vue({
     el: '#app',
     data: {
         title: "Frequently Asked Questions",
+        description: "The most common questions and answers about our accounting software",
         questions: [
             {
                 id: 'what',
