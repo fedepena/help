@@ -31,12 +31,7 @@
                 <div class="col-md-12">
                     <h1>{{ header.title }}</h1>
                     <h3>{{ header.subtitle }}</h3>
-                    <div class="underlined-title">
-                        <h1>A selection of our work</h1>
-                        <hr>
-                        <h2 style="text-align: center;">Hand-picked just for you</h2>
-                        <hr>
-                    </div>
+
                     <ul class="filter">
                         <li class="active">
                             <a href="#" data-filter="*">All</a>
@@ -65,8 +60,8 @@
             </div>
 
             <div class="row sheets">
-                <div class="col-md-12 js-masonry isotope-gallery-container"  data-masonry-options='{ "itemSelector": ".sheet" }'>
-                    <div :class="video.classes" class="sheet "  v-for="video in videos">
+                <div class="col-md-12 js-masonry isotope-gallery-container" data-masonry-options='{ "itemSelector": ".sheet" }'>
+                    <div :class="video.classes" class="sheet " v-for="video in videos">
                         <h2>{{ video.title }}</h2>
                         <div>
                             <a :href="url+video.slug" :video-id="video.id">
