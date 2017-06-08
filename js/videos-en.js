@@ -6,7 +6,6 @@ var app = new Vue({
             subtitle: 'Watch the video tutorials'
         },
         url: '../videos/',
-        //        static_class: 'sheet-img ',
         videos: [
             //video 1
             {
