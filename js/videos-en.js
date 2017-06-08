@@ -5,6 +5,23 @@ var app = new Vue({
             title: 'Videos',
             subtitle: 'Watch the video tutorials'
         },
+        filters: [
+
+                "*",
+                ".Gettingstarted",
+                ".Invoicing",
+                ".Income",
+                ".Expenses",
+                ".Cash",
+                ".Inventory",
+                ".Reports",
+                ".Customers",
+                ".Suppliers",
+                ".Items",
+                ".Import",
+                ".Export"
+
+        ],
         url: '../videos/',
         videos: [
             //video 1
