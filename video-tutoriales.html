@@ -23,30 +23,77 @@
 </head>
 
 <body>
-    <div class="container-fluid" id="app">
-        <div class="row">
-            <div class="col-md-12">
-                <h1>{{ header.title }}</h1>
-                <h3>{{ header.subtitle }}</h3>
-            </div>
-        </div>
-        <div class="row sheets">
-            <div class="col-md-12 js-masonry" data-masonry-options='{ "itemSelector": ".sheet" }'>
-                <div class="sheet" v-for="video in videos">
-                    <h2>{{ video.title }}</h2>
-                    <div>
-                        <a :href="url+video.slug" :video-id="video.id">
-                            <div class="sheet-img" :class=" video.classes ">
-                                <span class="glyphicon glyphicon-play play-btn"></span>
-                            </div>
-                        </a>
-                    </div>
-                    <p>{{ video.desc }}</p>
+    <section class="content-block gallery-1 gallery-1-1">
+        <div class="container-fluid" id="app">
+
+            <div class="row top">
+                <div class="col-md-12">
+                    <h1>{{ header.title }}</h1>
+                    <h3>{{ header.subtitle }}</h3>
+
+                    <ul class="filter">
+                        <li class="active">
+                            <a href="#" data-filter="*">All</a>
+                        </li>
+                        <li>
+                            <a href="#" data-filter=".Gettingstarted">Getting started</a>
+                        </li>
+                        <li>
+                            <a href="#" data-filter=".Invoicing">Invoicing</a>
+                        </li>
+                        <li>
+                            <a href="#" data-filter=".Income">Income</a>
+                        </li>
+                        <li>
+                            <a href="#" data-filter=".Expenses">Expenses</a>
+                        </li>
+                        <li>
+                            <a href="#" data-filter=".Cash">Cash</a>
+                        </li>
+                        <li>
+                            <a href="#" data-filter=".Inventory">Inventory</a>
+                        </li>
+                        <li>
+                            <a href="#" data-filter=".Reports">Reports</a>
+                        </li>
+                        <li>
+                            <a href="#" data-filter=".Customers">Customers</a>
+                        </li>
+                        <li>
+                            <a href="#" data-filter=".Suppliers">Suppliers</a>
+                        </li>
+                        <li>
+                            <a href="#" data-filter=".Items">Items</a>
+                        </li>
+                        <li>
+                            <a href="#" data-filter=".Import">Import</a>
+                        </li>
+                        <li>
+                            <a href="#" data-filter=".Export">Export</a>
+                        </li>
+                    </ul>
+                    <!-- /.gallery-filter -->
                 </div>
-                <!-- fin del v-fo -->
+            </div>
+
+            <div class="row sheets">
+                <div class="col-md-12 js-masonry isotope-gallery-container" data-masonry-options='{ "itemSelector": ".sheet" }'>
+                    <div :class="video.classes" class="sheet" v-for="video in videos">
+                        <h2>{{ video.title }}</h2>
+                        <div>
+                            <a :href="url+video.slug" :video-id="video.id">
+                                <div class="sheet-img" :class=" video.classes ">
+                                    <span class="glyphicon glyphicon-play play-btn"></span>
+                                </div>
+                            </a>
+                        </div>
+                        <p>{{ video.desc }}</p>
+                    </div>
+                    <!-- fin del v-for -->
+                </div>
             </div>
         </div>
-    </div>
+    </section>
     <script src="assets/js/jquery.min.js"></script>
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -54,8 +101,9 @@
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script type="text/javascript" src="js/plugins.js"></script>
+    <script type="text/javascript" src="js/bskit-scripts.js"></script>
     <script type="text/javascript" src="js/videos-es.js"></script>
 </body>
-
 
 </html>
