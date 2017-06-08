@@ -6,21 +6,71 @@ var app = new Vue({
             subtitle: 'Watch the video tutorials'
         },
         filters: [
+            {
+                title: "All",
+                fil: "*"
 
-                "*",
-                ".Gettingstarted",
-                ".Invoicing",
-                ".Income",
-                ".Expenses",
-                ".Cash",
-                ".Inventory",
-                ".Reports",
-                ".Customers",
-                ".Suppliers",
-                ".Items",
-                ".Import",
-                ".Export"
+                },
+            {
+                title: "Getting started",
+                fil: "gettingstarted"
 
+                },
+            {
+                title: "Invoicing",
+                fil: ".invoicing"
+
+                },
+            {
+                title: "Income",
+                fil: ".income"
+
+                },
+            {
+                title: "Expenses",
+                fil: ".expenses"
+
+                },
+            {
+                title: "Cash",
+                fil: ".cash"
+
+                },
+            {
+                title: "Inventory",
+                fil: ".inventory"
+
+                },
+            {
+                title: "Reports",
+                fil: ".reports"
+
+                },
+            {
+                title: "Customers",
+                fil: ".customers"
+
+                },
+            {
+                title: "Suppliers",
+                fil: ".suppliers"
+
+                },
+            {
+                title: "Items",
+                fil: ".items"
+
+                },
+            {
+                title: "Import",
+                fil: ".import"
+
+                },
+            {
+                title: "Export",
+                fil: ".export"
+
+                }
         ],
         url: '../videos/',
         videos: [
@@ -31,7 +81,7 @@ var app = new Vue({
                 desc: 'Manage up to five price lists and easily update prices using an Excel template.',
                 lang: 'en',
                 id: "IVGATE-wngQ",
-                classes: 'sheet-img-1 Gettingstarted'
+                classes: 'sheet-img-1 gettingstarted'
             },
             //video 2
             {
@@ -40,7 +90,7 @@ var app = new Vue({
                 desc: 'It is now possible to configure the days used to calculate due dates in invoices.',
                 lang: "en",
                 id: "7c0z7d4deKs",
-                classes: 'sheet-img-2 Invoicing'
+                classes: 'sheet-img-2 invoicing'
             },
             //video 3
             {
@@ -49,7 +99,7 @@ var app = new Vue({
                 desc: 'The income by item report is now grouped by item type.',
                 lang: "en",
                 id: "CWwwtMMq-Jk",
-                classes: 'sheet-img-3 Income'
+                classes: 'sheet-img-3 income'
 
             },
             //video 4
@@ -59,7 +109,7 @@ var app = new Vue({
                 desc: 'It is now possible to export data from the Overview, where we have the Balance sheet and Income and expense    statement for the current month.',
                 lang: "en",
                 id: "aLjSLv3osT0",
-                classes: 'sheet-img-4 Expenses'
+                classes: 'sheet-img-4 expenses'
             },
             //video 5
             {
@@ -68,7 +118,7 @@ var app = new Vue({
                 desc: 'Recurring transactions are no longer limited to expenses. You can now create recurring income transactions as well.',
                 lang: "en",
                 id: "NyjQTmsx3oI",
-                classes: 'sheet-img-5 Cash'
+                classes: 'sheet-img-5 cash'
             },
             //video 6
             {
@@ -77,7 +127,7 @@ var app = new Vue({
                 desc: 'Recurring transactions are no longer limited to expenses. You can now create recurring income transactions as well.',
                 lang: "en",
                 id: "NyjQTmsx3oI",
-                classes: 'sheet-img-6 Inventory'
+                classes: 'sheet-img-6 inventory'
             },
             //video 7
             {
@@ -86,7 +136,7 @@ var app = new Vue({
                 desc: 'To setup the parameters to restock inventory we need to enter the minimum and maximum quantities that we want to have for inventory items.',
                 lang: "en",
                 id: "FA3lPbPeFRA",
-                classes: 'sheet-img-1 Reports'
+                classes: 'sheet-img-1 reports'
             },
             //video 8
             {
@@ -95,7 +145,7 @@ var app = new Vue({
                 desc: 'To use multiple prefixes and numbering on our invoices we need to change the invoice settings.',
                 lang: "en",
                 id: "slwxy2ZD3s4",
-                classes: 'sheet-img-2 Customers'
+                classes: 'sheet-img-2 customers'
             },
             //video 9
             {
@@ -104,7 +154,7 @@ var app = new Vue({
                 desc: 'To enter the initial inventory we need to go to control inventory and use the add inventory action.',
                 lang: "en",
                 id: "kp2B3y9WKPQ",
-                classes: 'sheet-img-3 Suppliers'
+                classes: 'sheet-img-3 suppliers'
             },
             //video 10
             {
@@ -113,7 +163,7 @@ var app = new Vue({
                 desc: 'To enter our cash balances we will control - cash.',
                 lang: "en",
                 id: "Ris-dlXSR7o",
-                classes: 'sheet-img-3 Items'
+                classes: 'sheet-img-3 items'
             },
             //video 11
             {
@@ -122,7 +172,7 @@ var app = new Vue({
                 desc: 'To enter all those accounts that we have outstanding receivable and payable we must do it through a transaction.',
                 lang: "en",
                 id: "fSXDJSnE3FY",
-                classes: 'sheet-img-2 Import Export'
+                classes: 'sheet-img-2 import export'
             }
         ]
     } //fin data:
