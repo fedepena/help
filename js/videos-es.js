@@ -7,53 +7,53 @@ var app = new Vue({
         },
         tags: [
             {
-                title: "All",
+                title: "Todos",
                 selector: "*"
 
             },
             {
-                title: "Getting started",
-                selector: ".gettingstarted"
+                title: "Arrancando",
+                selector: ".arrancando"
 
             },
             {
-                title: "Invoicing",
-                selector: ".invoicing"
+                title: "Facturación",
+                selector: ".facturación"
 
             },
             {
-                title: "Income",
-                selector: ".income"
+                title: "Ingresos",
+                selector: ".ingresos"
 
             },
             {
-                title: "Expenses",
-                selector: ".expenses"
+                title: "Gastos",
+                selector: ".gastos"
 
             },
             {
-                title: "Cash",
-                selector: ".cash"
+                title: "Efectivo",
+                selector: ".efectivo"
 
             },
             {
-                title: "Inventory",
-                selector: ".inventory"
+                title: "Inventario",
+                selector: ".inventario"
 
             },
             {
-                title: "Reports",
-                selector: ".reports"
+                title: "Reportes",
+                selector: ".reportes"
 
             },
             {
-                title: "Customers",
-                selector: ".customers"
+                title: "Clientes",
+                selector: ".clientes"
 
             },
             {
-                title: "Suppliers",
-                selector: ".suppliers"
+                title: "Proveedores",
+                selector: ".proveedores"
 
             },
             {
@@ -62,13 +62,13 @@ var app = new Vue({
 
             },
             {
-                title: "Import",
-                selector: ".import"
+                title: "Importar",
+                selector: ".importar"
 
             },
             {
-                title: "Export",
-                selector: ".export"
+                title: "Exportar",
+                selector: ".exportar"
 
             }
         ],

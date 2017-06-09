@@ -35,45 +35,9 @@
 
             <div class="row sheets">
                 <div class="content-block">
-                    <ul class="filter" >
-                        <li class="active">
-                            <a href="#" data-filter="*">All</a>
-                        </li>
-                        <li>
-                            <a href="#" data-filter=".gettingstarted">Getting started</a>
-                        </li>
-                        <li>
-                            <a href="#" data-filter=".invoicing">Invoicing</a>
-                        </li>
-                        <li>
-                            <a href="#" data-filter=".income">Income</a>
-                        </li>
-                        <li>
-                            <a href="#" data-filter=".expenses">Expenses</a>
-                        </li>
-                        <li>
-                            <a href="#" data-filter=".cash">Cash</a>
-                        </li>
-                        <li>
-                            <a href="#" data-filter=".inventory">Inventory</a>
-                        </li>
-                        <li>
-                            <a href="#" data-filter=".reports">Reports</a>
-                        </li>
-                        <li>
-                            <a href="#" data-filter=".customers">Customers</a>
-                        </li>
-                        <li>
-                            <a href="#" data-filter=".suppliers">Suppliers</a>
-                        </li>
-                        <li>
-                            <a href="#" data-filter=".items">Items</a>
-                        </li>
-                        <li>
-                            <a href="#" data-filter=".import">Import</a>
-                        </li>
-                        <li>
-                            <a href="#" data-filter=".export">Export</a>
+                    <ul class="filter">
+                        <li class="active" v-for="tag in tags">
+                            <a href="#" :data-filter="tag.selector">{{ tag.title }}</a>
                         </li>
                     </ul>
                     <!-- /.gallery-filter -->

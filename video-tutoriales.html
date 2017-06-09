@@ -36,44 +36,8 @@
             <div class="row sheets">
                 <div class="content-block">
                     <ul class="filter">
-                        <li class="active">
-                            <a href="#" data-filter="*">Todos</a>
-                        </li>
-                        <li>
-                            <a href="#" data-filter=".arrancando">Arrancando</a>
-                        </li>
-                        <li>
-                            <a href="#" data-filter=".facturación">Facturación</a>
-                        </li>
-                        <li>
-                            <a href="#" data-filter=".ingresos">Ingresos</a>
-                        </li>
-                        <li>
-                            <a href="#" data-filter=".gastos">Gastos</a>
-                        </li>
-                        <li>
-                            <a href="#" data-filter=".efectivo">Efectivo</a>
-                        </li>
-                        <li>
-                            <a href="#" data-filter=".inventario">Inventario</a>
-                        </li>
-                        <li>
-                            <a href="#" data-filter=".reportes">Reportes</a>
-                        </li>
-                        <li>
-                            <a href="#" data-filter=".clientes">Clientes</a>
-                        </li>
-                        <li>
-                            <a href="#" data-filter=".proveedores">Proveedores</a>
-                        </li>
-                        <li>
-                            <a href="#" data-filter=".items">Items</a>
-                        </li>
-                        <li>
-                            <a href="#" data-filter=".importar">Importar</a>
-                        </li>
-                        <li>
-                            <a href="#" data-filter=".exportar">Exportar</a>
+                        <li class="active" v-for="tag in tags">
+                            <a href="#" :data-filter="tag.selector">{{ tag.title }}</a>
                         </li>
                     </ul>
                     <!-- /.gallery-filter -->
