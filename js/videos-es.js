@@ -5,6 +5,73 @@ var app = new Vue({
             title: 'Videos',
             subtitle: 'Vea los video tutoriales'
         },
+        tags: [
+            {
+                title: "All",
+                selector: "*"
+
+            },
+            {
+                title: "Getting started",
+                selector: "gettingstarted"
+
+            },
+            {
+                title: "Invoicing",
+                selector: ".invoicing"
+
+            },
+            {
+                title: "Income",
+                selector: ".income"
+
+            },
+            {
+                title: "Expenses",
+                selector: ".expenses"
+
+            },
+            {
+                title: "Cash",
+                selector: ".cash"
+
+            },
+            {
+                title: "Inventory",
+                selector: ".inventory"
+
+            },
+            {
+                title: "Reports",
+                selector: ".reports"
+
+            },
+            {
+                title: "Customers",
+                selector: ".customers"
+
+            },
+            {
+                title: "Suppliers",
+                selector: ".suppliers"
+
+            },
+            {
+                title: "Items",
+                selector: ".items"
+
+            },
+            {
+                title: "Import",
+                selector: ".import"
+
+            },
+            {
+                title: "Export",
+                selector: ".export"
+
+            }
+        ],
         url: '../videos/',
         videos: [
                 // video 3 parte 1

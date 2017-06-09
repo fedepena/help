@@ -5,70 +5,70 @@ var app = new Vue({
             title: 'Videos',
             subtitle: 'Watch the video tutorials'
         },
-        filters: [
+        tags: [
             {
                 title: "All",
-                fil: "*"
+                selector: "*"
 
             },
             {
                 title: "Getting started",
-                fil: "gettingstarted"
+                selector: "gettingstarted"
 
             },
             {
                 title: "Invoicing",
-                fil: ".invoicing"
+                selector: ".invoicing"
 
             },
             {
                 title: "Income",
-                fil: ".income"
+                selector: ".income"
 
             },
             {
                 title: "Expenses",
-                fil: ".expenses"
+                selector: ".expenses"
 
             },
             {
                 title: "Cash",
-                fil: ".cash"
+                selector: ".cash"
 
             },
             {
                 title: "Inventory",
-                fil: ".inventory"
+                selector: ".inventory"
 
             },
             {
                 title: "Reports",
-                fil: ".reports"
+                selector: ".reports"
 
             },
             {
                 title: "Customers",
-                fil: ".customers"
+                selector: ".customers"
 
             },
             {
                 title: "Suppliers",
-                fil: ".suppliers"
+                selector: ".suppliers"
 
             },
             {
                 title: "Items",
-                fil: ".items"
+                selector: ".items"
 
             },
             {
                 title: "Import",
-                fil: ".import"
+                selector: ".import"
 
             },
             {
                 title: "Export",
-                fil: ".export"
+                selector: ".export"
 
             }
         ],
