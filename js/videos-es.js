@@ -13,7 +13,7 @@ var app = new Vue({
             },
             {
                 title: "Getting started",
-                selector: "gettingstarted"
+                selector: ".gettingstarted"
 
             },
             {

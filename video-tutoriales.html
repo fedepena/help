@@ -80,11 +80,11 @@
 
 
                     <div class="col-md-12 js-masonry isotope-gallery-container" data-masonry-options='{ "itemSelector": ".sheet" }'>
-                        <div :class="video.classes" class="sheet" v-for="video in videos">
+                        <div :class="[video.classes, video.tags]" class="sheet" v-for="video in videos">
                             <h2>{{ video.title }}</h2>
                             <div>
                                 <a :href="url+video.slug" :video-id="video.id">
-                                    <div class="sheet-img" :class=" video.classes ">
+                                    <div class="sheet-img" :class=" video.classes">
                                         <span class="glyphicon glyphicon-play play-btn"></span>
                                     </div>
                                 </a>

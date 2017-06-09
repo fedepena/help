@@ -13,7 +13,7 @@ var app = new Vue({
             },
             {
                 title: "Getting started",
-                selector: "gettingstarted"
+                selector: ".gettingstarted"
 
             },
             {
@@ -81,8 +81,8 @@ var app = new Vue({
                 desc: 'Manage up to five price lists and easily update prices using an Excel template.',
                 lang: 'en',
                 id: "IVGATE-wngQ",
-                classes: 'sheet-img-1 ',
-                tags: 'gettingstarted'
+                classes: 'sheet-img-1',
+                tags: "gettingstarted"
             },
             //video 2
             {
@@ -92,7 +92,7 @@ var app = new Vue({
                 lang: "en",
                 id: "7c0z7d4deKs",
                 classes: 'sheet-img-2 ',
-                tags: 'invoicing'
+                tags: ' invoicing'
             },
             //video 3
             {
@@ -102,7 +102,7 @@ var app = new Vue({
                 lang: "en",
                 id: "CWwwtMMq-Jk",
                 classes: 'sheet-img-3',
-                tags: 'income'
+                tags: ' income'
             },
             //video 4
             {
@@ -112,7 +112,7 @@ var app = new Vue({
                 lang: "en",
                 id: "aLjSLv3osT0",
                 classes: 'sheet-img-4',
-                tags: 'expenses'
+                tags: ' expenses'
             },
             //video 5
             {
@@ -122,7 +122,7 @@ var app = new Vue({
                 lang: "en",
                 id: "NyjQTmsx3oI",
                 classes: 'sheet-img-5',
-                tags: 'cash'
+                tags: ' cash'
             },
             //video 6
             {
@@ -132,7 +132,7 @@ var app = new Vue({
                 lang: "en",
                 id: "FA3lPbPeFRA",
                 classes: 'sheet-img-1',
-                tags: 'reports'
+                tags: ' reports'
             },
             //video 7
             {
@@ -142,7 +142,7 @@ var app = new Vue({
                 lang: "en",
                 id: "slwxy2ZD3s4",
                 classes: 'sheet-img-2',
-                tags: 'customers'
+                tags: ' customers'
             },
             //video 8
             {
@@ -152,7 +152,7 @@ var app = new Vue({
                 lang: "en",
                 id: "kp2B3y9WKPQ",
                 classes: 'sheet-img-3',
-                tags: 'suppliers'
+                tags: ' suppliers'
             },
             //video 9
             {
@@ -162,7 +162,9 @@ var app = new Vue({
                 lang: "en",
                 id: "Ris-dlXSR7o",
                 classes: 'sheet-img-3',
-                tags: 'items'
+                tags: ' items'
+
+
             },
             //video 10
             {
@@ -171,8 +173,8 @@ var app = new Vue({
                 desc: 'To enter all those accounts that we have outstanding receivable and payable we must do it through a transaction.',
                 lang: "en",
                 id: "fSXDJSnE3FY",
-                classes: 'sheet-img-2 import',
-                tags: 'export'
+                classes: 'sheet-img-2',
+                tags: ' export'
             }
         ]
     } //fin data:
