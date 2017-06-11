@@ -13,6 +13,8 @@
     <script type="text/javascript" src="https://unpkg.com/vue@2.2.6"></script>
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!-- Custom styles for filters -->
+    <link href="css/isotope.css" rel="stylesheet" type="text/css">
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="css/videos.css" rel="stylesheet" type="text/css">
@@ -23,25 +25,37 @@
 </head>
 
 <body>
+
     <div class="container-fluid" id="app">
         <div class="row">
             <div class="col-md-12">
                 <h1>{{ header.title }}</h1>
                 <h3>{{ header.subtitle }}</h3>
             </div>
-        </div>
-        <div class="row sheets">
-            <div class="col-md-12 js-masonry" data-masonry-options='{ "itemSelector": ".sheet" }'>
-                <div class="sheet" v-for="video in videos">
-                    <h2>{{ video.title }}</h2>
-                    <div>
-                        <a :href="url+video.slug" :video-id="video.id">
-                            <div :class="video.img">
-                                <span class="glyphicon glyphicon-play play-btn"></span>
+
+            <div class="row sheets">
+                <div class="content-block">
+                    <ul class="filter">
+                        <li class="active" v-for="tag in tags">
+                            <a href="#" :data-filter="tag.selector">{{ tag.title }}</a>
+                        </li>
+                    </ul>
+                    <!-- /.gallery-filter -->
+
+                    <div class="col-md-12 js-masonry isotope-gallery-container" data-masonry-options='{ "itemSelector": ".sheet" }'>
+                        <div :class="[video.classes, video.tags]" class="sheet " v-for="video in videos">
+                            <h2>{{ video.title }}</h2>
+                            <div>
+                                <a :href="url+video.slug" :video-id="video.id">
+                                    <div class="sheet-img" :class=" video.classes">
+                                        <span class="glyphicon glyphicon-play play-btn"></span>
+                                    </div>
+                                </a>
                             </div>
-                        </a>
+                            <p>{{ video.desc }}</p>
+                        </div>
+                        <!-- fin del v-for -->
                     </div>
-                    <p>{{ video.desc }}</p>
                 </div>
             </div>
         </div>
@@ -53,7 +67,9 @@
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script type="text/javascript" src="js/plugins.js"></script>
+    <script type="text/javascript" src="js/isotope.js"></script>
+    <script type="text/javascript" src="js/videos-en.js"></script>
 </body>
-<script type="text/javascript" src="js/videos-en.js"></script>
 
 </html>

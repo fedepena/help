@@ -15,12 +15,18 @@ body {
     font-family: 'Quattrocento Sans', Arial, sans-serif;
 }
 
+.filter {
+    margin-bottom: 30px;
+}
+
 p {
     font-size: 1.1em;
     margin-bottom: 20px;
     margin-top: 20px;
 }
 
+
+/*
 section {
     background-color: #ffffff;
     max-width: 800px;
@@ -29,7 +35,7 @@ section {
     padding: 5.5%;
     height: auto;
     min-height: 100%;
-}
+}*/
 
 a {
     color: #336699;

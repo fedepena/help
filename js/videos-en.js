@@ -5,6 +5,73 @@ var app = new Vue({
             title: 'Videos',
             subtitle: 'Watch the video tutorials'
         },
+        tags: [
+            {
+                title: "All",
+                selector: "*"
+
+            },
+            {
+                title: "Getting started",
+                selector: ".gettingstarted"
+
+            },
+            {
+                title: "Invoicing",
+                selector: ".invoicing"
+
+            },
+            {
+                title: "Income",
+                selector: ".income"
+
+            },
+            {
+                title: "Expenses",
+                selector: ".expenses"
+
+            },
+            {
+                title: "Cash",
+                selector: ".cash"
+
+            },
+            {
+                title: "Inventory",
+                selector: ".inventory"
+
+            },
+            {
+                title: "Reports",
+                selector: ".reports"
+
+            },
+            {
+                title: "Customers",
+                selector: ".customers"
+
+            },
+            {
+                title: "Suppliers",
+                selector: ".suppliers"
+
+            },
+            {
+                title: "Items",
+                selector: ".items"
+
+            },
+            {
+                title: "Import",
+                selector: ".import"
+
+            },
+            {
+                title: "Export",
+                selector: ".export"
+
+            }
+        ],
         url: '../videos/',
         videos: [
             //video 1
@@ -14,7 +81,8 @@ var app = new Vue({
                 desc: 'Manage up to five price lists and easily update prices using an Excel template.',
                 lang: 'en',
                 id: "IVGATE-wngQ",
-                img: 'sheet-img sheet-img-1'
+                classes: 'sheet-img-1',
+                tags: "gettingstarted"
             },
             //video 2
             {
@@ -23,7 +91,8 @@ var app = new Vue({
                 desc: 'It is now possible to configure the days used to calculate due dates in invoices.',
                 lang: "en",
                 id: "7c0z7d4deKs",
-                img: 'sheet-img sheet-img-2'
+                classes: 'sheet-img-2 ',
+                tags: ' invoicing'
             },
             //video 3
             {
@@ -32,8 +101,8 @@ var app = new Vue({
                 desc: 'The income by item report is now grouped by item type.',
                 lang: "en",
                 id: "CWwwtMMq-Jk",
-                img: 'sheet-img sheet-img-3'
-
+                classes: 'sheet-img-3',
+                tags: ' income'
             },
             //video 4
             {
@@ -42,7 +111,8 @@ var app = new Vue({
                 desc: 'It is now possible to export data from the Overview, where we have the Balance sheet and Income and expense    statement for the current month.',
                 lang: "en",
                 id: "aLjSLv3osT0",
-                img: 'sheet-img sheet-img-4'
+                classes: 'sheet-img-4',
+                tags: ' expenses'
             },
             //video 5
             {
@@ -51,61 +121,60 @@ var app = new Vue({
                 desc: 'Recurring transactions are no longer limited to expenses. You can now create recurring income transactions as well.',
                 lang: "en",
                 id: "NyjQTmsx3oI",
-                img: 'sheet-img sheet-img-5'
+                classes: 'sheet-img-5',
+                tags: ' cash'
             },
             //video 6
-            {
-                title: 'Create recurring income transactions',
-                slug: "create-recurring-income-transactions",
-                desc: 'Recurring transactions are no longer limited to expenses. You can now create recurring income transactions as well.',
-                lang: "en",
-                id: "NyjQTmsx3oI",
-                img: 'sheet-img sheet-img-6'
-            },
-            //video 7
             {
                 title: 'Setup and use the parameters to restock the inventory',
                 slug: "setup-and-use-the-parameters-to-restock-the-inventory",
                 desc: 'To setup the parameters to restock inventory we need to enter the minimum and maximum quantities that we want to have for inventory items.',
                 lang: "en",
                 id: "FA3lPbPeFRA",
-                img: 'sheet-img sheet-img-1'
+                classes: 'sheet-img-1',
+                tags: ' reports'
             },
-            //video 8
+            //video 7
             {
                 title: 'Use multiple prefixes on invoices and other documents',
                 slug: "use-multiple-prefixes-on-invoices-and-other-documents",
                 desc: 'To use multiple prefixes and numbering on our invoices we need to change the invoice settings.',
                 lang: "en",
                 id: "slwxy2ZD3s4",
-                img: 'sheet-img sheet-img-2'
+                classes: 'sheet-img-2',
+                tags: ' customers'
             },
-            //video 9
+            //video 8
             {
                 title: 'Enter your initial inventory',
                 slug: "enter-your-initial-inventory",
                 desc: 'To enter the initial inventory we need to go to control inventory and use the add inventory action.',
                 lang: "en",
                 id: "kp2B3y9WKPQ",
-                img: 'sheet-img sheet-img-3'
+                classes: 'sheet-img-3',
+                tags: ' suppliers'
             },
-            //video 10
+            //video 9
             {
                 title: 'Enter your starting cash balances',
                 slug: "enter-your-starting-cash-balances",
                 desc: 'To enter our cash balances we will control - cash.',
                 lang: "en",
                 id: "Ris-dlXSR7o",
-                img: 'sheet-img sheet-img-3'
+                classes: 'sheet-img-3',
+                tags: ' items'
+
+
             },
-            //video 11
+            //video 10
             {
                 title: 'Enter your starting balances for customers and suppliers',
                 slug: "enter-your-starting-balances-for-customers-and-suppliers",
                 desc: 'To enter all those accounts that we have outstanding receivable and payable we must do it through a transaction.',
                 lang: "en",
                 id: "fSXDJSnE3FY",
-                img: 'sheet-img sheet-img-2'
+                classes: 'sheet-img-2',
+                tags: ' export'
             }
         ]
     } //fin data:
