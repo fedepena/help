@@ -2,8 +2,8 @@ var app = new Vue({
     el: '#app',
     data: {
         header: {
-            title: 'Videos',
-            subtitle: 'Watch the video tutorials'
+            title: 'Video Tutorials - myAbakus',
+            subtitle: 'A collection of short videos showing what you can do with our accounting software'
         },
         tags: [
             {
@@ -26,11 +26,11 @@ var app = new Vue({
                 selector: ".income"
 
             },
-            {
-                title: "Expenses",
-                selector: ".expenses"
-
-            },
+            // {
+            //     title: "Expenses",
+            //     selector: ".expenses"
+            //
+            // },
             {
                 title: "Cash",
                 selector: ".cash"
@@ -47,13 +47,13 @@ var app = new Vue({
 
             },
             {
-                title: "Customers",
-                selector: ".customers"
+                title: "Receivable",
+                selector: ".receivable"
 
             },
             {
-                title: "Suppliers",
-                selector: ".suppliers"
+                title: "Payable",
+                selector: ".payable"
 
             },
             {
@@ -82,7 +82,7 @@ var app = new Vue({
                 lang: 'en',
                 id: "IVGATE-wngQ",
                 classes: 'sheet-img-1',
-                tags: "gettingstarted"
+                tags: 'items invoicing import'
             },
             //video 2
             {
@@ -92,7 +92,7 @@ var app = new Vue({
                 lang: "en",
                 id: "7c0z7d4deKs",
                 classes: 'sheet-img-2 ',
-                tags: ' invoicing'
+                tags: 'invoicing'
             },
             //video 3
             {
@@ -102,7 +102,7 @@ var app = new Vue({
                 lang: "en",
                 id: "CWwwtMMq-Jk",
                 classes: 'sheet-img-3',
-                tags: ' income'
+                tags: 'income reports items'
             },
             //video 4
             {
@@ -112,7 +112,7 @@ var app = new Vue({
                 lang: "en",
                 id: "aLjSLv3osT0",
                 classes: 'sheet-img-4',
-                tags: ' expenses'
+                tags: 'export'
             },
             //video 5
             {
@@ -122,7 +122,7 @@ var app = new Vue({
                 lang: "en",
                 id: "NyjQTmsx3oI",
                 classes: 'sheet-img-5',
-                tags: ' cash'
+                tags: 'income'
             },
             //video 6
             {
@@ -131,8 +131,8 @@ var app = new Vue({
                 desc: 'To setup the parameters to restock inventory we need to enter the minimum and maximum quantities that we want to have for inventory items.',
                 lang: "en",
                 id: "FA3lPbPeFRA",
-                classes: 'sheet-img-1',
-                tags: ' reports'
+                classes: 'sheet-img-6',
+                tags: 'inventory'
             },
             //video 7
             {
@@ -141,8 +141,8 @@ var app = new Vue({
                 desc: 'To use multiple prefixes and numbering on our invoices we need to change the invoice settings.',
                 lang: "en",
                 id: "slwxy2ZD3s4",
-                classes: 'sheet-img-2',
-                tags: ' customers'
+                classes: 'sheet-img-1',
+                tags: 'invoicing'
             },
             //video 8
             {
@@ -151,8 +151,8 @@ var app = new Vue({
                 desc: 'To enter the initial inventory we need to go to control inventory and use the add inventory action.',
                 lang: "en",
                 id: "kp2B3y9WKPQ",
-                classes: 'sheet-img-3',
-                tags: ' suppliers'
+                classes: 'sheet-img-2',
+                tags: 'gettingstarted inventory'
             },
             //video 9
             {
@@ -162,9 +162,7 @@ var app = new Vue({
                 lang: "en",
                 id: "Ris-dlXSR7o",
                 classes: 'sheet-img-3',
-                tags: ' items'
-
-
+                tags: 'gettingstarted cash'
             },
             //video 10
             {
@@ -173,8 +171,8 @@ var app = new Vue({
                 desc: 'To enter all those accounts that we have outstanding receivable and payable we must do it through a transaction.',
                 lang: "en",
                 id: "fSXDJSnE3FY",
-                classes: 'sheet-img-2',
-                tags: ' export'
+                classes: 'sheet-img-4',
+                tags: 'gettingstarted receivable payable'
             }
         ]
     } //fin data:

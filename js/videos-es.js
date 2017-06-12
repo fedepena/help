@@ -2,8 +2,8 @@ var app = new Vue({
     el: '#app',
     data: {
         header: {
-            title: 'Videos',
-            subtitle: 'Vea los video tutoriales'
+            title: 'Video Tutoriales - myAbakus',
+            subtitle: 'Una colección de videos cortos mostrando lo que puede hacer con nuestro software contable'
         },
         tags: [
             {
@@ -18,7 +18,7 @@ var app = new Vue({
             },
             {
                 title: "Facturación",
-                selector: ".facturación"
+                selector: ".facturacion"
 
             },
             {
@@ -47,13 +47,13 @@ var app = new Vue({
 
             },
             {
-                title: "Clientes",
-                selector: ".clientes"
+                title: "Por Cobrar",
+                selector: ".porcobrar"
 
             },
             {
-                title: "Proveedores",
-                selector: ".proveedores"
+                title: "Por Pagar",
+                selector: ".porpagar"
 
             },
             {
@@ -83,7 +83,7 @@ var app = new Vue({
                 id: "9V0MTOZLcdk",
                 next: "JAsQTbqEkik",
                 classes: 'sheet-img-1 ',
-                tags: 'arrancando'
+                tags: 'impuestos'
             },
                 // video 3 parte 2
             {
@@ -93,7 +93,7 @@ var app = new Vue({
                 lang: "es",
                 id: "JAsQTbqEkik",
                 classes: 'sheet-img-2',
-                tags: 'arrancando'
+                tags: 'impuestos'
             },
             //video 4
             {
@@ -103,7 +103,7 @@ var app = new Vue({
                 lang: "en",
                 id: "IuEDwIhuOEo",
                 classes: 'sheet-img-3',
-                tags: 'facturación'
+                tags: 'facturación ingresos gastos'
             },
             //video 5
             {
@@ -113,7 +113,7 @@ var app = new Vue({
                 lang: "es",
                 id: "jeXeAUYDjjM",
                 classes: 'sheet-img-4 ',
-                tags: 'ingresos'
+                tags: 'facturacion cuentasxcobrar'
             },
             //video 6
             {
@@ -123,7 +123,7 @@ var app = new Vue({
                 lang: "es",
                 id: "7tyD1wxNM8w",
                 classes: 'sheet-img-5',
-                tags: 'gastos'
+                tags: 'items facturacion importar'
             },
             //video 7
             {
@@ -133,7 +133,7 @@ var app = new Vue({
                 lang: "es",
                 id: "5rxufoEFYoc",
                 classes: 'sheet-img-6',
-                tags: 'efectivo'
+                tags: 'ingresos reportes items'
             },
             //video 8
             {
@@ -143,7 +143,7 @@ var app = new Vue({
                 lang: "es",
                 id: "as-SxZ1qaXE",
                 classes: 'sheet-img-1',
-                tags: 'inventario'
+                tags: 'exportar'
             },
             //video 9
             {
@@ -153,7 +153,7 @@ var app = new Vue({
                 lang: "es",
                 id: "Sc0mrIxfwQQ",
                 classes: 'sheet-img-2 ',
-                tags: 'reportes'
+                tags: 'ingresos'
             },
             //video 10
             {
@@ -163,7 +163,7 @@ var app = new Vue({
                 lang: "es",
                 id: "LUOCE-x8ehM",
                 classes: 'sheet-img-3',
-                tags: 'clientes'
+                tags: 'inventario'
             },
             //video 11
             {
@@ -173,7 +173,7 @@ var app = new Vue({
                 lang: "es",
                 id: "XT7-2DQYnLI",
                 classes: 'sheet-img-5',
-                tags: 'proveedores'
+                tags: 'facturacion'
             },
             //video 12
             {
@@ -183,7 +183,7 @@ var app = new Vue({
                 lang: "es",
                 id: "U6kRs9WOFGo",
                 classes: 'sheet-img-1',
-                tags: 'items'
+                tags: 'arrancando inventario'
             },
             //video 13
             {
@@ -193,7 +193,7 @@ var app = new Vue({
                 lang: "es",
                 id: "72cQvGMHuPQ",
                 classes: 'sheet-img-1',
-                tags: 'importar'
+                tags: 'arrancando efectivo'
             },
             //video 14
             {
@@ -203,7 +203,7 @@ var app = new Vue({
                 lang: "es",
                 id: "Vnp6ZdoR3BI",
                 classes: 'sheet-img-1',
-                tags: 'exportar'
+                tags: 'arrancando porcobrar porpagar'
             }
         ]
     } //fin data:
