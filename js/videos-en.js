@@ -2,12 +2,12 @@ var app = new Vue({
     el: '#app',
     data: {
         header: {
-            title: 'Video Tutorials - myAbakus',
-            subtitle: 'A collection of short videos showing what you can do with our accounting software'
+            title: 'Video Tutorials',
+            subtitle: 'A collection of short videos showing what you can do with myAbakus'
         },
-        tags: 
+        tags:
         {
-                "*": "All", 
+                "*": "All",
                 ".gettingstarted": "Getting started",
                 ".invoicing" :   "Invoicing",
                 ".income": "Income",
