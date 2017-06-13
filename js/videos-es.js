@@ -6,19 +6,19 @@ var app = new Vue({
             subtitle: 'Una colección de videos cortos que muestran lo que puede hacer con myAbakus'
         },
         tags: {
-                "*": "Todos",
-                ".arrancando": "Arrancando",
-                ".facturacion": "Facturación",
-                ".ingresos": "Ingresos",
-                ".gastos": "Gastos",
-                ".efectivo": "Efectivo",
-                ".inventario": "Inventario",
-                ".reportes": "Reportes",
-                ".porcobrar": "Por Cobrar",
-                ".porpagar": "Por Pagar",
-                ".items": "Items",
-                ".importar": "Importar",
-                ".exportar": "Exportar"
+            "*": "Todos",
+            "arrancando": "Arrancando",
+            "facturacion": "Facturación",
+            "ingresos": "Ingresos",
+            "gastos": "Gastos",
+            "efectivo": "Efectivo",
+            "inventario": "Inventario",
+            "reportes": "Reportes",
+            "porcobrar": "Por Cobrar",
+            "porpagar": "Por Pagar",
+            "items": "Items",
+            "importar": "Importar",
+            "exportar": "Exportar"
         },
         url: '../videos/',
         videos: [

@@ -5,22 +5,22 @@ var app = new Vue({
             title: 'Video Tutorials',
             subtitle: 'A collection of short videos showing what you can do with myAbakus'
         },
-        tags:
-        {
-                "*": "All",
-                ".gettingstarted": "Getting started",
-                ".invoicing" :   "Invoicing",
-                ".income": "Income",
+        tags: {
+
+            "*": "All",
+            "gettingstarted": "Getting started",
+            "invoicing": "Invoicing",
+            "income": "Income",
             //  ".expenses":"Expenses",
-                ".cash": "Cash",
-                ".inventory": "Inventory",
-                ".reports": "Reports",
-                ".receivable": "Receivable",
-                ".payable": "Payable",
-                ".items": "Items",
-                ".import": "Import",
-                ".export": "Export"
-            },
+            "cash": "Cash",
+            "inventory": "Inventory",
+            "reports": "Reports",
+            "receivable": "Receivable",
+            "payable": "Payable",
+            "items": "Items",
+            "import": "Import",
+            "export": "Export"
+        },
         url: '../videos/',
         videos: [
             //video 1
