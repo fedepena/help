@@ -30,7 +30,7 @@ var app = new Vue({
                 lang: "es",
                 id: "9V0MTOZLcdk",
                 next: "JAsQTbqEkik",
-                classes: 'sheet-img-1 ',
+                icon: '1',
                 tags: 'impuestos'
             },
                 // video 3 parte 2
@@ -40,7 +40,7 @@ var app = new Vue({
                 desc: 'Maneje los impuestos y retenciones acorde a las necesidades de su país.',
                 lang: "es",
                 id: "JAsQTbqEkik",
-                classes: 'sheet-img-2',
+                icon: '2',
                 tags: 'impuestos'
             },
             //video 4
@@ -50,7 +50,7 @@ var app = new Vue({
                 desc: 'Maneje adecuadamente los créditos dados a clientes y recibidos de proveedores.',
                 lang: "en",
                 id: "IuEDwIhuOEo",
-                classes: 'sheet-img-3',
+                icon: '3',
                 tags: 'facturación ingresos gastos'
             },
             //video 5
@@ -60,7 +60,7 @@ var app = new Vue({
                 desc: 'Ahora es posible configurar los días usados para calcular el vencimiento en las facturas.',
                 lang: "es",
                 id: "jeXeAUYDjjM",
-                classes: 'sheet-img-4 ',
+                icon: '4',
                 tags: 'facturacion cuentasxcobrar'
             },
             //video 6
@@ -70,7 +70,7 @@ var app = new Vue({
                 desc: 'Maneje hasta cinco listas de precios y actualice fácilmente sus precios usando una plantilla de Excel.',
                 lang: "es",
                 id: "7tyD1wxNM8w",
-                classes: 'sheet-img-5',
+                icon: '5',
                 tags: 'items facturacion importar'
             },
             //video 7
@@ -80,7 +80,7 @@ var app = new Vue({
                 desc: 'El reporte de ingresos por ítem está ahora agrupado por tipo de ítem.',
                 lang: "es",
                 id: "5rxufoEFYoc",
-                classes: 'sheet-img-6',
+                icon: '6',
                 tags: 'ingresos reportes items'
             },
             //video 8
@@ -90,7 +90,7 @@ var app = new Vue({
                 desc: 'Ahora es posible exportar datos desde el Resumen, dónde tenemos el Balance general y el Estado de resultados del mes en curso.',
                 lang: "es",
                 id: "as-SxZ1qaXE",
-                classes: 'sheet-img-1',
+                icon: '1',
                 tags: 'exportar'
             },
             //video 9
@@ -100,7 +100,7 @@ var app = new Vue({
                 desc: 'Las transacciones recurrentes ya no están limitadas a gastos. Usted puede ahora crear transacciones de ingresos recurrentes.',
                 lang: "es",
                 id: "Sc0mrIxfwQQ",
-                classes: 'sheet-img-2 ',
+                icon: '2',
                 tags: 'ingresos'
             },
             //video 10
@@ -110,7 +110,7 @@ var app = new Vue({
                 desc: 'Para determinar los parámetros de reposición de inventario debemos ingresar las cantidades mínimas y máximas que queremos tener para los ítems de inventario.',
                 lang: "es",
                 id: "LUOCE-x8ehM",
-                classes: 'sheet-img-3',
+                icon: '3',
                 tags: 'inventario'
             },
             //video 11
@@ -120,7 +120,7 @@ var app = new Vue({
                 desc: 'Para usar múltiples prefijos y numeración en nuestras facturas necesitamos cambiar la configuración de la factura.',
                 lang: "es",
                 id: "XT7-2DQYnLI",
-                classes: 'sheet-img-4',
+                icon: '4',
                 tags: 'facturacion'
             },
             //video 12
@@ -130,7 +130,7 @@ var app = new Vue({
                 desc: 'Para ingresar el inventario inicial necesitamos ir a controlar inventario y usar la acción agregar inventario.',
                 lang: "es",
                 id: "U6kRs9WOFGo",
-                classes: 'sheet-img-5',
+                icon: '5',
                 tags: 'arrancando inventario'
             },
             //video 13
@@ -140,7 +140,7 @@ var app = new Vue({
                 desc: 'Para ingresar nuestros saldos de efectivo vamos a Controlar - Efectivo.',
                 lang: "es",
                 id: "72cQvGMHuPQ",
-                classes: 'sheet-img-6',
+                icon: '6',
                 tags: 'arrancando efectivo'
             },
             //video 14
@@ -150,7 +150,7 @@ var app = new Vue({
                 desc: 'Para ingresar todas aquellas cuentas que tenemos pendientes por cobrar y por pagar debemos hacerlo a través de una transacción.',
                 lang: "es",
                 id: "Vnp6ZdoR3BI",
-                classes: 'sheet-img-1',
+                icon: '1',
                 tags: 'arrancando porcobrar porpagar'
             }
         ]

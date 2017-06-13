@@ -30,7 +30,7 @@ var app = new Vue({
                 desc: 'Manage up to five price lists and easily update prices using an Excel template.',
                 lang: 'en',
                 id: "IVGATE-wngQ",
-                classes: 'sheet-img-1',
+                icon: '1',
                 tags: 'items invoicing import'
             },
             //video 2
@@ -40,7 +40,7 @@ var app = new Vue({
                 desc: 'It is now possible to configure the days used to calculate due dates in invoices.',
                 lang: "en",
                 id: "7c0z7d4deKs",
-                classes: 'sheet-img-2 ',
+                icon: '2',
                 tags: 'invoicing'
             },
             //video 3
@@ -50,7 +50,7 @@ var app = new Vue({
                 desc: 'The income by item report is now grouped by item type.',
                 lang: "en",
                 id: "CWwwtMMq-Jk",
-                classes: 'sheet-img-3',
+                icon: '3',
                 tags: 'income reports items'
             },
             //video 4
@@ -60,7 +60,7 @@ var app = new Vue({
                 desc: 'It is now possible to export data from the Overview, where we have the Balance sheet and Income and expense    statement for the current month.',
                 lang: "en",
                 id: "aLjSLv3osT0",
-                classes: 'sheet-img-4',
+                icon: '4',
                 tags: 'export'
             },
             //video 5
@@ -70,7 +70,7 @@ var app = new Vue({
                 desc: 'Recurring transactions are no longer limited to expenses. You can now create recurring income transactions as well.',
                 lang: "en",
                 id: "NyjQTmsx3oI",
-                classes: 'sheet-img-5',
+                icon: '5',
                 tags: 'income'
             },
             //video 6
@@ -80,7 +80,7 @@ var app = new Vue({
                 desc: 'To setup the parameters to restock inventory we need to enter the minimum and maximum quantities that we want to have for inventory items.',
                 lang: "en",
                 id: "FA3lPbPeFRA",
-                classes: 'sheet-img-6',
+                icon: '6',
                 tags: 'inventory'
             },
             //video 7
@@ -90,7 +90,7 @@ var app = new Vue({
                 desc: 'To use multiple prefixes and numbering on our invoices we need to change the invoice settings.',
                 lang: "en",
                 id: "slwxy2ZD3s4",
-                classes: 'sheet-img-1',
+                icon: '1',
                 tags: 'invoicing'
             },
             //video 8
@@ -100,7 +100,7 @@ var app = new Vue({
                 desc: 'To enter the initial inventory we need to go to control inventory and use the add inventory action.',
                 lang: "en",
                 id: "kp2B3y9WKPQ",
-                classes: 'sheet-img-2',
+                icon: '2',
                 tags: 'gettingstarted inventory'
             },
             //video 9
@@ -110,7 +110,7 @@ var app = new Vue({
                 desc: 'To enter our cash balances we will control - cash.',
                 lang: "en",
                 id: "Ris-dlXSR7o",
-                classes: 'sheet-img-3',
+                icon: '3',
                 tags: 'gettingstarted cash'
             },
             //video 10
@@ -120,7 +120,7 @@ var app = new Vue({
                 desc: 'To enter all those accounts that we have outstanding receivable and payable we must do it through a transaction.',
                 lang: "en",
                 id: "fSXDJSnE3FY",
-                classes: 'sheet-img-4',
+                icon: '4',
                 tags: 'gettingstarted receivable payable'
             }
         ]
