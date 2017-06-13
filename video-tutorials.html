@@ -36,8 +36,8 @@
             <div class="row sheets">
                 <div class="content-block">
                     <ul class="filter">
-                        <li class="active" v-for="tag in tags">
-                            <a href="#" :data-filter="tag.selector">{{ tag.title }}</a>
+                        <li class="active" v-for="=(tag, key) in tags">
+                            <a href="#" :data-filter=key>{{ tag }}</a>
                         </li>
                     </ul>
                     <!-- /.gallery-filter -->

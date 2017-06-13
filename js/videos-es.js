@@ -5,73 +5,21 @@ var app = new Vue({
             title: 'Video Tutoriales - myAbakus',
             subtitle: 'Una colección de videos cortos mostrando lo que puede hacer con nuestro software contable'
         },
-        tags: [
-            {
-                title: "Todos",
-                selector: "*"
-
-            },
-            {
-                title: "Arrancando",
-                selector: ".arrancando"
-
-            },
-            {
-                title: "Facturación",
-                selector: ".facturacion"
-
-            },
-            {
-                title: "Ingresos",
-                selector: ".ingresos"
-
-            },
-            {
-                title: "Gastos",
-                selector: ".gastos"
-
-            },
-            {
-                title: "Efectivo",
-                selector: ".efectivo"
-
-            },
-            {
-                title: "Inventario",
-                selector: ".inventario"
-
-            },
-            {
-                title: "Reportes",
-                selector: ".reportes"
-
-            },
-            {
-                title: "Por Cobrar",
-                selector: ".porcobrar"
-
-            },
-            {
-                title: "Por Pagar",
-                selector: ".porpagar"
-
-            },
-            {
-                title: "Items",
-                selector: ".items"
-
-            },
-            {
-                title: "Importar",
-                selector: ".importar"
-
-            },
-            {
-                title: "Exportar",
-                selector: ".exportar"
-
-            }
-        ],
+        tags: {
+                "*": "Todos",
+                ".arrancando": "Arrancando",
+                ".facturacion": "Facturación",
+                ".ingresos": "Ingresos",
+                ".gastos": "Gastos",
+                ".efectivo": "Efectivo",
+                ".inventario": "Inventario",
+                ".reportes": "Reportes",
+                ".porcobrar": "Por Cobrar",
+                ".porpagar": "Por Pagar",
+                ".items": "Items",
+                ".importar": "Importar",
+                ".exportar": "Exportar"
+        },
         url: '../videos/',
         videos: [
                 // video 3 parte 1

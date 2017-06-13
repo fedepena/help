@@ -5,73 +5,22 @@ var app = new Vue({
             title: 'Video Tutorials - myAbakus',
             subtitle: 'A collection of short videos showing what you can do with our accounting software'
         },
-        tags: [
-            {
-                title: "All",
-                selector: "*"
-
+        tags: 
+        {
+                "*": "All", 
+                ".gettingstarted": "Getting started",
+                ".invoicing" :   "Invoicing",
+                ".income": "Income",
+            //  ".expenses":"Expenses",
+                ".cash": "Cash",
+                ".inventory": "Inventory",
+                ".reports": "Reports",
+                ".receivable": "Receivable",
+                ".payable": "Payable",
+                ".items": "Items",
+                ".import": "Import",
+                ".export": "Export"
             },
-            {
-                title: "Getting started",
-                selector: ".gettingstarted"
-
-            },
-            {
-                title: "Invoicing",
-                selector: ".invoicing"
-
-            },
-            {
-                title: "Income",
-                selector: ".income"
-
-            },
-            // {
-            //     title: "Expenses",
-            //     selector: ".expenses"
-            //
-            // },
-            {
-                title: "Cash",
-                selector: ".cash"
-
-            },
-            {
-                title: "Inventory",
-                selector: ".inventory"
-
-            },
-            {
-                title: "Reports",
-                selector: ".reports"
-
-            },
-            {
-                title: "Receivable",
-                selector: ".receivable"
-
-            },
-            {
-                title: "Payable",
-                selector: ".payable"
-
-            },
-            {
-                title: "Items",
-                selector: ".items"
-
-            },
-            {
-                title: "Import",
-                selector: ".import"
-
-            },
-            {
-                title: "Export",
-                selector: ".export"
-
-            }
-        ],
         url: '../videos/',
         videos: [
             //video 1
