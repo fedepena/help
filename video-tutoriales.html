@@ -1,267 +1,76 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Video tutoriales de cómo usar nuestro software contable fácil">
-        <link rel="shortcut icon" href="../web/images/favicon.png">
-        <meta name="author" content="">
-        <title>Video Tutoriales</title>
-        <!-- Bootstrap core CSS -->
-        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-        <!-- Custom styles for this template -->
-        <link href="css/style.css" rel="stylesheet" type="text/css">
-        <link href="css/videos.css" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Cabin:600|Quattrocento+Sans" rel="stylesheet" type="text/css">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.min.js"></script>
-        <script type="text/javascript" src="../web/js/km.js"></script>
-        <script type="text/javascript" src="js/drift-es.js"></script>
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
-    </head>
-    <body>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-12">
-                    <h1>Videos</h1>
-                    <h3>Vea los video tutoriales</h3>
-                </div>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Video tutoriales de cómo usar nuestro software contable fácil">
+    <link rel="shortcut icon" href="../web/images/favicon.png">
+    <meta name="author" content="">
+    <title>Video Tutoriales</title>
+    <!-- Vue.js -->
+    <script type="text/javascript" src="https://unpkg.com/vue@2.2.6"></script>
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!-- Custom styles for filters -->
+    <link href="css/isotope.css" rel="stylesheet" type="text/css">
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/videos.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Cabin:600|Quattrocento+Sans" rel="stylesheet" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.min.js"></script>
+    <script type="text/javascript" src="../web/js/km.js"></script>
+    <script type="text/javascript" src="js/drift-es.js"></script>
+</head>
+
+<body>
+
+    <div class="container-fluid" id="app">
+        <div class="row ">
+            <div class="col-md-12">
+                <h1>{{ header.title }}</h1>
+                <h3>{{ header.subtitle }}</h3>
             </div>
+
             <div class="row sheets">
-                <div class="col-md-12 js-masonry" data-masonry-options='{ "itemSelector": ".sheet" }'>
-                    <div class="sheet">
-                        <h2>Mantenga las cuentas de su negocio bajo control y al día</h2>
-                        <div class="test">
-                            <a href="/videos/mantenga-las-cuentas-de-su-negocio-bajo-control-y-al-dia" video-id="4Hx7HXOjp0s">
-                                <div class="sheet3img sheet-img">
-                                    <span class="glyphicon glyphicon-play play-btn"></span>
-                                </div>
-                            </a>
+                <div class="content-block">
+                    <ul class="filter">
+                        <li class="active" v-for="(tag, key) in tags">
+                            <a href="#" :data-filter=key>{{ tag }}</a>
+                        </li>
+                    </ul>
+                    <!-- /.gallery-filter -->
+
+
+                    <div class="col-md-12 js-masonry isotope-gallery-container" data-masonry-options='{ "itemSelector": ".sheet" }'>
+                        <div :class="[video.classes, video.tags]" class="sheet" v-for="video in videos">
+                            <h2>{{ video.title }}</h2>
+                            <div>
+                                <a :href="url+video.slug" :video-id="video.id">
+                                    <div class="sheet-img" :class=" video.classes">
+                                        <span class="glyphicon glyphicon-play play-btn"></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <p>{{ video.desc }}</p>
                         </div>
-                        <p>Tome las riendas financieras de su negocio y mantenga sus cuentas en orden y al dia.</p>
-                    </div>
-                    <div class="sheet">
-                        <h2>Factúrele a sus clientes en forma simple y elegante</h2>
-                        <div class="test">
-                            <a href="/videos/facturele-a-sus-clientes-en-forma-simple-y-elegante" video-id="bN-rDaysBaY">
-                                <div class="sheet3img sheet-img sheet-img-2">
-                                    <span class="glyphicon glyphicon-play play-btn"></span>
-                                </div>
-                            </a>
-                        </div>
-                        <p>Cree y personalice sus facturas con el logo de su compañía, imprímales o envíelas directamente por email a sus clientes.</p>
-                    </div>
-                    <div class="sheet">
-                        <h2>Haga sus cobros a tiempo</h2>
-                        <div class="test">
-                            <a href="/videos/haga-sus-cobros-a-tiempo" video-id="K8rIA7hA2Uk">
-                                <div class="sheet3img sheet-img sheet-img-3">
-                                    <span class="glyphicon glyphicon-play play-btn"></span>
-                                </div>
-                            </a>
-                        </div>
-                        <p>Mantenga sus cuentas por cobrar al día para asegurarse que sus clientes le están pagando según lo acordado.</p>
-                    </div>
-                    <div class="sheet">
-                        <h2>Maneje su flujo de caja</h2>
-                        <div class="test">
-                            <a href="/videos/maneje-su-flujo-de-caja" video-id="-z_zb0t9BlE">
-                                <div class="sheet3img sheet-img sheet-img-4">
-                                    <span class="glyphicon glyphicon-play play-btn"></span>
-                                </div>
-                            </a>
-                        </div>
-                        <p>Manténgase “en la jugada” y evite sorpresas desagradables registrando cobros y pagos pendientes, así como gastos recurrentes.</p>
-                    </div>
-                    <div class="sheet">
-                        <h2>Revise los pagos de ingresos y gastos</h2>
-                        <div class="test">
-                            <a href="/videos/revise-los-pagos-de-ingresos-y-gastos" video-id="pzuHulN2N88">
-                                <div class="sheet3img sheet-img sheet-img-5">
-                                    <span class="glyphicon glyphicon-play play-btn"></span>
-                                </div>
-                            </a>
-                        </div>
-                        <p>Manténgase "encima" de las entras y salidas de efectivo para que su información esté al día y sea confiable .</p>
-                    </div>
-                    <div class="sheet">
-                        <h2>Controle su efectivo</h2>
-                        <div class="test">
-                            <a href="/videos/controle-su-efectivo" video-id="FVv_pc9AcsU">
-                                <div class="sheet3img sheet-img sheet-img-6">
-                                    <span class="glyphicon glyphicon-play play-btn"></span>
-                                </div>
-                            </a>
-                        </div>
-                        <p>Asegúrese que todo (lo que debería) ha sido contabilizado manteniendo sus cuentas de efectivo actualizadas y reconciliadas.</p>
-                    </div>
-                    <div class="sheet">
-                        <h2>Cree sus impuestos y retenciones - Parte 2</h2>
-                        <div class="test">
-                            <a href="/videos/cree-sus-impuestos-y-retenciones-parte-2" video-id="JAsQTbqEkik">
-                                <div class="sheet3img sheet-img">
-                                    <span class="glyphicon glyphicon-play play-btn"></span>
-                                </div>
-                            </a>
-                        </div>
-                        <p>Maneje los impuestos y retenciones acorde a las necesidades de su país.</p>
-                    </div>
-                    <div class="sheet">
-                        <h2>Controle su inventario</h2>
-                        <div class="test">
-                            <a href="/videos/controle-su-inventario" video-id="mWFxihAbFZ8">
-                                <div class="sheet3img sheet-img sheet-img-2">
-                                    <span class="glyphicon glyphicon-play play-btn"></span>
-                                </div>
-                            </a>
-                        </div>
-                        <p>Mantenga las unidades físicas sincronizadas con las del sistema, sepa cuándo ordenar sus productos y vea cómo estos contribuyen (o no) a su ganancia.</p>
-                    </div>
-                    <div class="sheet">
-                        <h2>Cree sus impuestos y retenciones - Parte 1</h2>
-                        <div class="test">
-                            <a href="/videos/cree-sus-impuestos-y-retenciones-parte-1" video-id="9V0MTOZLcdk">
-                                <div class="sheet3img sheet-img sheet-img-3">
-                                    <span class="glyphicon glyphicon-play play-btn"></span>
-                                </div>
-                            </a>
-                        </div>
-                        <p>Maneje los impuestos y retenciones acorde a las necesidades de su país.</p>
-                    </div>
-                    <div class="sheet">
-                        <h2>Cree notas crédito</h2>
-                        <div class="test">
-                            <a href="/videos/cree-notas-credito" video-id="IuEDwIhuOEo">
-                                <div class="sheet3img sheet-img sheet-img-4">
-                                    <span class="glyphicon glyphicon-play play-btn"></span>
-                                </div>
-                            </a>
-                        </div>
-                        <p>Maneje adecuadamente los créditos dados a clientes y recibidos de proveedores.</p>
-                    </div>
-                    <div class="sheet">
-                        <h2>Configure los vencimientos/términos de sus facturas</h2>
-                        <div class="test">
-                            <a href="/videos/configure-los-vencimientos-terminos-de-sus-facturas" video-id="jeXeAUYDjjM">
-                                <div class="sheet3img sheet-img sheet-img-5">
-                                    <span class="glyphicon glyphicon-play play-btn"></span>
-                                </div>
-                            </a>
-                        </div>
-                        <p>Ahora es posible configurar los días usados para calcular el vencimiento en las facturas.</p>
-                    </div>
-                    <div class="sheet">
-                        <h2>Use múltiples listas de precios</h2>
-                        <div class="test">
-                            <a href="/videos/use-multiples-listas-de-precios" video-id="7tyD1wxNM8w">
-                                <div class="sheet3img sheet-img sheet-img-6">
-                                    <span class="glyphicon glyphicon-play play-btn"></span>
-                                </div>
-                            </a>
-                        </div>
-                        <p>Maneje hasta cinco listas de precios y actualice fácilmente sus precios usando una plantilla de Excel.</p>
-                    </div>
-                    <div class="sheet">
-                        <h2>Vea su reporte de ingresos por tipo de ítem</h2>
-                        <div class="test">
-                            <a href="/videos/vea-su-reporte-de-ingresos-por-tipo-de-item" video-id="5rxufoEFYoc">
-                                <div class="sheet3img sheet-img">
-                                    <span class="glyphicon glyphicon-play play-btn"></span>
-                                </div>
-                            </a>
-                        </div>
-                        <p>El reporte de ingresos por ítem está ahora agrupado por tipo de ítem.</p>
-                    </div>
-                    <div class="sheet">
-                        <h2>Exporte su información desde el Resumen</h2>
-                        <div class="test">
-                            <a href="/videos/exporte-su-informacion-desde-el-resumen" video-id="as-SxZ1qaXE">
-                                <div class="sheet3img sheet-img sheet-img-2">
-                                    <span class="glyphicon glyphicon-play play-btn"></span>
-                                </div>
-                            </a>
-                        </div>
-                        <p>Ahora es posible exportar datos desde el Resumen, dónde tenemos el Balance general y el Estado de resultados del mes en curso.</p>
-                    </div>
-                    <div class="sheet">
-                        <h2>Cree transacciones de ingresos recurrentes</h2>
-                        <div class="test">
-                            <a href="/videos/cree-transacciones-de-ingresos-recurrentes" video-id="Sc0mrIxfwQQ">
-                                <div class="sheet3img sheet-img sheet-img-3">
-                                    <span class="glyphicon glyphicon-play play-btn"></span>
-                                </div>
-                            </a>
-                        </div>
-                        <p>Las transacciones recurrentes ya no están limitadas a gastos. Usted puede ahora crear transacciones de ingresos recurrentes.</p>
-                    </div>
-                    <div class="sheet">
-                        <h2>Determine y use los parámetros para reposición de inventario</h2>
-                        <div class="test">
-                            <a href="/videos/determine-y-use-los-parametros-para-reposicion-de-inventario" video-id="LUOCE-x8ehM">
-                                <div class="sheet3img sheet-img sheet-img-4">
-                                    <span class="glyphicon glyphicon-play play-btn"></span>
-                                </div>
-                            </a>
-                        </div>
-                        <p>Para determinar los parámetros de reposición de inventario debemos ingresar las cantidades mínimas y máximas que queremos tener para los ítems de inventario.</p>
-                    </div>
-                    <div class="sheet">
-                        <h2>Use múltiples prefijos en facturas y otros documentos</h2>
-                        <div class="test">
-                            <a href="/videos/use-multiples-prefijos-en-facturas-y-otros-documentos" video-id="XT7-2DQYnLI">
-                                <div class="sheet3img sheet-img sheet-img-5">
-                                    <span class="glyphicon glyphicon-play play-btn"></span>
-                                </div>
-                            </a>
-                        </div>
-                        <p>Para usar múltiples prefijos y numeración en nuestras facturas necesitamos cambiar la configuración de la factura.</p>
-                    </div>
-                    <div class="sheet">
-                        <h2>Ingrese su inventario inicial</h2>
-                        <div class="test">
-                            <a href="/videos/ingrese-su-inventario-inicial" video-id="U6kRs9WOFGo">
-                                <div class="sheet3img sheet-img sheet-img-6">
-                                    <span class="glyphicon glyphicon-play play-btn"></span>
-                                </div>
-                            </a>
-                        </div>
-                        <p>Para ingresar el inventario inicial necesitamos ir a controlar inventario y usar la acción agregar inventario.</p>
-                    </div>
-                    <div class="sheet">
-                        <h2>Ingrese sus saldos iniciales de efectivo</h2>
-                        <div class="test">
-                            <a href="/videos/ingrese-sus-saldos-iniciales-de-efectivo" video-id="72cQvGMHuPQ">
-                                <div class="sheet3img sheet-img">
-                                    <span class="glyphicon glyphicon-play play-btn"></span>
-                                </div>
-                            </a>
-                        </div>
-                        <p>Para ingresar nuestros saldos de efectivo vamos a Controlar - Efectivo.</p>
-                    </div>
-                    <div class="sheet">
-                        <h2>Ingrese sus saldos iniciales de clientes y proveedores</h2>
-                        <div class="test">
-                            <a href="/videos/ingrese-sus-saldos-iniciales-de-clientes-y-proveedores" video-id="Vnp6ZdoR3BI">
-                                <div class="sheet3img sheet-img sheet-img-6">
-                                    <span class="glyphicon glyphicon-play play-btn"></span>
-                                </div>
-                            </a>
-                        </div>
-                        <p>Para ingresar todas aquellas cuentas que tenemos pendientes por cobrar y por pagar debemos hacerlo a través de una transacción.</p>
+                        <!-- fin del v-for -->
                     </div>
                 </div>
             </div>
         </div>
-        <script src="assets/js/jquery.min.js"></script>
-        <!-- Bootstrap core JavaScript
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Bootstrap core JavaScript
     ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="bootstrap/js/bootstrap.min.js"></script>
-        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-        <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
-    </body>
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script type="text/javascript" src="js/plugins.js"></script>
+    <script type="text/javascript" src="js/isotope.js"></script>
+    <script type="text/javascript" src="js/videos-es.js"></script>
+</body>
+
 </html>

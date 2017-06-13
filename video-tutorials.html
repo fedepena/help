@@ -1,223 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Video tutorials of how to use our easy acounnting software">
-        <link rel="shortcut icon" href="../web/images/favicon.png">
-        <meta name="author" content="">
-        <title>Video Tutorials</title>
-        <!-- Bootstrap core CSS -->
-        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-        <!-- Custom styles for this template -->
-        <link href="css/style.css" rel="stylesheet" type="text/css">
-        <link href="css/videos.css" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Cabin:600|Quattrocento+Sans" rel="stylesheet" type="text/css">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.min.js"></script>
-        <script type="text/javascript" src="../web/js/km.js"></script>
-        <script type="text/javascript" src="js/drift-en.js"></script>
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
-    </head>
-    <body>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-12">
-                    <h1>Videos</h1>
-                    <h3>Watch the video tutorials</h3>
-                </div>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Video tutorials of how to use our easy accounting software">
+    <link rel="shortcut icon" href="../web/images/favicon.png">
+    <meta name="author" content="">
+    <title>Video Tutorials</title>
+    <!-- Vue.js -->
+    <script type="text/javascript" src="https://unpkg.com/vue@2.2.6"></script>
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!-- Custom styles for filters -->
+    <link href="css/isotope.css" rel="stylesheet" type="text/css">
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/videos.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Cabin:600|Quattrocento+Sans" rel="stylesheet" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.min.js"></script>
+    <script type="text/javascript" src="../web/js/km.js"></script>
+    <script type="text/javascript" src="js/drift-en.js"></script>
+</head>
+
+<body>
+
+    <div class="container-fluid" id="app">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>{{ header.title }}</h1>
+                <h3>{{ header.subtitle }}</h3>
             </div>
+
             <div class="row sheets">
-                <div class="col-md-12 js-masonry" data-masonry-options='{ "itemSelector": ".sheet" }'>
-                    <div class="sheet">
-                        <h2>Keep your business finances under control and up to date</h2>
-                        <div class="test">
-                            <a href="/videos/keep-your-business-finances-under-control-and-up-to-date" video-id="f0dSeD3q3Ns">
-                                <div class="sheet3img sheet-img">
-                                    <span class="glyphicon glyphicon-play play-btn"></span>
-                                </div>
-                            </a>
+                <div class="content-block">
+                    <ul class="filter">
+                        <li class="active" v-for="=(tag, key) in tags">
+                            <a href="#" :data-filter=key>{{ tag }}</a>
+                        </li>
+                    </ul>
+                    <!-- /.gallery-filter -->
+
+                    <div class="col-md-12 js-masonry isotope-gallery-container" data-masonry-options='{ "itemSelector": ".sheet" }'>
+                        <div :class="[video.classes, video.tags]" class="sheet " v-for="video in videos">
+                            <h2>{{ video.title }}</h2>
+                            <div>
+                                <a :href="url+video.slug" :video-id="video.id">
+                                    <div class="sheet-img" :class=" video.classes">
+                                        <span class="glyphicon glyphicon-play play-btn"></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <p>{{ video.desc }}</p>
                         </div>
-                        <p>Take the financial reins of your business and keep its accounts in order and up to date.</p>
-                    </div>
-                    <div class="sheet">
-                        <h2>Invoice your customers in a simple and elegant way</h2>
-                        <div class="test">
-                            <a href="/videos/invoice-your-customers-in-a-simple-and-elegant-way" video-id="4nTPEaEAx_Q">
-                                <div class="sheet3img sheet-img sheet-img-2">
-                                    <span class="glyphicon glyphicon-play play-btn"></span>
-                                </div>
-                            </a>
-                        </div>
-                        <p>Create and customize your invoices with your company's logo, print them, or email them directly to your customers.</p>
-                    </div>
-                    <div class="sheet">
-                        <h2>Get paid on time</h2>
-                        <div class="test">
-                            <a href="/videos/get-paid-on-time" video-id="U6PN3F5q-C0">
-                                <div class="sheet3img sheet-img sheet-img-3">
-                                    <span class="glyphicon glyphicon-play play-btn"></span>
-                                </div>
-                            </a>
-                        </div>
-                        <p>Keep your sales and collection data up to date to make sure customers are paying you when and how they should.</p>
-                    </div>
-                    <div class="sheet">
-                        <h2>Control your inventory</h2>
-                        <div class="test">
-                            <a href="/videos/control-your-inventory" video-id="bTJ4-rnkzqk">
-                                <div class="sheet3img sheet-img sheet-img-4">
-                                    <span class="glyphicon glyphicon-play play-btn"></span>
-                                </div>
-                            </a>
-                        </div>
-                        <p>Maintain system and real quantities synced, know when to reorder, and see how your products are contributing (or not) to your bottom line.</p>
-                    </div>
-                    <div class="sheet">
-                        <h2>Control your cash</h2>
-                        <div class="test">
-                            <a href="/videos/control-your-cash" video-id="YI5jDEjOq8A">
-                                <div class="sheet3img sheet-img sheet-img-5">
-                                    <span class="glyphicon glyphicon-play play-btn"></span>
-                                </div>
-                            </a>
-                        </div>
-                        <p>Make sure everything (that should) has been accounted by keeping your cash accounts up to date and reconciled.</p>
-                    </div>
-                    <div class="sheet">
-                        <h2>Manage your cash flow</h2>
-                        <div class="test">
-                            <a href="/videos/manage-your-cash-flow" video-id="dziMNOGtabA">
-                                <div class="sheet3img sheet-img sheet-img-6">
-                                    <span class="glyphicon glyphicon-play play-btn"></span>
-                                </div>
-                            </a>
-                        </div>
-                        <p>Stay ahead of the game and avoid nasty surprises by entering pending collections and payments, as well as recurring expenses.</p>
-                    </div>
-                    <div class="sheet">
-                        <h2>Manage multiple price lists</h2>
-                        <div class="test">
-                            <a href="/videos/manage-multiple-price-lists" video-id="IVGATE-wngQ">
-                                <div class="sheet3img sheet-img">
-                                    <span class="glyphicon glyphicon-play play-btn"></span>
-                                </div>
-                            </a>
-                        </div>
-                        <p>Manage up to five price lists and easily update prices using an Excel template.</p>
-                    </div>
-                    <div class="sheet">
-                        <h2>Configure the due date/terms of your invoices</h2>
-                        <div class="test">
-                            <a href="/videos/configure-the-due-date-terms-of-your-invoices" video-id="7c0z7d4deKs">
-                                <div class="sheet3img sheet-img sheet-img-2">
-                                    <span class="glyphicon glyphicon-play play-btn"></span>
-                                </div>
-                            </a>
-                        </div>
-                        <p>It is now possible to configure the days used to calculate due dates in invoices.</p>
-                    </div>
-                    <div class="sheet">
-                        <h2>View your income report by item type</h2>
-                        <div class="test">
-                            <a href="/videos/view-your-income-report-by-item-type" video-id="CWwwtMMq-Jk">
-                                <div class="sheet3img sheet-img sheet-img-3">
-                                    <span class="glyphicon glyphicon-play play-btn"></span>
-                                </div>
-                            </a>
-                        </div>
-                        <p>The income by item report is now grouped by item type.</p>
-                    </div>
-                    <div class="sheet">
-                        <h2>Export your data from the Overview</h2>
-                        <div class="test">
-                            <a href="/videos/export-your-data-from-the-overview" video-id="aLjSLv3osT0">
-                                <div class="sheet3img sheet-img sheet-img-4">
-                                    <span class="glyphicon glyphicon-play play-btn"></span>
-                                </div>
-                            </a>
-                        </div>
-                        <p>It is now possible to export data from the Overview, where we have the Balance sheet and Income and expense statement for the current month.</p>
-                    </div>
-                    <div class="sheet">
-                        <h2>Create recurring income transactions</h2>
-                        <div class="test">
-                            <a href="/videos/create-recurring-income-transactions" video-id="NyjQTmsx3oI">
-                                <div class="sheet3img sheet-img sheet-img-5">
-                                    <span class="glyphicon glyphicon-play play-btn"></span>
-                                </div>
-                            </a>
-                        </div>
-                        <p>Recurring transactions are no longer limited to expenses. You can now create recurring income transactions as well.</p>
-                    </div>
-                    <div class="sheet">
-                        <h2>Setup and use the parameters to restock the inventory</h2>
-                        <div class="test">
-                            <a href="/videos/setup-and-use-the-parameters-to-restock-the-inventory" video-id="FA3lPbPeFRA">
-                                <div class="sheet3img sheet-img sheet-img-6">
-                                    <span class="glyphicon glyphicon-play play-btn"></span>
-                                </div>
-                            </a>
-                        </div>
-                        <p>To setup the parameters to restock inventory we need to enter the minimum and maximum quantities that we want to have for inventory items.</p>
-                    </div>
-                    <div class="sheet">
-                        <h2>Use multiple prefixes on invoices and other documents</h2>
-                        <div class="test">
-                            <a href="/videos/use-multiple-prefixes-on-invoices-and-other-documents" video-id="slwxy2ZD3s4">
-                                <div class="sheet3img sheet-img">
-                                    <span class="glyphicon glyphicon-play play-btn"></span>
-                                </div>
-                            </a>
-                        </div>
-                        <p>To use multiple prefixes and numbering on our invoices we need to change the invoice settings.</p>
-                    </div>
-                    <div class="sheet">
-                        <h2>Enter your initial inventory</h2>
-                        <div class="test">
-                            <a href="/videos/enter-your-initial-inventory" video-id="kp2B3y9WKPQ">
-                                <div class="sheet3img sheet-img sheet-img-2">
-                                    <span class="glyphicon glyphicon-play play-btn"></span>
-                                </div>
-                            </a>
-                        </div>
-                        <p>To enter the initial inventory we need to go to control inventory and use the add inventory action.</p>
-                    </div>
-                    <div class="sheet">
-                        <h2>Enter your starting cash balances</h2>
-                        <div class="test">
-                            <a href="/videos/enter-your-starting-cash-balances" video-id="Ris-dlXSR7o">
-                                <div class="sheet3img sheet-img sheet-img-3">
-                                    <span class="glyphicon glyphicon-play play-btn"></span>
-                                </div>
-                            </a>
-                        </div>
-                        <p>To enter our cash balances we will control - cash.</p>
-                    </div>
-                    <div class="sheet">
-                        <h2>Enter your starting balances for customers and suppliers</h2>
-                        <div class="test">
-                            <a href="/videos/enter-your-starting-balances-for-customers-and-suppliers" video-id="fSXDJSnE3FY">
-                                <div class="sheet3img sheet-img sheet-img-2">
-                                    <span class="glyphicon glyphicon-play play-btn"></span>
-                                </div>
-                            </a>
-                        </div>
-                        <p>To enter all those accounts that we have outstanding receivable and payable we must do it through a transaction.</p>
+                        <!-- fin del v-for -->
                     </div>
                 </div>
             </div>
         </div>
-        <script src="assets/js/jquery.min.js"></script>
-        <!-- Bootstrap core JavaScript
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Bootstrap core JavaScript
     ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="bootstrap/js/bootstrap.min.js"></script>
-        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-        <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
-    </body>
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script type="text/javascript" src="js/plugins.js"></script>
+    <script type="text/javascript" src="js/isotope.js"></script>
+    <script type="text/javascript" src="js/videos-en.js"></script>
+</body>
+
 </html>
