@@ -2,8 +2,8 @@ var app = new Vue({
     el: '#app',
     data: {
         header: {
-            title: 'Video Tutoriales - myAbakus',
-            subtitle: 'Una colección de videos cortos mostrando lo que puede hacer con nuestro software contable'
+            title: 'Video Tutoriales',
+            subtitle: 'Una colección de videos cortos que muestran lo que puede hacer con myAbakus'
         },
         tags: {
                 "*": "Todos",
@@ -120,7 +120,7 @@ var app = new Vue({
                 desc: 'Para usar múltiples prefijos y numeración en nuestras facturas necesitamos cambiar la configuración de la factura.',
                 lang: "es",
                 id: "XT7-2DQYnLI",
-                classes: 'sheet-img-5',
+                classes: 'sheet-img-4',
                 tags: 'facturacion'
             },
             //video 12
@@ -130,7 +130,7 @@ var app = new Vue({
                 desc: 'Para ingresar el inventario inicial necesitamos ir a controlar inventario y usar la acción agregar inventario.',
                 lang: "es",
                 id: "U6kRs9WOFGo",
-                classes: 'sheet-img-1',
+                classes: 'sheet-img-5',
                 tags: 'arrancando inventario'
             },
             //video 13
@@ -140,7 +140,7 @@ var app = new Vue({
                 desc: 'Para ingresar nuestros saldos de efectivo vamos a Controlar - Efectivo.',
                 lang: "es",
                 id: "72cQvGMHuPQ",
-                classes: 'sheet-img-1',
+                classes: 'sheet-img-6',
                 tags: 'arrancando efectivo'
             },
             //video 14
