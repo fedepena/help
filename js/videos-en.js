@@ -117,7 +117,9 @@ var app = new Vue({
     },
     filters: {
         slugify: function (value) {
-        var minus = value.toLowerCase().replace(/\s+/g, "-");
+        var minus;
+            minus = value.toLowerCase().replace(/\s+/g, "-");
+            minus.replace(/^-+/, "");
             return minus;
     }
 }
