@@ -43,17 +43,18 @@
                     <!-- /.gallery-filter -->
 
 
-                    <div class="col-md-12 js-masonry isotope-gallery-container" data-masonry-options='{ "itemSelector": ".sheet" }' >
+                    <div class="col-md-12 js-masonry isotope-gallery-container" data-masonry-options='{ "itemSelector": ".sheet" }'>
                         <div :class="['sheet-img-'+video.icon, video.tags]" class="sheet" v-for="video in videos">
                             <h2>{{ video.title }}</h2>
-                            <div id="app1"> 
+                            <div id="app1">
                                 <a :href="url+video.title | slugify" :video-id="video.id">
                                     <div class="sheet-img" :class="'sheet-img-'+video.icon">
                                         <span class="glyphicon glyphicon-play play-btn"></span>
                                     </div>
                                 </a>
                             </div>
-                            <p>{{ video.desc  }}</p><p>{{url+video.title | slugify}}</p>
+                            <p>{{ video.desc }}</p>
+                            <p>{{url+video.title | slugify}}</p>
                         </div>
                         <!-- fin del v-for -->
                     </div>

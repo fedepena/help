@@ -119,7 +119,6 @@ var app = new Vue({
         slugify: function (value) {
         var minus;
             minus = value.toLowerCase().replace(/\s+/g, "-");
-            minus.replace(/^-+/, "");
             return minus;
     }
 }
