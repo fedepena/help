@@ -37,18 +37,18 @@
                 <div class="content-block">
                     <ul class="filter">
                         <li class="active" v-for="(tag, key) in tags">
-                            <a href="#" :data-filter=key>{{ tag }}</a>
+                            <a href="#" :data-filter="key == '*' ? key : '.' + key">{{ tag }}</a>
                         </li>
                     </ul>
                     <!-- /.gallery-filter -->
 
 
                     <div class="col-md-12 js-masonry isotope-gallery-container" data-masonry-options='{ "itemSelector": ".sheet" }'>
-                        <div :class="[video.classes, video.tags]" class="sheet" v-for="video in videos">
+                        <div :class="['sheet-img-'+video.icon, video.tags]" class="sheet" v-for="video in videos">
                             <h2>{{ video.title }}</h2>
-                            <div>
-                                <a :href="url+video.slug" :video-id="video.id">
-                                    <div class="sheet-img" :class=" video.classes">
+                            <div id="app1">
+                                <a :href="url+video.title | slugify" :video-id="video.id">
+                                    <div class="sheet-img" :class="'sheet-img-'+video.icon">
                                         <span class="glyphicon glyphicon-play play-btn"></span>
                                     </div>
                                 </a>
@@ -71,6 +71,7 @@
     <script type="text/javascript" src="js/plugins.js"></script>
     <script type="text/javascript" src="js/isotope.js"></script>
     <script type="text/javascript" src="js/videos-es.js"></script>
+    <script type="text/javascript" src="js/methods.js"></script>
 </body>
 
 </html>
