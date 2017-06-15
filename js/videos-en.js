@@ -34,7 +34,7 @@ var app = new Vue({
             },
             //video 2
             {
-                title: 'Configure the due date/terms of your invoices',
+                title: 'Configure the due date for your invoices',
                 desc: 'It is now possible to configure the days used to calculate due dates in invoices.',
                 lang: "en",
                 id: "7c0z7d4deKs",
