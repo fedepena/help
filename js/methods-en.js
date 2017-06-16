@@ -5,7 +5,7 @@ var app = new Vue({
         slugify: function (value) {
             var minus;
             minus = value.toLowerCase().replace(/\s+/g, "-");
-            return minus;
+            return '/videos/'+minus;
         }
     }
 });
