@@ -46,7 +46,7 @@
                         <div :class="['sheet-img-'+video.icon, video.tags]" class="sheet " v-for="video in videos">
                             <h2>{{ video.title }}</h2>
                             <div>
-                                <a :href="url+video.title | slugify" :video-id="video.id">
+                                <a :href="video.title | slugify" :video-id="video.id">
                                     <div class="sheet-img" :class="'sheet-img-'+video.icon">
                                         <span class="glyphicon glyphicon-play play-btn"></span>
                                     </div>
@@ -70,7 +70,7 @@
     <script type="text/javascript" src="js/plugins.js"></script>
     <script type="text/javascript" src="js/isotope.js"></script>
     <script type="text/javascript" src="js/videos-en.js"></script>
-    <script type="text/javascript" src="js/methods.js"></script>
+    <script type="text/javascript" src="js/methods-en.js"></script>
 </body>
 
 </html>

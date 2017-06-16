@@ -60,8 +60,8 @@
                 </div>
                 <div class="row page" v-for="video in lesson.videos">
                     <div class="img-wrap col-xs-12 col-sm-4 col-md-12">
-                        <a :href="dir+video.slug" :video-id="video.id">
-                            <div :class="video.img">
+                        <a :href="video.title | slugify" :video-id="video.id">
+                            <div class="play-img" :class="'play-img-'+video.icon">
                                 <span class="glyphicon glyphicon-play play-btn"></span>
                             </div>
                         </a>
@@ -81,6 +81,7 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
     <script type="text/javascript" src="js/course-es.js"></script>
+    <script type="text/javascript" src="js/methods-es.js"></script>
 </body>
 
 </html>
