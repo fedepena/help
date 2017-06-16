@@ -18,7 +18,7 @@ var data = {
                     lang: 'en',
                     id: "3oXh3B7fjE8",
                     next: "Dq-WLR00uNg",
-                    icon: "sheet3img sheet-img"
+                    icon: "7"
                 },
                 {
                     //videos 1.2
@@ -26,7 +26,7 @@ var data = {
                     desc: 'We are ready to start: Let’s review how to enter different type of transactions and their impact on the different sections of the application',
                     lang: "en",
                     id: "Dq-WLR00uNg",
-                    icon: "sheet3img sheet-img"
+                    icon: "1"
                 }
                     ]
         },
@@ -38,7 +38,7 @@ var data = {
                     desc: 'Create and customize your invoices with your companys logo, print them, or email them directly to your customers.',
                     lang: "en",
                     id: "4nTPEaEAx_Q",
-                    icon: "play-img-2"
+                    icon: "2"
                 }
                     ]
             },
@@ -50,7 +50,7 @@ var data = {
                     desc: 'Keep your sales and collection data up to date to make sure customers are paying you when and how they should.',
                     lang: "en",
                     id: "U6PN3F5q-C0",
-                    icon: "play-img-3"
+                    icon: "3"
 
                     }
                         ]
@@ -63,7 +63,7 @@ var data = {
                     desc: 'Make sure everything (that should) has been accounted by keeping your cash accounts up to date and reconciled.',
                     lang: "en",
                     id: "YI5jDEjOq8A",
-                    icon: "play-img-4"
+                    icon: "4"
                 }
                     ]
             },
@@ -75,7 +75,7 @@ var data = {
                     desc: 'Stay ahead of the game and avoid nasty surprises by entering pending collections and payments, as well as recurring expenses.',
                     lang: "en",
                     id: "dziMNOGtabA",
-                    icon: "play-img-5",
+                    icon: "5",
 
                     }
                         ]
@@ -88,7 +88,7 @@ var data = {
                     desc: 'Maintain system and real quantities synced, know when to reorder, and see how your products are contributing (or not) to your bottom line.',
                     lang: "en",
                     id: "bTJ4-rnkzqk",
-                    icon: "play-img-6"
+                    icon: "6"
                     }
                         ]
             }

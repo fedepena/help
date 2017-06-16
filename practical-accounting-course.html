@@ -61,7 +61,7 @@
                 <div class="row page" v-for="video in lesson.videos">
                     <div class="img-wrap col-xs-12 col-sm-4 col-md-12">
                         <a v-bind:href="video.title | slugify" v-bind:video-id="video.id">
-                            <div class="play-img" :class="video.icon">
+                            <div class="play-img" :class="'play-img-'+video.icon">
                                 <span class="glyphicon glyphicon-play play-btn"></span>
                             </div>
                         </a>
