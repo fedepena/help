@@ -14,7 +14,7 @@ var app = new Vue({
             minus = minus.replace(/ú/gi, "u");
             minus = minus.replace(/ñ/gi, "n");
             //reemplaza espacios con ( - )
-            return '/videos/'+minus.replace(/\s+/g, "-");
+            return '../videos/' + minus.replace(/\s+/g, "-");
         }
     }
 });

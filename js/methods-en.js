@@ -4,8 +4,10 @@ var app = new Vue({
     filters: {
         slugify: function (value) {
             var minus;
-            minus = value.toLowerCase().replace(/\s+/g, "-");
-            return '/videos/'+minus;
+            //convierte a minuscula la cadena y reemplaza los ( - ) > 1 por "" cierre
+            minus = value.toLowerCase().replace(/\-+/g, "");
+            //reemplaza espacios con ( - )
+            return '../videos/' + minus.replace(/\s+/g, "-");
         }
     }
 });
