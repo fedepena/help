@@ -17,14 +17,14 @@ var data = {
                     lang: "es",
                     id: "61xx5xK9hTM",
                     next: "v5qQ8-xtFEw",
-                    icon: "7"
+                    icon: "1"
                     },
                 { //video 1.2
                     title: 'Cómo y Dónde Arrancar - Parte 2',
                     desc: 'Estamos listos para comenzar: Revisemos cómo ingresar diferentes tipos de transacciones y el impacto de las mismas en las diferentes secciones de la aplicación',
                     lang: "es",
                     id: "v5qQ8-xtFEw",
-                    icon: "1"
+                    icon: "2"
                     }
                         ]
             },
@@ -36,7 +36,7 @@ var data = {
                     desc: 'Cree y personalice sus facturas con el logo de su compañía, imprímales o envíelas directamente por email a sus clientes.',
                     lang: "es",
                     id: "bN-rDaysBaY",
-                    icon: "2"
+                    icon: "3"
                     }
                         ]
             },
@@ -48,7 +48,7 @@ var data = {
                     desc: 'Mantenga sus cuentas por cobrar al día para asegurarse que sus clientes le están pagando según lo acordado.',
                     lang: "es",
                     id: "K8rIA7hA2Uk",
-                    icon: "3"
+                    icon: "4"
                     }
                         ]
             },
@@ -60,7 +60,7 @@ var data = {
                     desc: 'Asegúrese que todo (lo que debería) ha sido contabilizado manteniendo sus cuentas de efectivo actualizadas y reconciliadas.',
                     lang: "es",
                     id: "FVv_pc9AcsU",
-                    icon: "4"
+                    icon: "5"
                     }
                         ]
             },
@@ -72,7 +72,7 @@ var data = {
                     desc: "Manténgase “en la jugada” y evite sorpresas desagradables registrando cobros y pagos pendientes, así como gastos recurrentes.",
                     lang: "es",
                     id: "-z_zb0t9BlE",
-                    icon: "5"
+                    icon: "6"
                     }
                         ]
             },
@@ -84,7 +84,7 @@ var data = {
                     desc: "Mantenga las unidades físicas sincronizadas con las del sistema, sepa cuándo ordenar sus productos y vea cómo estos contribuyen (o no) a su ganancia.",
                     lang: "es",
                     id: "mWFxihAbFZ8",
-                    icon: "6"
+                    icon: "1"
                     }
                         ]
             }
