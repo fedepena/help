@@ -25,11 +25,17 @@ var data = {
     }, {
         "title": "Lesson 2: Invoicing",
         "videos": [{
-            "title": "Invoice your customers in a simple and elegant way",
-            "desc": "Create and customize your invoices with your companys logo, print them, or email them directly to your customers.",
+            "title": "Invoice Settings",
+            "desc": "Let’s start by making sure that our invoice has all the information we need and that it looks good",
             "lang": "en",
             "id": "4nTPEaEAx_Q",
             "icon": "3"
+        },{
+            "title": "Printing and Sending the Invoice by Email",
+            "desc": "Now that our invoice is ready, let’s check how we can print it and send it by email to our customers",
+            "lang": "en",
+            "id": "4nTPEaEAx_Q",
+            "icon": "4"
         }]
     }, {
         "title": "Lesson 3: Accounts receivable",
@@ -38,7 +44,7 @@ var data = {
             "desc": "Keep your sales and collection data up to date to make sure customers are paying you when and how they should.",
             "lang": "en",
             "id": "U6PN3F5q-C0",
-            "icon": "4"
+            "icon": "5"
         }]
     }, {
         "title": "Lesson 4: Cash control",
@@ -47,7 +53,7 @@ var data = {
             "desc": "Make sure everything (that should) has been accounted by keeping your cash accounts up to date and reconciled.",
             "lang": "en",
             "id": "YI5jDEjOq8A",
-            "icon": "5"
+            "icon": "6"
         }]
     }, {
         "title": "Lesson 5: Cash flow management ",
@@ -56,7 +62,7 @@ var data = {
             "desc": "Stay ahead of the game and avoid nasty surprises by entering pending collections and payments, as well as recurring expenses.",
             "lang": "en",
             "id": "dziMNOGtabA",
-            "icon": "6"
+            "icon": "1"
         }]
     }, {
         "title": "Lesson 6: Inventory control",
@@ -65,7 +71,7 @@ var data = {
             "desc": "Maintain system and real quantities synced, know when to reorder, and see how your products are contributing (or not) to your bottom line.",
             "lang": "en",
             "id": "bTJ4-rnkzqk",
-            "icon": "1"
+            "icon": "2"
         }]
     }]
 };
