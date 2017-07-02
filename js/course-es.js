@@ -24,20 +24,23 @@ var data = {
       ]
     },
     {
-        "title": "Lección 2: Facturación",
-        "videos": [{
-            "title": "Configuración de la Factura ",
-            "desc": "Comencemos por asegurarnos que la factura tiene toda la información que necesitamos y que se vea bien",
-            "lang": "es",
-            "id": "iUhXMyUWtKw",
-            "icon": "3"
-        },{
-            "title": "Impresión y Envío de la Factura por Email",
-            "desc": "Ahora que nuestra factura está lista, revisemos como podemos imprimirla y enviarla por email a nuestros clientes",
-            "lang": "es",
-            "id": "elLeoN9MSXM",
-            "icon": "4"
-        }]
+      "title": "Lección 2: Facturación",
+      "videos": [
+        {
+          "title": "Configuración de la Factura ",
+          "desc": "Comencemos por asegurarnos que la factura tiene toda la información que necesitamos y que se vea bien",
+          "lang": "es",
+          "id": "iUhXMyUWtKw",
+          "icon": "3"
+        },
+        {
+          "title": "Impresión y Envío de la Factura por Email",
+          "desc": "Ahora que nuestra factura está lista, revisemos como podemos imprimirla y enviarla por email a nuestros clientes",
+          "lang": "es",
+          "id": "elLeoN9MSXM",
+          "icon": "4"
+        }
+      ]
     },
     {
       "title": "Lección 3: Haga sus cobros a tiempo",
