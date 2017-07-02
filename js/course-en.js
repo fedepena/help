@@ -29,13 +29,13 @@ var data = {
             "title": "Invoice Settings",
             "desc": "Let’s start by making sure that our invoice has all the information we need and that it looks good",
             "lang": "en",
-            "id": "4nTPEaEAx_Q",
+            "id": "If7PW-zYB9w",
             "icon": "3"
         },{
             "title": "Printing and Sending the Invoice by Email",
             "desc": "Now that our invoice is ready, let’s check how we can print it and send it by email to our customers",
             "lang": "en",
-            "id": "4nTPEaEAx_Q",
+            "id": "5tdto25vhyg",
             "icon": "4"
         }]
     },
