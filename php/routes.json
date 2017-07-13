@@ -1,0 +1,117 @@
+[{
+    "title": "Manage multiple price lists",
+    "desc": "Manage up to five price lists and easily update prices using an Excel template.",
+    "lang": "en",
+    "id": "IVGATE-wngQ"
+}, {
+    "title": "Configure the due date for your invoices",
+    "desc": "It is now possible to configure the days used to calculate due dates in invoices.",
+    "lang": "en",
+    "id": "7c0z7d4deKs"
+}, {
+    "title": "View your income report by item type",
+    "desc": "The income by item report is now grouped by item type.",
+    "lang": "en",
+    "id": "CWwwtMMq-Jk"
+}, {
+    "title": "Export your data from the Overview",
+    "desc": "It is now possible to export data from the Overview, where we have the Balance sheet and Income and expense    statement for the current month.",
+    "lang": "en",
+    "id": "aLjSLv3osT0"
+}, {
+    "title": "Create recurring income transactions",
+    "desc": "Recurring transactions are no longer limited to expenses. You can now create recurring income transactions as well.",
+    "lang": "en",
+    "id": "NyjQTmsx3oI"
+}, {
+    "title": "Setup and use the parameters to restock the inventory",
+    "desc": "To setup the parameters to restock inventory we need to enter the minimum and maximum quantities that we want to have for inventory items.",
+    "lang": "en",
+    "id": "FA3lPbPeFRA"
+}, {
+    "title": "Use multiple prefixes on invoices and other documents",
+    "desc": "To use multiple prefixes and numbering on our invoices we need to change the invoice settings.",
+    "lang": "en",
+    "id": "slwxy2ZD3s4"
+}, {
+    "title": "Enter your initial inventory",
+    "desc": "To enter the initial inventory we need to go to control inventory and use the add inventory action.",
+    "lang": "en",
+    "id": "kp2B3y9WKPQ"
+}, {
+    "title": "Enter your starting cash balances",
+    "desc": "To enter our cash balances we will control - cash.",
+    "lang": "en",
+    "id": "Ris-dlXSR7o"
+}, {
+    "title": "Enter your starting balances for customers and suppliers",
+    "desc": "To enter all those accounts that we have outstanding receivable and payable we must do it through a transaction.",
+    "lang": "en",
+    "id": "fSXDJSnE3FY"
+}, {
+    "title": "Cree sus impuestos y retenciones - Parte 1",
+    "desc": "Maneje los impuestos y retenciones acorde a las necesidades de su pa\u00eds.",
+    "lang": "es",
+    "id": "9V0MTOZLcdk",
+    "next": "JAsQTbqEkik"
+}, {
+    "title": "Cree sus impuestos y retenciones - Parte 2",
+    "desc": "Maneje los impuestos y retenciones acorde a las necesidades de su pa\u00eds.",
+    "lang": "es",
+    "id": "JAsQTbqEkik"
+}, {
+    "title": "Cree notas cr\u00e9dito",
+    "desc": "Maneje adecuadamente los cr\u00e9ditos dados a clientes y recibidos de proveedores.",
+    "lang": "en",
+    "id": "IuEDwIhuOEo"
+}, {
+    "title": "Configure los vencimientos para sus facturas",
+    "desc": "Ahora es posible configurar los d\u00edas usados para calcular el vencimiento en las facturas.",
+    "lang": "es",
+    "id": "jeXeAUYDjjM"
+}, {
+    "title": "Use m\u00faltiples listas de precios",
+    "desc": "Maneje hasta cinco listas de precios y actualice f\u00e1cilmente sus precios usando una plantilla de Excel.",
+    "lang": "es",
+    "id": "7tyD1wxNM8w"
+}, {
+    "title": "Vea su reporte de ingresos por tipo de \u00edtem",
+    "desc": "El reporte de ingresos por \u00edtem est\u00e1 ahora agrupado por tipo de \u00edtem.",
+    "lang": "es",
+    "id": "5rxufoEFYoc"
+}, {
+    "title": "Exporte su informaci\u00f3n desde el Resumen",
+    "desc": "Ahora es posible exportar datos desde el Resumen, d\u00f3nde tenemos el Balance general y el Estado de resultados del mes en curso.",
+    "lang": "es",
+    "id": "as-SxZ1qaXE"
+}, {
+    "title": "Cree transacciones de ingresos recurrentes",
+    "desc": "Las transacciones recurrentes ya no est\u00e1n limitadas a gastos. Usted puede ahora crear transacciones de ingresos recurrentes.",
+    "lang": "es",
+    "id": "Sc0mrIxfwQQ"
+}, {
+    "title": "Determine y use los par\u00e1metros para reposici\u00f3n de inventario",
+    "desc": "Para determinar los par\u00e1metros de reposici\u00f3n de inventario debemos ingresar las cantidades m\u00ednimas y m\u00e1ximas que queremos tener para los \u00edtems de inventario.",
+    "lang": "es",
+    "id": "LUOCE-x8ehM"
+}, {
+    "title": "Use m\u00faltiples prefijos en facturas y otros documentos",
+    "desc": "Para usar m\u00faltiples prefijos y numeraci\u00f3n en nuestras facturas necesitamos cambiar la configuraci\u00f3n de la factura.",
+    "lang": "es",
+    "id": "XT7-2DQYnLI"
+}, {
+    "title": "Ingrese su inventario inicial",
+    "desc": "Para ingresar el inventario inicial necesitamos ir a controlar inventario y usar la acci\u00f3n agregar inventario.",
+    "lang": "es",
+    "id": "U6kRs9WOFGo"
+}, {
+    "title": "Ingrese sus saldos iniciales de efectivo",
+    "desc": "Para ingresar nuestros saldos de efectivo vamos a Controlar - Efectivo.",
+    "lang": "es",
+    "id": "72cQvGMHuPQ"
+}, {
+    "title": "Ingrese sus saldos iniciales de clientes y proveedores",
+    "desc": "Para ingresar todas aquellas cuentas que tenemos pendientes por cobrar y por pagar debemos hacerlo a trav\u00e9s de una transacci\u00f3n.",
+    "lang": "es",
+    "id": "Vnp6ZdoR3BI"
+}]
