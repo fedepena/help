@@ -114,4 +114,86 @@
     "desc": "Para ingresar todas aquellas cuentas que tenemos pendientes por cobrar y por pagar debemos hacerlo a trav\u00e9s de una transacci\u00f3n.",
     "lang": "es",
     "id": "Vnp6ZdoR3BI"
-}]
+}, [{
+    "title": "How and Where to Start - Part 1",
+    "desc": "First things first: Before we start entering transactions, we must enter the initial balances for receivables, payables, inventory and cash (including credits)",
+    "lang": "en",
+    "id": "3oXh3B7fjE8",
+    "next": "Dq-WLR00uNg"
+}, {
+    "title": "How and Where to Start - Part 2",
+    "desc": "We are ready to start: Let\u2019s review how to enter different type of transactions and their impact on the different sections of the application",
+    "lang": "en",
+    "id": "Dq-WLR00uNg"
+}], [{
+    "title": "Invoice Settings",
+    "desc": "Let\u2019s start by making sure that our invoice has all the information we need and that it looks good",
+    "lang": "en",
+    "id": "If7PW-zYB9w"
+}, {
+    "title": "Printing and Sending the Invoice by Email",
+    "desc": "Now that our invoice is ready, let\u2019s check how we can print it and send it by email to our customers",
+    "lang": "en",
+    "id": "5tdto25vhyg"
+}], [{
+    "title": "Get paid on time",
+    "desc": "Keep your sales and collection data up to date to make sure customers are paying you when and how they should.",
+    "lang": "en",
+    "id": "U6PN3F5q-C0"
+}], [{
+    "title": "Control your cash",
+    "desc": "Make sure everything (that should) has been accounted by keeping your cash accounts up to date and reconciled.",
+    "lang": "en",
+    "id": "YI5jDEjOq8A"
+}], [{
+    "title": "Manage your cash flow",
+    "desc": "Stay ahead of the game and avoid nasty surprises by entering pending collections and payments, as well as recurring expenses.",
+    "lang": "en",
+    "id": "dziMNOGtabA"
+}], [{
+    "title": "Control your inventory",
+    "desc": "Maintain system and real quantities synced, know when to reorder, and see how your products are contributing (or not) to your bottom line.",
+    "lang": "en",
+    "id": "bTJ4-rnkzqk"
+}], [{
+    "title": "C\u00f3mo y D\u00f3nde Arrancar - Parte 1",
+    "desc": "Primero lo primero: Antes de comenzar a ingresar transacciones debemos ingresar los saldos iniciales de cuentas por cobrar, cuentas por pagar, inventario y efectivo (incluyendo cr\u00e9ditos)",
+    "lang": "es",
+    "id": "61xx5xK9hTM",
+    "next": "v5qQ8-xtFEw"
+}, {
+    "title": "C\u00f3mo y D\u00f3nde Arrancar - Parte 2",
+    "desc": "Estamos listos para comenzar: Revisemos c\u00f3mo ingresar diferentes tipos de transacciones y el impacto de las mismas en las diferentes secciones de la aplicaci\u00f3n",
+    "lang": "es",
+    "id": "v5qQ8-xtFEw"
+}], [{
+    "title": "Configuraci\u00f3n de la Factura ",
+    "desc": "Comencemos por asegurarnos que la factura tiene toda la informaci\u00f3n que necesitamos y que se vea bien",
+    "lang": "es",
+    "id": "iUhXMyUWtKw"
+}, {
+    "title": "Impresi\u00f3n y Env\u00edo de la Factura por Email",
+    "desc": "Ahora que nuestra factura est\u00e1 lista, revisemos como podemos imprimirla y enviarla por email a nuestros clientes",
+    "lang": "es",
+    "id": "elLeoN9MSXM"
+}], [{
+    "title": "Haga sus cobros a tiempo",
+    "desc": "Mantenga sus cuentas por cobrar al d\u00eda para asegurarse que sus clientes le est\u00e1n pagando seg\u00fan lo acordado.",
+    "lang": "es",
+    "id": "K8rIA7hA2Uk"
+}], [{
+    "title": "Controle su efectivo",
+    "desc": "Aseg\u00farese que todo (lo que deber\u00eda) ha sido contabilizado manteniendo sus cuentas de efectivo actualizadas y reconciliadas.",
+    "lang": "es",
+    "id": "FVv_pc9AcsU"
+}], [{
+    "title": "Maneje su flujo de caja",
+    "desc": "Mant\u00e9ngase \u201cen la jugada\u201d y evite sorpresas desagradables registrando cobros y pagos pendientes, as\u00ed como gastos recurrentes.",
+    "lang": "es",
+    "id": "-z_zb0t9BlE"
+}], [{
+    "title": "Controle su inventario",
+    "desc": "Mantenga las unidades f\u00edsicas sincronizadas con las del sistema, sepa cu\u00e1ndo ordenar sus productos y vea c\u00f3mo estos contribuyen (o no) a su ganancia.",
+    "lang": "es",
+    "id": "mWFxihAbFZ8"
+}]]
