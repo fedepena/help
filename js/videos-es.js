@@ -118,7 +118,7 @@ var data = {
       "title": "Cree notas crédito",
       "desc": "Para crear notas crédito debemos tener presente el motivo de la devolución y la acción que se quiere tomar.",
       "lang": "es",
-      "id": "c6r1kzIu9Wo&t=4s",
+      "id": "c6r1kzIu9Wo&t",
       "icon": "2",
       "tags": "ingresos gastos porcobrar porpagar"
     },
@@ -158,7 +158,7 @@ var data = {
       "title": "Cree una orden de compra a partir de una orden de venta",
       "desc": "Cree una orden de compra a partir de una orden de venta",
       "lang": "es",
-      "id": "5AjEH7F8PoY&t=16s",
+      "id": "5AjEH7F8PoY&t",
       "icon": "1",
       "tags": "ingresos gastos porcobrar porpagar"
     }
