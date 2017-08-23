@@ -35,14 +35,6 @@ var data = {
       "tags": "impuestos"
     },
     {
-      "title": "Cree notas crédito",
-      "desc": "Maneje adecuadamente los créditos dados a clientes y recibidos de proveedores.",
-      "lang": "en",
-      "id": "IuEDwIhuOEo",
-      "icon": "3",
-      "tags": "facturación ingresos gastos"
-    },
-    {
       "title": "Configure los vencimientos para sus facturas",
       "desc": "Ahora es posible configurar los días usados para calcular el vencimiento en las facturas.",
       "lang": "es",
@@ -121,6 +113,14 @@ var data = {
       "id": "Vnp6ZdoR3BI",
       "icon": "1",
       "tags": "arrancando porcobrar porpagar"
+    },
+    {
+      "title": "Cree notas crédito",
+      "desc": "Para crear Notas Crédito debemos tener presente el motivo de la devolución y la acción que se quiere tomar.",
+      "lang": "es",
+      "id": "c6r1kzIu9Wo",
+      "icon": "2",
+      "tags": "ingresos gastos porcobrar porpagar"
     }
   ]
 };

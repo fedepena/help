@@ -6,6 +6,7 @@ var data = {
     "gettingstarted": "Getting started",
     "invoicing": "Invoicing",
     "income": "Income",
+    "expenses": "Expenses",
     "cash": "Cash",
     "inventory": "Inventory",
     "reports": "Reports",
@@ -43,7 +44,7 @@ var data = {
     },
     {
       "title": "Export your data from the Overview",
-      "desc": "It is now possible to export data from the Overview, where we have the Balance sheet and Income and expense    statement for the current month.",
+      "desc": "It is now possible to export data from the Overview, where we have the Balance sheet and Income and expense statement for the current month.",
       "lang": "en",
       "id": "aLjSLv3osT0",
       "icon": "4",
@@ -96,6 +97,14 @@ var data = {
       "id": "fSXDJSnE3FY",
       "icon": "4",
       "tags": "gettingstarted receivable payable"
+    },
+    {
+      "title": "Create credit notes",
+      "desc": "To create credit notes we must keep in mind the reason for the return and the action you want to take.",
+      "lang": "en",
+      "id": "AkfQGoMkELg",
+      "icon": "5",
+      "tags": "income expenses receivable payable"
     }
   ]
 };
