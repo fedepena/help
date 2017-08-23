@@ -116,9 +116,9 @@ var data = {
     },
     {
       "title": "Cree notas crédito",
-      "desc": "Para crear Notas Crédito debemos tener presente el motivo de la devolución y la acción que se quiere tomar.",
+      "desc": "Para crear notas crédito debemos tener presente el motivo de la devolución y la acción que se quiere tomar.",
       "lang": "es",
-      "id": "c6r1kzIu9Wo",
+      "id": "c6r1kzIu9Wo&t=4s",
       "icon": "2",
       "tags": "ingresos gastos porcobrar porpagar"
     },
