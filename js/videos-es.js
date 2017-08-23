@@ -158,7 +158,7 @@ var data = {
       "title": "Cree una orden de compra a partir de una orden de venta",
       "desc": "Cree una orden de compra a partir de una orden de venta",
       "lang": "es",
-      "id": "5AjEH7F8PoY&t",
+      "id": "5AjEH7F8PoY",
       "icon": "1",
       "tags": "ingresos gastos porcobrar porpagar"
     }
