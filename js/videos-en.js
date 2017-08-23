@@ -105,6 +105,46 @@ var data = {
       "id": "AkfQGoMkELg",
       "icon": "5",
       "tags": "income expenses receivable payable"
+    },
+    {
+      "title": "View your cash flow report by accounts",
+      "desc": "See now your cash flow report, organized by account types.",
+      "lang": "en",
+      "id": "LynmCXnWxnk",
+      "icon": "6",
+      "tags": "income expenses receivable payable"
+    },
+    {
+      "title": "Create a payment plan for an invoice",
+      "desc": "Assign a payment plan to an income bill.",
+      "lang": "en",
+      "id": "15fvpf2EQQs",
+      "icon": "1",
+      "tags": "income expenses receivable payable"
+    },
+    {
+      "title": "Configure your payment receipts",
+      "desc": "Set up receipts for income and expenses.",
+      "lang": "en",
+      "id": "dZW-sb0n7EM",
+      "icon": "2",
+      "tags": "income expenses receivable payable"
+    },
+    {
+      "title": "View your changes in inventory",
+      "desc": "Control your inventory using the inventory move option.",
+      "lang": "en",
+      "id": "MrfYSMxIfzI",
+      "icon": "3",
+      "tags": "income expenses receivable payable"
+    },
+    {
+      "title": "Create a purchase order from a sales order",
+      "desc": "Create a purchase order from a sales order",
+      "lang": "en",
+      "id": "X6f2y8DCCno",
+      "icon": "4",
+      "tags": "income expenses receivable payable"
     }
   ]
 };

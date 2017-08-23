@@ -121,6 +121,46 @@ var data = {
       "id": "c6r1kzIu9Wo",
       "icon": "2",
       "tags": "ingresos gastos porcobrar porpagar"
+    },
+    {
+      "title": "Vea su reporte de flujo de caja por cuentas",
+      "desc": "Vea ahora su reporte de flujo de caja, organizado por tipos de cuenta.",
+      "lang": "es",
+      "id": "mIrFea1hxBU",
+      "icon": "3",
+      "tags": "ingresos gastos porcobrar porpagar"
+    },
+    {
+      "title": "Cree un plan de pago para una factura",
+      "desc": "Asigne un plan de pagos a una factura de ingresos.",
+      "lang": "es",
+      "id": "0kwCkikrbd0",
+      "icon": "4",
+      "tags": "ingresos gastos porcobrar porpagar"
+    },
+    {
+      "title": "Configure los comprobantes de pago",
+      "desc": "Configure los comprobantes de pago de ingresos y gastos.",
+      "lang": "es",
+      "id": "PA8gye_7gnA",
+      "icon": "5",
+      "tags": "ingresos gastos porcobrar porpagar"
+    },
+    {
+      "title": "Vea sus movimientos de inventario",
+      "desc": "Controle su inventario usando la opción de movimientos de inventario.",
+      "lang": "es",
+      "id": "bhLCZOVIwf8",
+      "icon": "6",
+      "tags": "ingresos gastos porcobrar porpagar"
+    },
+    {
+      "title": "Cree una orden de compra a partir de una orden de venta",
+      "desc": "Cree una orden de compra a partir de una orden de venta",
+      "lang": "es",
+      "id": "5AjEH7F8PoY&t=16s",
+      "icon": "1",
+      "tags": "ingresos gastos porcobrar porpagar"
     }
   ]
 };
